@@ -14,13 +14,16 @@ The ECD Archive is the source of truth for canon. The readable guide is maintain
 
 ## Online Browser
 
-The `website/` folder is kept in the repository so the ECD can be deployed as a browsable online archive through Netlify.
+The `website/` folder is kept in the repository so the ECD can be deployed as a browsable online archive through Netlify from this GitHub repository.
 
-For Netlify deployment, use:
+This repository includes a root `netlify.toml`, so a GitHub-connected Netlify site should automatically use:
 
 - Base directory: `website`
 - Build command: `npm run build`
 - Publish directory: `.next`
+- Node version: `20`
+
+GitHub Pages is not the preferred target for this site because the handbook uses Next.js route handlers for GM/player filtering and session state.
 
 ## Canon Status
 
