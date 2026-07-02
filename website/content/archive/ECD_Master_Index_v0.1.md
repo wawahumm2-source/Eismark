@@ -24,6 +24,7 @@ Canon Status Values:
 - `Eismark_Lore_And_Reference_Image_Gap_Audit_v0.1.md` [Development Audit; Non-Canon]
 - `Eismark_NPC_Index_From_Second_Pass_v0.1.md` [Development Index; Non-Canon]
 - `Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md` [Development Recovery; Non-Canon]
+- `Eismark_NPC_and_Monster_Lore_Compendium_v0.1.md` [Development Compendium; Non-Canon]
 
 ## History
 
@@ -181,6 +182,12 @@ Canon Status Values:
 - MON-008 — Monstrous Peoples and Orc Raiders [Locked]
 - MON-009 — Iconic Monsters of Eismark [Locked]
 - MON-010 — The Seas of Eismark [Locked]
+- MON-011 — Blood-Tainted Lands and Environmental Horrors [Locked]
+- MON-012 — Corrupted Joivian and Fallen Joivian Concepts [Under Review]
+- MON-013 — Blood Cultists [Under Review]
+- MON-014 — Fae and Fey Horror [Under Review]
+- MON-015 — Shattered Isles Dinosaurs [Under Review]
+- MON-016 — Far North Monsters [Under Review]
 
 ## Society
 

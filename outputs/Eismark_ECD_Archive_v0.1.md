@@ -88,6 +88,7 @@ Companion Document: `Eismark_Readable_Guide_v0.1.md` is the reader-facing compan
 - SRC-063: `Eismark_NPC_Index_From_Second_Pass_v0.1.md`, 2026-07-02
 - SRC-064: `Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md`, 2026-07-02
 - SRC-065: `Eismark_Lore_And_Reference_Image_Gap_Audit_v0.1.md`, 2026-07-02
+- SRC-066: `Eismark_NPC_and_Monster_Lore_Compendium_v0.1.md`, 2026-07-02
 
 ## History Entries
 
@@ -2641,20 +2642,30 @@ Canon Facts:
 - Some remain horrifyingly aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
 - Bloodspawn are not classified by species by the Inquisition of the Vigil; they are categorized by behavior, threat level, manifestation pattern, and known abilities.
 - Inquisitorial working categories include Stalkers, Mimics, Bloomed, Residuals, Heralds, and Unknown.
-- Stalkers actively hunt prey.
-- Mimics imitate voices, people, or memories.
-- Bloomed are recently transformed victims.
-- Residuals are incomplete manifestations.
+- Stalkers actively hunt prey; the term is behavioral, not biological, and includes pursuit predators, ambush hunters, and intelligent hunting patterns.
+- Mimics imitate voices, people, or memories; they are not ordinary shapeshifters but the Blood misremembering personhood.
+- Mimics may copy a voice, a habit, a dead face, a childhood memory, or something the victim never said aloud.
+- Bloomed are recently transformed victims in the aftermath of Blood exposure.
+- Bloomed are best used for tragic encounters where the former person is newly gone or not entirely gone.
+- Residuals are incomplete manifestations: partial bodies, failed growths, abandoned forms, haunted remains, or environmental afterimages.
+- Residuals may function as hazards, clues, weak monsters, or signs of stronger corruption nearby.
 - Heralds are exceptionally powerful Bloodspawn associated with significant Blood activity.
+- Heralds should feel singular, not repeatable; they are boss monsters, regional omens, or signs that a Vein may be forming or reopening.
 - Unknown is the most common and safest classification.
+- The Inquisition often marks Bloodspawn as Unknown because understanding them too quickly is dangerous.
 - Veteran Inquisitor saying: "If you think you understand a Bloodspawn, you are already dead."
 - Veteran Inquisitor saying: "The Blood remembers differently every time."
+- Field warning: "The thing in the treeline is not waiting. It is learning how you run."
+- Field warning: "It sounds like your mother because the Blood heard you remember her."
+- Field warning: "Not every horror finishes becoming itself."
+- Field warning: "When a Herald appears, the monster is not the warning. The monster is the announcement."
+- Field warning: "The label is not ignorance. It is caution."
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 
 Related Entries: COS-005 — The Blood [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019, SRC-061, SRC-062
+Source: SRC-008, SRC-019, SRC-061, SRC-062, SRC-066
 
 ### MON-002 - Aberrations
 
@@ -2809,6 +2820,7 @@ Canon Facts:
 
 - Wargs are larger, smarter, and more cunning than ordinary wolves and are feared in the Marches, Gn'ure, and northern forests.
 - Skinwalkers are terrifying cryptids associated with voice mimicry, identity theft, shapeshifting, and isolated frontier communities.
+- Skinwalker and Wendigo terminology is under sensitivity review because these terms draw from real-world Indigenous traditions; original Eismark names may be preferable before final publication.
 - Giant insects, dire creatures, giant spiders, giant scorpions, and regional cryptids are common monster-hunting threats.
 - Wendigos are feared northern predators born from cannibalism, starvation, and despair.
 - Trolls are classic regenerating monsters; children are taught "Burn the body."
@@ -2819,7 +2831,7 @@ Canon Facts:
 
 Related Entries: ORG-001 — Frontier Rangers [Locked]; ORG-005 — The Sword of Eismark [Locked]; MON-003 — Regional Monster Threat Levels [Locked]
 
-Source: SRC-058
+Source: SRC-058, SRC-066
 
 ### MON-010 - The Seas of Eismark
 
@@ -2837,6 +2849,157 @@ Canon Facts:
 Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; SOC-007 — Travel and Transportation [Locked]; ORG-003 — Commonwealth Geographical Society [Locked]
 
 Source: SRC-058
+
+### MON-011 - Blood-Tainted Lands and Environmental Horrors
+
+Canon Status: Locked
+
+Summary: Blood-tainted lands are corrupted environments where the Blood has touched soil, stone, vegetation, weather, memory, and distance.
+
+Canon Facts:
+
+- Blood-tainted regions are exploration hazards, not merely places with monsters inside them.
+- Known signs include silence, headaches, nausea, nightmares, fleeing wildlife, humming skies, distorted space and time, and the feeling that the land is watching.
+- The Looking Hills is a severe Blood-taint phenomenon in which travelers report hills shifting position, mountains having faces, valleys blinking, or terrain following their movement.
+- Screaming Stone is a common report from heavily corrupted regions where stone appears to cry, scream, whisper, groan, or speak names.
+- Survivors describe muffled voices beneath rock, stone crying out when broken, walls whispering names, and mountains groaning.
+- Other recovered signs include breathing stone, screaming forests, uphill rivers, independent shadows, and unreliable distances.
+- The phrase "the dead remembered" appears in recovered Blood-tainted region notes and implies that memory, death, and corruption may interact in ways not yet understood.
+- No consensus exists on whether these phenomena are hallucinations, memories, trapped souls, corrupted matter, or reality failure.
+
+Consequences:
+
+- Blood-tainted lands should make exploration itself feel hostile.
+- These phenomena work best as regional hazards, clues, omens, and pressure rather than ordinary monster species.
+- Campaign saying: "The party can leave the valley. The valley may not leave them."
+- Campaign warning: "Mining the wrong hill may count as torture."
+
+Related Entries: COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]; GEO-012 — The Ashlands [Locked]; NAT-010 — The Ashlands [Locked]
+
+Source: SRC-066, SRC-061, SRC-062
+
+### MON-012 - Corrupted Joivian and Fallen Joivian Concepts
+
+Canon Status: Under Review
+
+Summary: The Corrupted Joivian and Fallen Joivian cluster preserves under-review endgame and boss concepts involving a holy war machine whose angelic core was exposed to corruption.
+
+Canon Facts:
+
+- Older source text sometimes uses `Jovian`; formal setting spelling remains Joivian.
+- Recovered text describes a Last Joivian or Corrupted Joivian whose inner angel became corrupted during the final battle.
+- The angel severed itself from the angelic consciousness or Chorus to prevent corruption from spreading.
+- It may still remember how to close the Veins.
+- Reconnecting it could purify it, or corrupt every dormant angel simultaneously.
+- Older campaign-objective versions frame the corrupted holy engine as something the party might find, purify, and use to close the Veins.
+- Later recovered versions complicate purification because the attempted cure might spread corruption through the angelic network.
+- The Fallen Joivian is a related boss concept: a Joivian whose angelic core was exposed to the Blood and survived in a corrupted state.
+- Possible titles include the Hollow King, the Broken Saint, the Weeping Titan, the Last Sentinel, Saint Michael's Sorrow, and the Penitent King.
+- The Hollow King is marked in recovered material as a particularly strong title.
+- The Penitent King has a name conflict with a famous Exalted and should be audited before use.
+
+Consequences:
+
+- This cluster must be reconciled carefully with Uriel, the Abandoned One, Project Resurgence, and current Joivian mystery canon.
+- The concept is strongest as theological horror rather than a normal monster.
+- The boss fight is not against a machine; it is against proof that even holy things can break.
+- Campaign hook: "Purification is not a ritual. It is a gamble with Heaven."
+
+Related Entries: MIL-006 — Joivians [Locked]; NPC-002 — The Abandoned One [Locked]; CAM-003 — The Abandoned One [Locked]; CAM-004 — Project Resurgence [Under Review]; COS-005 — The Blood [Locked]
+
+Source: SRC-066
+
+### MON-013 - Blood Cultists
+
+Canon Status: Under Review
+
+Summary: Blood cultists are mortals who seek, worship, exploit, or misunderstand the Blood.
+
+Canon Facts:
+
+- Blood cultists are mentioned repeatedly in relation to the OTS, Marcus Vale, Cassian Voss, the Inquisition, and the Dreamers of Azhul.
+- They are not automatically Bloodspawn.
+- They can serve as low-to-mid level enemies before true Bloodspawn appear.
+- They may be apocalyptic believers, desperate researchers, corrupt industrialists, occult criminals, failed prophets, or people convinced that the Blood represents healing, evolution, purification, or truth.
+- Blood cultists are useful bridges between noir investigation and cosmic/body horror.
+- Dreamers of Azhul are the strongest named Blood-cult adjacent faction, but not every Blood cultist belongs to the Dreamers.
+
+Consequences:
+
+- Blood cultists let campaigns reveal Blood horror through human choice before the Blood itself takes over.
+- A person can choose the Blood before the Blood chooses them.
+
+Related Entries: ORG-010 — Dreamers of Azhul [Locked]; NPC-005 — Magister Azhul, the Dreaming King [Under Review]; GOV-003 — The Inquisition of the Vigil [Locked]; GOV-006 — Office of Tactical Security [Locked]; COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]
+
+Source: SRC-066
+
+### MON-014 - Fae and Fey Horror
+
+Canon Status: Under Review
+
+Summary: Fae and Fey horror form a folkloric monster lane distinct from the Blood, the Entity, undead, and ordinary frontier beasts.
+
+Canon Facts:
+
+- Recovered material distinguishes fey horror from cosmic horror and Blood corruption.
+- Fae or Fey forces are strange folkloric powers or creatures, especially tied to older wilderness mystery.
+- They are not simply aberrations, Bloodspawn, demons, or undead.
+- This category should preserve older fairy-tale dread: bargains, taboos, hospitality laws, changelings, ancient forests, impossible paths, stolen names, and beautiful dangers.
+- The category needs fuller development before hard taxonomy is locked.
+
+Consequences:
+
+- Fey horror gives Eismark a wilderness and folklore mode that is not explained by the Entity.
+- This lane should be used carefully so it does not blur the sharper distinction between Blood body horror and Entity cosmic horror.
+
+Related Entries: GEO-011 — The Sylvan Veil [Locked]; NAT-009 — The Sylvan Veil [Locked]; MON-009 — Iconic Monsters of Eismark [Locked]; SPE-003 — Elves [Locked]
+
+Source: SRC-066
+
+### MON-015 - Shattered Isles Dinosaurs
+
+Canon Status: Under Review
+
+Summary: Dinosaurs of the Shattered Isles are regional fauna and culture-defining creatures used by some local peoples as mounts, hunting companions, and pack animals.
+
+Canon Facts:
+
+- Recovered material describes tribal peoples of the Shattered Isles who ride and domesticate dinosaurs.
+- These creatures are not inherently monsters.
+- They may function as mounts, predators, war-beasts, companion animals, pack animals, and ecological hazards.
+- Outsiders often misread dinosaur-riding cultures as primitive before learning that their cavalry has teeth.
+- The idea should be integrated with Shattered Isles culture, Dragonborn history, and regional ecology before being locked.
+
+Consequences:
+
+- Dinosaurs make the Shattered Isles feel distinct from the continental frontier.
+- They add a non-industrial military and travel mode that can still threaten modern firearms and rail-age assumptions.
+
+Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; SPE-004 — Dragonborn [Locked]; ORG-012 — Shattered Isles Peoples and Eastern Diaspora [Locked]; MON-005 — Dragons [Under Review]
+
+Source: SRC-066
+
+### MON-016 - Far North Monsters
+
+Canon Status: Under Review
+
+Summary: Far North monsters are the threat category associated with lands beyond Frosthaven, where civilization thins into ruins, battlefields, isolated settlements, and unknown territories.
+
+Canon Facts:
+
+- Recovered material frames Frosthaven as the city at the end of the world.
+- Beyond Frosthaven lie ancient ruins, forgotten battlefields, monster territories, isolated settlements, and things best left undiscovered.
+- Far North threats may include Blood-tainted terrain, old Lingering War sites, unknown predators, corrupted relics, weather hazards, and monsters not yet classified by southern institutions.
+- The category should remain broad until the Far North receives a dedicated geographic audit.
+
+Consequences:
+
+- Far North monsters make Kaltheim's vigilance feel geographically necessary.
+- Frontier saying: "Civilization ends at Frosthaven. Beyond it, only faith and ammunition remain."
+
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; GEO-002 — The Iron Mountains [Locked]; GEO-012 — The Ashlands [Locked]; MON-003 — Regional Monster Threat Levels [Locked]; MIL-011 — The Armed Forces of the Sacrament [Locked]
+
+Source: SRC-066
 
 ## Society Entries
 

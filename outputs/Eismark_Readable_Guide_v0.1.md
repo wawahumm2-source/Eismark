@@ -1437,8 +1437,17 @@ Bloodspawn are living things rewritten by exposure to the Blood.
 - Some are instinctive; others retain fragments of memory or personality.
 - Some remain aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
 - The Inquisition classifies Bloodspawn by behavior and threat rather than species, using working labels such as Stalkers, Mimics, Bloomed, Residuals, Heralds, and Unknown.
+- Stalkers hunt and learn how prey runs.
+- Mimics imitate voices, people, or memories; they are not shapeshifters so much as the Blood misremembering personhood.
+- Bloomed are recently transformed victims.
+- Residuals are incomplete manifestations, failed growths, haunted remains, or environmental afterimages.
+- Heralds are singular, powerful Bloodspawn associated with major Blood activity.
+- Unknown is the most common and safest classification because understanding Bloodspawn too quickly is dangerous.
 - Veteran Inquisitors say: "If you think you understand a Bloodspawn, you are already dead."
 - Veteran Inquisitors say: "The Blood remembers differently every time."
+- Field warning: "The thing in the treeline is not waiting. It is learning how you run."
+- Field warning: "It sounds like your mother because the Blood heard you remember her."
+- Field warning: "When a Herald appears, the monster is not the warning. The monster is the announcement."
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 
@@ -1485,9 +1494,63 @@ Eismark avoids "all X are evil." Culture and region matter. Orc raiders are cult
 
 Wargs, Skinwalkers, giant insects, dire beasts, giant spiders, giant scorpions, Wendigos, Trolls, Hags, Elementals, and regional cryptids define the monster-hunting texture of Eismark. Ranger wisdom: "If you hear your name in the woods, and you know you're alone—don't answer."
 
+Skinwalker and Wendigo terminology remains under sensitivity review because the terms draw from real-world Indigenous traditions. The frontier horror lane should stay, but original Eismark names may be preferable before final publication.
+
 ### MON-010 — The Seas of Eismark
 
 The seas are dangerous but manageable. Sea serpents, dragon turtles, krakens, pirates, storms, predatory sea life, and occasional dragons threaten maritime travel, but trade remains vital.
+
+### MON-011 — Blood-Tainted Lands and Environmental Horrors
+
+Blood-tainted lands are corrupted environments where the Blood has touched soil, stone, vegetation, weather, memory, and distance. They are exploration hazards, not merely places with monsters inside them.
+
+Known signs include silence, headaches, nausea, nightmares, fleeing wildlife, humming skies, distorted space and time, and the feeling that the land is watching. The Looking Hills is a severe phenomenon in which travelers report hills shifting position, mountains having faces, valleys blinking, or terrain following their movement. Screaming Stone describes corrupted regions where stone appears to cry, scream, whisper, groan, or speak names.
+
+Other recovered signs include breathing stone, screaming forests, uphill rivers, independent shadows, and unreliable distances. No consensus exists on whether these phenomena are hallucinations, memories, trapped souls, corrupted matter, or reality failure.
+
+### MON-012 — Corrupted Joivian and Fallen Joivian Concepts
+
+**Status:** Under Review
+
+The Corrupted Joivian and Fallen Joivian cluster preserves endgame and boss concepts involving a holy war machine whose angelic core was exposed to corruption. Older source text sometimes uses `Jovian`; formal setting spelling remains Joivian.
+
+Recovered text describes a Last Joivian or Corrupted Joivian whose inner angel became corrupted during the final battle and severed itself from the angelic consciousness to prevent corruption from spreading. It may still remember how to close the Veins. Reconnecting it could purify it, or corrupt every dormant angel simultaneously.
+
+Possible titles include the Hollow King, the Broken Saint, the Weeping Titan, the Last Sentinel, Saint Michael's Sorrow, and the Penitent King. The Hollow King is a particularly strong recovered title, while the Penitent King has a name conflict with a famous Exalted and needs audit.
+
+### MON-013 — Blood Cultists
+
+**Status:** Under Review
+
+Blood cultists are mortals who seek, worship, exploit, or misunderstand the Blood. They are not automatically Bloodspawn. They may be apocalyptic believers, desperate researchers, corrupt industrialists, occult criminals, failed prophets, or people convinced that the Blood represents healing, evolution, purification, or truth.
+
+They are useful low-to-mid level enemies before true Bloodspawn appear. They bridge noir investigation and cosmic/body horror. A person can choose the Blood before the Blood chooses them.
+
+### MON-014 — Fae and Fey Horror
+
+**Status:** Under Review
+
+Fae and Fey horror form a folkloric monster lane distinct from the Blood, the Entity, undead, and ordinary frontier beasts. Recovered material describes strange folkloric powers or creatures tied to older wilderness mystery.
+
+This category should preserve older fairy-tale dread: bargains, taboos, hospitality laws, changelings, ancient forests, impossible paths, stolen names, and beautiful dangers. It needs fuller development before hard taxonomy is locked.
+
+### MON-015 — Shattered Isles Dinosaurs
+
+**Status:** Under Review
+
+Dinosaurs of the Shattered Isles are regional fauna and culture-defining creatures used by some local peoples as mounts, hunting companions, and pack animals. They are not inherently monsters.
+
+They may function as mounts, predators, war-beasts, companion animals, pack animals, and ecological hazards. Outsiders often misread dinosaur-riding cultures as primitive before learning that their cavalry has teeth.
+
+### MON-016 — Far North Monsters
+
+**Status:** Under Review
+
+Far North monsters are the threat category associated with lands beyond Frosthaven, where civilization thins into ruins, battlefields, isolated settlements, and unknown territories.
+
+Recovered material frames Frosthaven as the city at the end of the world. Beyond it lie ancient ruins, forgotten battlefields, monster territories, isolated settlements, and things best left undiscovered. Far North threats may include Blood-tainted terrain, old Lingering War sites, unknown predators, corrupted relics, weather hazards, and monsters not yet classified by southern institutions.
+
+Frontier saying: "Civilization ends at Frosthaven. Beyond it, only faith and ammunition remain."
 
 ## Society
 

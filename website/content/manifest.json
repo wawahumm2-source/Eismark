@@ -85,6 +85,13 @@
       "file": "archive/Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md",
       "audience": "gm",
       "description": "Recovered NPC roster and fuller character notes from the memory archive."
+    },
+    {
+      "id": "npc-monster-lore-compendium",
+      "title": "NPC and Monster Lore Compendium",
+      "file": "archive/Eismark_NPC_and_Monster_Lore_Compendium_v0.1.md",
+      "audience": "gm",
+      "description": "Recovered NPC, monster, and threat lore compendium from the campaign archive."
     }
   ]
 }
