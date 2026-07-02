@@ -83,6 +83,7 @@ Companion Document: `Eismark_Readable_Guide_v0.1.md` is the reader-facing compan
 - SRC-058: Recovered monster ecology, 2026-07-01
 - SRC-059: Recovered peoples and species notes, 2026-07-01
 - SRC-060: Recovered geopolitics and Ashlands notes, 2026-07-01
+- SRC-061: Recovered Bloodspawn and Blood-tainted landscape notes, 2026-07-02
 
 ## History Entries
 
@@ -728,23 +729,28 @@ Canon Facts:
 - Its many hues are not separate substances, but different manifestations of the same cosmic corruption.
 - Known manifestations are described poetically as bleeding without wounding, shining without light, moving without moving, whispering without voice, existing without reason, and not being meant to be seen.
 - Exposure may leave victims partially aware, trapped inside changing forms, or erased entirely.
+- Direct exposure to concentrated Blood may cause headaches, nausea, nosebleeds, dizziness, disturbing dreams, and pain from merely looking at it.
 - Corruption often begins subtly, with the mind deteriorating before the body.
+- Early mental corruption often appears as obsessive thoughts, intrusive dreams, personality shifts, dissociation, and emotional instability.
 - Transformation is continuous and unstable.
 - Blood corruption progresses through four observed stages: Whispering, Alteration, Fracture, and Blooming.
 - Whispering causes dreams, compulsions, and intrusive thoughts.
-- Alteration begins physical corruption as flesh changes, bodies elongate or twist, and the mind starts to unravel.
-- Fracture brings pain, obsession, violence, and loss of stable reality perception.
-- Blooming is complete corruption, where the former self is gone and the Blood has claimed what remains.
+- Alteration begins physical corruption as flesh changes, fingers lengthen, posture shifts, skin discolors, sensory abnormalities emerge, and the mind starts to unravel.
+- Fracture brings pain, obsession, violence, loss of stable reality perception, and rapid changes to mind and body.
+- Blooming is complete corruption, where the former self ceases to be recognizable and a Bloodspawn is born.
 - When the Blood touches land, affected regions may exhibit unnatural silence, humming skies, fleeing wildlife, dying or twisted vegetation, distorted space and time, and a profound sense that reality has become fundamentally wrong.
+- Witness phrases associated with Blood-tainted regions include "The woods were silent," "The ground was screaming," "The sky was humming," and "The hills were looking at us."
+- Blood-tainted landscapes are best understood as reality rejecting an infection it was never meant to contain.
 - Nothing that enters Blood-touched places leaves unchanged.
 - The Blood is a cosmic force of unmaking that erases and overwrites Creation with something alien and impossible.
+- The Blood does not create monsters in the ordinary sense; it creates failed attempts at something new.
 - References to the Blood carrying a will to unmake Creation are poetic descriptions of the Entity's corrupting influence, not evidence that the Blood itself has independent agency.
 - The Veins ceased producing new Blood after reality was sealed.
 - Blood already present within Creation remained trapped there.
 
 Related Entries: MON-001 — Bloodspawn [Locked]; GEO-012 — The Ashlands [Locked]; IMG-001 — The Blood Visual Reference [Locked]; CAP-011 — Blood Lifecycle [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019
+Source: SRC-008, SRC-019, SRC-061
 
 ### COS-006 - The Communion
 
@@ -2590,14 +2596,20 @@ Canon Facts:
 - They are not demons, undead, or servants of the Entity.
 - No two Bloodspawn are exactly alike.
 - They appear almost correct but never entirely.
+- They are often extremely emaciated, elongated, asymmetrical, and anatomically unstable.
 - They may have distorted proportions, elongated limbs, asymmetry, strange faces, unusual eyes, and unfinished anatomy.
+- Faces may be erased, smoothed away, fused shut, or replaced by sensory tendrils.
+- Tendrils, roots, veins, tentacles, nerves, or trailing appendages may emerge from mouths, eyes, backs, limbs, or torsos.
+- Bones, muscles, organs, and external anatomy may continue shifting after transformation.
+- Most Bloodspawn look less like monsters than people who have been rewritten beyond recognition.
 - Some are instinctive; others retain fragments of memory or personality.
+- Some remain horrifyingly aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 
 Related Entries: COS-005 — The Blood [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019
+Source: SRC-008, SRC-019, SRC-061
 
 ### MON-002 - Aberrations
 
@@ -2708,6 +2720,7 @@ Canon Facts:
 
 - The Blood is physical corruption: body, mutation, flesh, violence, and false evolution.
 - The Blood changes the body.
+- Blood horror should feel existential and biological: failed evolution, unstable anatomy, identity loss, and the terror of being rewritten while some part of the victim may remain aware.
 - The Entity is knowledge, madness, memory, altered reality, impossible dreams, and forbidden understanding.
 - The Entity changes the mind.
 - Bloodspawn are body horror.

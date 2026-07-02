@@ -510,16 +510,21 @@ The Blood is the physical manifestation of the Entity's corruption within Creati
 - Its many hues are not separate substances, but different manifestations of the same cosmic corruption.
 - Known manifestations are described poetically as bleeding without wounding, shining without light, moving without moving, whispering without voice, existing without reason, and not being meant to be seen.
 - Exposure may leave victims partially aware, trapped inside changing forms, or erased entirely.
+- Concentrated Blood can cause headaches, nausea, nosebleeds, dizziness, disturbing dreams, and sensory pain simply from looking at it.
 - Corruption often begins subtly, with the mind deteriorating before the body.
+- Early signs often include obsessive thoughts, intrusive dreams, personality shifts, dissociation, and emotional instability.
 - Transformation is continuous and unstable.
 - Blood corruption progresses through four observed stages: Whispering, Alteration, Fracture, and Blooming.
 - Whispering causes dreams, compulsions, and intrusive thoughts.
-- Alteration begins physical corruption as flesh changes, bodies elongate or twist, and the mind starts to unravel.
-- Fracture brings pain, obsession, violence, and loss of stable reality perception.
-- Blooming is complete corruption, where the former self is gone and the Blood has claimed what remains.
+- Alteration begins physical corruption as flesh changes, fingers lengthen, posture shifts, skin discolors, senses distort, and the mind starts to unravel.
+- Fracture brings pain, obsession, violence, loss of stable reality perception, and rapid changes to mind and body.
+- Blooming is complete corruption, where the former self ceases to be recognizable and a Bloodspawn is born.
 - When the Blood touches land, affected regions may exhibit unnatural silence, humming skies, fleeing wildlife, dying or twisted vegetation, distorted space and time, and a profound sense that reality has become fundamentally wrong.
+- Common witness phrases include "The woods were silent," "The ground was screaming," "The sky was humming," and "The hills were looking at us."
+- Blood-tainted landscapes feel like reality rejecting an infection it was never meant to contain.
 - Nothing that enters Blood-touched places leaves unchanged.
 - The Blood is a cosmic force of unmaking that erases and overwrites Creation with something alien and impossible.
+- The Blood does not create monsters in the ordinary sense; it creates failed attempts at something new.
 - References to the Blood carrying a will to unmake Creation are poetic descriptions of the Entity's corrupting influence, not evidence that the Blood itself has independent agency.
 - The Veins ceased producing new Blood after reality was sealed.
 - Blood already present within Creation remained trapped there.
@@ -1409,8 +1414,13 @@ Bloodspawn are living things rewritten by exposure to the Blood.
 - They are not demons, undead, or servants of the Entity.
 - No two Bloodspawn are exactly alike.
 - They appear almost correct but never entirely.
-- They may have distorted proportions, elongated limbs, asymmetry, strange faces, unusual eyes, and unfinished anatomy.
+- They are often emaciated, elongated, asymmetrical, and anatomically unstable.
+- Faces may be erased, smoothed away, fused shut, or replaced by sensory tendrils.
+- Tendrils, roots, veins, tentacles, nerves, or trailing appendages may emerge from mouths, eyes, backs, limbs, or torsos.
+- They may have distorted proportions, elongated limbs, strange faces, unusual eyes, and unfinished anatomy.
+- Most Bloodspawn look less like monsters than people who have been rewritten beyond recognition.
 - Some are instinctive; others retain fragments of memory or personality.
+- Some remain aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 
@@ -1447,7 +1457,7 @@ Aberrations are beings changed by the Entity's dreams, the Veins, forbidden trut
 
 ### MON-007 — Blood and Entity Horror Distinction
 
-The Blood changes the body. The Entity changes the mind. Bloodspawn are body horror; Aberrations are cosmic horror. Traditional demons and devils are reinterpreted rather than literal infernal outsiders.
+The Blood changes the body. The Entity changes the mind. Bloodspawn are body horror: failed evolution, unstable anatomy, identity loss, and victims rewritten into something new. Aberrations are cosmic horror. Traditional demons and devils are reinterpreted rather than literal infernal outsiders.
 
 ### MON-008 — Monstrous Peoples and Orc Raiders
 

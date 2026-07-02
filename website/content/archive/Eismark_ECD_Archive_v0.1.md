@@ -72,6 +72,18 @@ Companion Document: `Eismark_Readable_Guide_v0.1.md` is the reader-facing compan
 - SRC-047: User canon note, Kaltheimian and Velorian governments, 2026-07-01
 - SRC-048: User canon note, national naming and identity, 2026-07-01
 - SRC-049: User canon note, history numbering restructure, 2026-07-01
+- SRC-050: Recovered text, Kaltheim government, law, intelligence, citizenship, and public theology, 2026-07-01
+- SRC-051: Recovered text, Communion clarification, 2026-07-01
+- SRC-052: Recovered text, Worship in the Iron Church, 2026-07-01
+- SRC-053: Recovered text, Public Theology of the Great Six and revised ages, 2026-07-01
+- SRC-054: Recovered text, Languages and education, 2026-07-01
+- SRC-055: Recovered text, organizations, currency, Free Marches, politics, and frontier mysteries, 2026-07-01
+- SRC-056: Recovered text, OTS, law enforcement, travel, battle mages, holidays, virtues, and family structure, 2026-07-01
+- SRC-057: Recovered Joivian concepts, 2026-07-01
+- SRC-058: Recovered monster ecology, 2026-07-01
+- SRC-059: Recovered peoples and species notes, 2026-07-01
+- SRC-060: Recovered geopolitics and Ashlands notes, 2026-07-01
+- SRC-061: Recovered Bloodspawn and Blood-tainted landscape notes, 2026-07-02
 
 ## History Entries
 
@@ -371,12 +383,12 @@ Canon Facts:
 
 - The Great Pilgrimage begins after the Joivians disappear.
 - The pilgrimage lasts 153 years.
-- The pilgrims found modern Kaltheim in the northern mountains.
+- The pilgrims found the modern Sacrament of Kaltheim in the northern mountains.
 
 Consequences:
 
 - Ancient Kaltheim is largely abandoned.
-- Modern Kaltheim emerges as a successor civilization.
+- The modern Sacrament of Kaltheim emerges as a successor civilization.
 
 Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; GEO-001 — Vardheim and Eismark [Locked]; REL-007 — The Number 153 [Locked]; CAP-010 — Ancient Kaltheim Geography [Under Review]
 
@@ -459,7 +471,7 @@ Summary: New civilizations arise upon the ruins of older ages.
 
 Canon Facts:
 
-- Kaltheim, Veloria, Gn'ure, and the Sylvan Veil consolidate.
+- Kaltheim, Veloria, Gn'ure, the Sylvan Veil, and the Free Marches consolidate.
 - Dragonborn are displaced from the Shattered Isles.
 - Organized religion and kingdoms become defining institutions.
 
@@ -717,23 +729,28 @@ Canon Facts:
 - Its many hues are not separate substances, but different manifestations of the same cosmic corruption.
 - Known manifestations are described poetically as bleeding without wounding, shining without light, moving without moving, whispering without voice, existing without reason, and not being meant to be seen.
 - Exposure may leave victims partially aware, trapped inside changing forms, or erased entirely.
+- Direct exposure to concentrated Blood may cause headaches, nausea, nosebleeds, dizziness, disturbing dreams, and pain from merely looking at it.
 - Corruption often begins subtly, with the mind deteriorating before the body.
+- Early mental corruption often appears as obsessive thoughts, intrusive dreams, personality shifts, dissociation, and emotional instability.
 - Transformation is continuous and unstable.
 - Blood corruption progresses through four observed stages: Whispering, Alteration, Fracture, and Blooming.
 - Whispering causes dreams, compulsions, and intrusive thoughts.
-- Alteration begins physical corruption as flesh changes, bodies elongate or twist, and the mind starts to unravel.
-- Fracture brings pain, obsession, violence, and loss of stable reality perception.
-- Blooming is complete corruption, where the former self is gone and the Blood has claimed what remains.
+- Alteration begins physical corruption as flesh changes, fingers lengthen, posture shifts, skin discolors, sensory abnormalities emerge, and the mind starts to unravel.
+- Fracture brings pain, obsession, violence, loss of stable reality perception, and rapid changes to mind and body.
+- Blooming is complete corruption, where the former self ceases to be recognizable and a Bloodspawn is born.
 - When the Blood touches land, affected regions may exhibit unnatural silence, humming skies, fleeing wildlife, dying or twisted vegetation, distorted space and time, and a profound sense that reality has become fundamentally wrong.
+- Witness phrases associated with Blood-tainted regions include "The woods were silent," "The ground was screaming," "The sky was humming," and "The hills were looking at us."
+- Blood-tainted landscapes are best understood as reality rejecting an infection it was never meant to contain.
 - Nothing that enters Blood-touched places leaves unchanged.
 - The Blood is a cosmic force of unmaking that erases and overwrites Creation with something alien and impossible.
+- The Blood does not create monsters in the ordinary sense; it creates failed attempts at something new.
 - References to the Blood carrying a will to unmake Creation are poetic descriptions of the Entity's corrupting influence, not evidence that the Blood itself has independent agency.
 - The Veins ceased producing new Blood after reality was sealed.
 - Blood already present within Creation remained trapped there.
 
 Related Entries: MON-001 — Bloodspawn [Locked]; GEO-012 — The Ashlands [Locked]; IMG-001 — The Blood Visual Reference [Locked]; CAP-011 — Blood Lifecycle [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019
+Source: SRC-008, SRC-019, SRC-061
 
 ### COS-006 - The Communion
 
@@ -950,6 +967,187 @@ Related Entries: REL-002 — The Iron Church [Locked]; NAT-001 — The Sacrament
 
 Source: SRC-041
 
+### REL-008 - Worship in the Iron Church
+
+Canon Status: Locked
+
+Summary: Worship in the Iron Church centers on the Divine Liturgy, an ancient, structured, communal rite of reverence, covenant, chant, service, and remembrance.
+
+Canon Facts:
+
+- Iron Church worship evokes Eastern Orthodox liturgy, medieval Catholic ritual, and military ceremonial tradition without being identical to any one tradition.
+- A Kaltheimian church service is known as the Divine Liturgy.
+- Iron Churches are adorned with icons of the First Ones, sacred murals, candles, illuminated scripture, saints, martyrs, and heroes of the Sacrament.
+- Icons are treated as sacred windows into the divine.
+- Nearly every church contains a prominent icon of Michael, Guardian of Humanity.
+- Clergy wear elaborate vestments whose color and ornament vary by feast day, holy season, rank, and liturgical purpose.
+- Military clergy often incorporate ceremonial armor or martial symbolism.
+- Incense is burned throughout worship.
+- Offerings include incense, candles, food for the poor, and charitable donations.
+- Animal sacrifice is unknown.
+- Core teaching: "Mercy and service are the highest offerings."
+- A chanter or choir chants through much of the liturgy, leading prayers, reciting scripture, maintaining rhythm, and calling the faithful to prayer.
+- Distinct chants exist for daily prayers, funerals, military ceremonies, holy days, and calls to worship.
+- Throughout Kaltheim, citizens can often tell the time of day by the distant sound of liturgical chant.
+- Congregants generally stand, bow, or kneel; pews are uncommon.
+- Priests conduct much of the liturgy facing the altar rather than the congregation, symbolizing that priest and people together direct worship toward the First Ones.
+- Communion is central: the faithful partake in consecrated bread and consecrated wine as an expression of unity, remembrance, covenant, and communion with the First Ones.
+
+Related Entries: REL-002 — The Iron Church [Locked]; REL-007 — The Number 153 [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; SOC-010 — Remembrance Day and Major Holidays [Locked]
+
+Source: SRC-052
+
+### REL-009 - Public Theology of the Great Six
+
+Canon Status: Locked
+
+Summary: Public theology describes what ordinary people believe about the First Ones, the Great Six, the Communion, the afterlife, and sacred history, distinct from hidden cosmological truth.
+
+Canon Facts:
+
+- The average inhabitant of Eismark believes the world was created by the First Ones, divine beings commonly known as Angels.
+- The First Ones are revered as gods throughout much of the world.
+- The faithful believe the Angels created the world, shaped the mortal peoples, continue to guide humanity, may be petitioned through prayer, and sometimes answer through miracles.
+- The Iron Church emphasizes the Six Great Angels: Michael, Gabriel, Luke, John, Raphael, and Uriel.
+- Michael protects. Gabriel understands. Luke builds. John dreams. Raphael heals. Uriel remembers.
+- Humanity was created to dream.
+- Public afterlife belief holds that the faithful join the First Ones and continue service under their chosen patron.
+- Kaltheim teaches: Life is service. Death is not the end of service.
+- The average person knows of the Communion but does not understand what it truly is.
+- Common public explanation: "The Communion is the sacred heart of the Sacrament. Through it, the First Ones continue to guide humanity. It has protected us since the Vigil. Beyond that, only the Archon may say."
+- Most Kaltheimians believe the Communion is beneath or near Karhold; this is incorrect.
+- Most Velorians view the Communion as a strange northern religious idea, relic, holy site, or symbol.
+- OTS suspects the Communion is real, ancient, and potentially powerful.
+- Knowledge hierarchy: common doctrine, ecclesiastical knowledge, restricted knowledge, and forbidden truth.
+
+Related Entries: COS-006 — The Communion [Locked]; REL-002 — The Iron Church [Locked]; REL-010 — Michael, Public Theology [Locked]; REL-011 — Gabriel, Public Theology [Locked]; REL-012 — Luke, Public Theology [Locked]; REL-013 — John, Public Theology [Locked]; REL-014 — Raphael, Public Theology [Locked]; REL-015 — Uriel, Public Theology [Locked]
+
+Source: SRC-050, SRC-053
+
+### REL-010 - Michael, Public Theology
+
+Canon Status: Locked
+
+Summary: Michael is publicly revered as the Protector, the Sword of Heaven, and Guardian of Humanity.
+
+Canon Facts:
+
+- Major titles include The Protector, The Sword of Heaven, Guardian of Humanity, The First Guardian, The Vigilant One, Shield of Creation, and The Defender.
+- Domains include Protection, Divine Combat, Courage, Justice, Vigilance, Duty, and Sacrifice.
+- Symbol: a flaming sword, often pointed upward and wreathed in flame.
+- Michael is especially revered by soldiers, Paladins, guardsmen, families, travelers, and common folk seeking protection.
+- In Kaltheim virtually every citizen prays to Michael.
+- Common prayers include "Michael, Guardian of Humanity, stand beside me in darkness" and "Defend us in the Vigil."
+- Common blessings include "May Michael guard you," "Stand the Vigil," and "Michael keep you."
+
+Related Entries: REL-009 — Public Theology of the Great Six [Locked]; REL-002 — The Iron Church [Locked]; THE-001 — Michael's Faithful and Michael's Sword [Locked]
+
+Source: SRC-053
+
+### REL-011 - Gabriel, Public Theology
+
+Canon Status: Locked
+
+Summary: Gabriel is publicly revered as the Angel of Divine Understanding, revelation, truth, and hidden knowledge.
+
+Canon Facts:
+
+- Titles include The Revealer, The Divine Voice, Herald of Truth, The Open Eye, The Illuminator, and The Watcher in Dreams.
+- Domains include Truth, Wisdom, Knowledge, Revelation, and Understanding.
+- Gabriel reveals truth to the faithful through dreams, visions, insight, and inspiration.
+- Symbol: an open eye, often surrounded by rays of light, above an open book, or enclosed in a halo.
+- Gabriel is revered by scholars, teachers, judges, diplomats, philosophers, investigators, historians, and students.
+- Many Inquisitors maintain devotion to Gabriel.
+- Common prayers include "Gabriel, open my eyes to truth," "Reveal that which is hidden," and "Grant me understanding."
+- Significant dreams are often treated as meaningful, though not every dream comes from Gabriel.
+
+Related Entries: REL-009 — Public Theology of the Great Six [Locked]; GOV-003 — The Inquisition of the Vigil [Locked]
+
+Source: SRC-053
+
+### REL-012 - Luke, Public Theology
+
+Canon Status: Locked
+
+Summary: Luke is publicly revered as the Angel of Methodology, order, industry, engineering, and disciplined construction.
+
+Canon Facts:
+
+- Titles include The Architect, The Ordered Mind, The Divine Craftsman, Keeper of Order, The Measured Hand, and Patron of Industry.
+- Domains include Methodology, Order, Logic, Reason, Craftsmanship, Science, Engineering, Industry, and Tactics.
+- The faithful believe Luke revealed the principles by which civilization is built.
+- Scientific inquiry may be seen as devotion to Luke.
+- Symbol: a compass and hammer.
+- Luke is revered by engineers, Consecrators, craftsmen, scientists, inventors, artisans, military strategists, industrialists, architects, and officers.
+- Common prayers include "Guide my hands," "Grant me wisdom in my work," "May my labor honor Creation," and "Let my mind remain ordered and my purpose clear."
+- Teaching: "Creation is not completed. It is entrusted to us."
+
+Related Entries: REL-009 — Public Theology of the Great Six [Locked]; TEC-001 — Kaltheimian Technology [Locked]; REL-003 — Consecrators and the Awakening [Locked]
+
+Source: SRC-053
+
+### REL-013 - John, Public Theology
+
+Canon Status: Locked
+
+Summary: John is publicly revered as the Angel of Creativity, imagination, inspiration, art, and dreams.
+
+Canon Facts:
+
+- Titles include The Dreamer, The Inspired One, The Flame of Creation, The Divine Artist, The Keeper of Stories, The First Poet, and The Light of Inspiration.
+- Domains include Creativity, Art, Music, Poetry, Passion, Imagination, Innovation, and Storytelling.
+- Symbol: a quill wreathed in light.
+- John is revered by artists, musicians, writers, poets, actors, storytellers, inventors, teachers, and children.
+- Consecrators may pray to Luke for precision and John for inspiration.
+- Common prayers include "Inspire me," "Help me create something worthy," and "May my imagination honor Creation."
+- Teaching: "To create is to participate in Creation itself."
+- Defining theological statement: "Humanity was created to dream."
+
+Related Entries: REL-009 — Public Theology of the Great Six [Locked]
+
+Source: SRC-053
+
+### REL-014 - Raphael, Public Theology
+
+Canon Status: Locked
+
+Summary: Raphael is publicly revered as the Angel of Healing, mercy, compassion, charity, and restoration.
+
+Canon Facts:
+
+- Titles include The Healer, Bearer of Mercy, The Gentle Hand, The Restorer, The Compassionate, The Physician Divine, and Guardian of the Afflicted.
+- Domains include Healing, Mercy, Compassion, Charity, Forgiveness, Restoration, and Protection of the Weak.
+- Symbol: open hands, often uplifted in blessing, wreathed in light, or cradling a flame.
+- Raphael is revered by clerics, physicians, healers, caregivers, midwives, nurses, parents, the poor, the afflicted, and soldiers who have seen war.
+- Hospitals throughout Kaltheim are almost universally operated by the Church under Raphael's patronage.
+- Teaching: "No wound is beneath Raphael's notice."
+- Common blessing: "May Raphael's hands guide yours."
+
+Related Entries: REL-009 — Public Theology of the Great Six [Locked]; REL-008 — Worship in the Iron Church [Locked]
+
+Source: SRC-053
+
+### REL-015 - Uriel, Public Theology
+
+Canon Status: Locked
+
+Summary: Uriel is publicly revered as the Angel of Memory, history, record keeping, learning, ancestry, scholarship, and preservation.
+
+Canon Facts:
+
+- Titles include Keeper of Memory, The Archivist, The Eternal Witness, The Keeper of Histories, The Rememberer, Guardian of Tradition, and The Silent Scribe.
+- Domains include Memory, History, Tradition, Record Keeping, Learning, Ancestry, Scholarship, and Preservation.
+- Symbol: an illuminated manuscript.
+- Uriel is revered by historians, archivists, librarians, genealogists, teachers, scholars, scribes, students, and chroniclers.
+- Families often keep household records, genealogies, or memory books dedicated to Uriel.
+- Common prayers include "Help me remember," "Preserve what must not be forgotten," "May the wisdom of those who came before guide me," and "Let not memory fade."
+- Teaching: "A people without memory is a people without identity."
+- Public theology does not know the full tragedy of Uriel's fracture or the Great Forgetting.
+
+Related Entries: REL-006 — Uriel, Angel of Memory [Locked]; REL-009 — Public Theology of the Great Six [Locked]; NPC-001 — Uriel, the Rememberer [Locked]; HIS-016 — The Great Forgetting [Locked]
+
+Source: SRC-053
+
 ### THE-001 - Michael's Faithful and Michael's Sword
 
 Canon Status: Locked
@@ -1000,25 +1198,90 @@ Source: SRC-006
 
 Canon Status: Locked
 
-Summary: Orcs are created by Michael and Hararozther.
+Summary: Orcs are an adaptable mortal people whose cultures vary widely across Eismark; their instinctual aggression is real, but morality and identity are shaped by culture, discipline, and choice.
 
-Source: SRC-006
+Canon Facts:
+
+- Orcs never possessed a single unified civilization.
+- Modern Orcs include Kaltheimian Orcs, Velorian Orcs, Marcher Orcs, tribal Orcs, nomadic warbands, and raider clans.
+- There is no biological distinction between settled Orcs and Orc raiders.
+- Orc raiding is a cultural practice found among some clans, especially in harsh regions where raiding historically served survival or honor traditions.
+- Integrated Orcs participate fully in their societies as soldiers, laborers, engineers, clergy, merchants, professors, settlers, officers, Paladins, and heroes.
+- Orcs possess instinctual aggressive tendencies, but these instincts do not determine morality.
+- Velorian Orcs often manage aggression through counseling, therapy, support groups, anger-management programs, and civic support.
+- Kaltheimian Orcs are taught to discipline aggression through faith, military service, craftsmanship, physical training, and duty.
+- Kaltheim treats aggression as a virtue only when tempered by discipline, duty, and faith.
+- Common Kaltheimian proverb: "The sword is not evil. The hand that guides it determines its worth."
+- Orc societies generally value strength and courage, but strength may mean physical power, moral conviction, endurance, martial skill, faith, or perseverance.
+- Common Orc saying about Dwarves: "Trust the Dwarf with the hammer. Distrust the Dwarf drinking water."
+- Orcs inherit Grom's strength.
+
+Consequences:
+
+- Orcs avoid the standard fantasy framing of inherent evil.
+- Culture matters more than ancestry.
+- The Great Forgetting shaped Orcs through adaptation rather than preservation or remembrance.
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]; MON-008 — Monstrous Peoples and Orc Raiders [Locked]
+
+Source: SRC-059
 
 ### SPE-003 - Elves
 
 Canon Status: Locked
 
-Summary: Elves are created by Sylvara and are associated with the Sylvan Veil.
+Summary: Elves are among the peoples most resistant to the Great Forgetting; they remember more than most, but not enough to be whole.
 
-Source: SRC-006, SRC-012
+Canon Facts:
+
+- Elves do not remember everything, but they remember more than most mortal peoples.
+- Many Elves have spent centuries watching younger peoples forget history, lose traditions, repeat ancient mistakes, and drift from truths the Elves dimly recall.
+- This has produced a culture that can seem aloof, paternalistic, arrogant, or sorrowful.
+- Many Elves pity younger races even as they look down upon them.
+- Old Elven proverb: "The cruelest theft is not of gold, but of memory."
+- Elves often see themselves as the closest living reflection of their First One's original teachings, though many quietly wonder how much they too have forgotten.
+- Elves inherit Elaris's memory.
+
+Consequences:
+
+- Elven condescension is mixed with genuine sympathy.
+- Elves are not superior; they are differently wounded by the Great Forgetting.
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; GEO-011 — The Sylvan Veil [Locked]; HIS-016 — The Great Forgetting [Locked]
+
+Source: SRC-059
 
 ### SPE-004 - Dragonborn and Dragons
 
 Canon Status: Locked
 
-Summary: Dragonborn and dragons are created by Drakharion.
+Summary: Dragonborn are a people of lost homelands, ancestral memory, honor, family, and legacy; dragons remain rare, dangerous, and morally individual.
 
-Source: SRC-006
+Canon Facts:
+
+- Dragonborn are the original inhabitants of the Shattered Isles.
+- Ancient Dragonborn maintained kingdoms and city-states across the archipelago.
+- Their civilization declined over centuries through internal division, pressure from expanding human tribal groups, and the deadly ecology of the Isles.
+- By the Third Age no unified Dragonborn state remained.
+- Modern Dragonborn communities exist in Veloria, Kaltheim, port cities, merchant communities, frontier settlements, and isolated Shattered Isles clans.
+- Dragonborn value honor, family, legacy, and personal excellence.
+- For many Dragonborn, family became their nation after the loss of empire.
+- Dragonborn maintain ancient spiritual traditions centered upon their First One and the great Dragons; exact dragon theology remains open for future lock.
+- Dragonborn possess long ancestral names and are expected to know their lineages by heart.
+- Common proverb: "You are not born alone. Ten generations stand behind you and ten more wait ahead."
+- Dragonborn inherit Drakharion's honor.
+- Dragons are rare but widely known, most often found in the Shattered Isles, remote mountains, and unexplored wilderness.
+- Dragons may be metallic or chromatic, noble or cruel, protective or tyrannical; a dragon should be judged as an individual.
+- Marcher saying: "Never trust a dragon. Never assume one will betray you either."
+
+Consequences:
+
+- Dragonborn carry civilization through family, memory, and lineage rather than territory.
+- Dragon origin and dragon religion should not be over-specified until finalized.
+
+Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; MON-005 — Dragons [Under Review]; REL-001 — The First Ones Pantheon [Locked]
+
+Source: SRC-058, SRC-059
 
 ### SPE-005 - Giants
 
@@ -1032,9 +1295,32 @@ Source: SRC-006
 
 Canon Status: Locked
 
-Summary: Dwarves and goblins are created by Leonardo.
+Summary: Dwarves are a founding people of the modern Sacrament of Kaltheim, while Goblins occupy a varied and often difficult place across Eismark.
 
-Source: SRC-006
+Canon Facts:
+
+- The Dwarves were the original inhabitants of the northern mountains before the Great Pilgrimage.
+- During the Great Pilgrimage, wandering Kaltheimians encountered the mountain Dwarves.
+- Alliances, mutual defense pacts, and cultural exchange eventually made Dwarves one of the founding peoples of the modern Sacrament.
+- Humans arrived as refugees. Dwarves opened the mountains. Together they built the Sacrament.
+- Many Dwarven communities converted to the worship of Michael and the First Ones.
+- Kaltheimian Dwarves are fully integrated into the Sacrament; there is little distinction between Kaltheimian Dwarves and Kaltheimian Humans in citizenship, loyalty, or religious identity.
+- Dwarven soldiers are renowned for discipline, stubbornness, courage, and refusal to retreat.
+- Common saying: "A Dwarf yields only to God and gravity."
+- Dwarven engineers played a foundational role in the development of many of Kaltheim's firearms, artillery pieces, and industrial technologies.
+- Dwarven breweries are legendary.
+- Dwarves inherit Khorun's endurance.
+- Goblins may live as tribal peoples, bandits, laborers, criminals, organized crime members, or integrated citizens.
+- Most Goblins possess below-average formal education and social status, but exceptionally intelligent Goblins are not unheard of and may become engineers, lawyers, scholars, artificers, wizards, or entrepreneurs.
+
+Consequences:
+
+- The Sacrament was not built through conquest of the Dwarves; it was built through alliance.
+- Dwarven identity reinforces Kaltheim's themes of preservation, endurance, duty, and craft.
+
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; HIS-014 — The Great Pilgrimage [Locked]; TEC-001 — Kaltheimian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MON-008 — Monstrous Peoples and Orc Raiders [Locked]
+
+Source: SRC-059
 
 ### SPE-007 - Gnomes
 
@@ -1099,7 +1385,7 @@ Canon Facts:
 - Common shortened name: Veloria.
 - Velorian citizens often call it simply `The Commonwealth`.
 - Citizens are Velorians.
-- Map name: Veloria, The Waking Republic.
+- Map name / official cartographic label: The Commonwealth of Veloria.
 - Major city: Velcris.
 - Other map locations include Athsder, Sireckridge, Bickerridge, Daggerford, and Eastgate.
 - Arcane magic is common and widely used.
@@ -1199,19 +1485,32 @@ Source: SRC-005, SRC-018
 
 Canon Status: Locked
 
-Summary: The Free Marches are a frontier region of opportunity and danger.
+Summary: The Free Marches are Commonwealth frontier territories where opportunity, danger, self-reliance, reinvention, and suspicion of central authority define daily life.
 
 Canon Facts:
 
-- Map subtitle: Land of Opportunity and Peril.
+- The Free Marches are politically part of the Commonwealth of Veloria.
+- Culturally, they are frontier rather than core Commonwealth society.
+- Veloria governs the Marches lightly.
+- Many settlements are effectively self-governing.
+- Commonwealth authority is strongest around railroads, forts, major towns, ports, and strategic infrastructure.
 - No king rules the Free Marches.
-- Settlers, adventurers, prospectors, and gunslingers seek new lives there.
-- Redcreek is described in player guide material as the region's largest city, though the map shows major settlement Frosthaven and other towns.
-- Map locations include Frosthaven, Highwatch, Stoneford, Greymoor, Northbrace, Valmere, and Davenport on the eastern coast.
+- Marchers come from every race, culture, and walk of life.
+- Some fled rigid civilization; others sought fortune, freedom, a second chance, or the right to be left alone.
+- Marchers believe a person's past matters less than who they choose to become.
+- The Six Virtues of the Free Marches are Self-Reliance, Independence, Freedom, Reinvention, Stubbornness, and Hospitality.
+- Common sayings include "The frontier doesn't care who you were," "Out here, everyone gets a second chance. Most don't get a third," "A Marcher bends only when broken," and "No one survives the frontier alone."
+- Most settlements are governed by elected mayors, town councils, sheriff-led arrangements, mining syndicates, merchant councils, clan leadership, informal consensus, or whoever can keep the monsters out and the water flowing.
+- The Marches form an ideological midpoint: Kaltheim says duty defines you; Veloria says choice defines you; the Marches say what you do defines you.
 
-Related Entries: GEO-005 — The Free Marches [Locked]; CAP-019 — Free Marches / Final Map [Under Review]
+Consequences:
 
-Source: SRC-012, SRC-013, SRC-018
+- The Free Marches provide the campaign's strongest frontier space for Rangers, monster hunters, rail companies, smugglers, settlers, prospectors, and adventurers.
+- The Marches' political relationship to Veloria should not be described as literal colonial dependency.
+
+Related Entries: GEO-005 — The Free Marches [Locked]; GOV-006 — Office of Tactical Security [Locked]; GOV-007 — Federal Marshals Service [Locked]; ORG-001 — Frontier Rangers [Locked]; ORG-002 — The White Hand [Locked]; ORG-008 — Frontier Rail Companies [Locked]; CAP-019 — Free Marches / Final Map [Under Review]
+
+Source: SRC-055, SRC-060
 
 ### NAT-008 - The Highlands of Gn'ure
 
@@ -1373,8 +1672,8 @@ Canon Facts:
 - The Senate is the upper house, represents states or provinces, and handles treaties, appointments, legislative review, and regional interests.
 - The judiciary is headed by the High Court of the Commonwealth.
 - The High Court interprets the constitution, resolves intergovernmental disputes, conducts judicial review, and protects civil liberties.
-- OTS is constitutionally subordinate but possesses unusually broad discretionary authority.
-- OTS's status creates debates over civil liberties, executive power, secrecy, and oversight.
+- OTS, the Office of Tactical Security, is constitutionally subordinate but possesses unusually broad discretionary authority.
+- The Office of Tactical Security's status creates debates over civil liberties, executive power, secrecy, and oversight.
 
 Consequences:
 
@@ -1384,6 +1683,112 @@ Consequences:
 Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; LAW-001 — The Public Safety and Temperance Act [Locked]; NAT-011 — Kaltheim-Veloria Relations [Locked]
 
 Source: SRC-047
+
+### GOV-003 - The Inquisition of the Vigil
+
+Canon Status: Locked
+
+Summary: The Inquisition of the Vigil is the investigative and internal security arm of the Iron Church, charged with protecting the Sacrament from corruption, heresy, supernatural threats, and existential dangers.
+
+Canon Facts:
+
+- The Inquisition serves the Iron Church and the Sacrament of Kaltheim.
+- Its mandate is: Protect the Sacrament. Preserve humanity.
+- It investigates corruption, sedition, heresy, supernatural threats, Blood activity, Veins, relics, ancient ruins, threats to the Communion, and threats to the spiritual integrity of the Sacrament.
+- It is not primarily concerned with minor theological disputes.
+- The Inquisition can supersede local civil and military jurisdictions when faith, corruption, or existential threats are involved.
+- Inquisitors investigate, gather evidence, detain suspects, conduct interrogations, and refer cases to the appropriate court.
+- The Inquisition does not normally render final judgments itself.
+- In immediate threats to the Sacrament, Inquisitors may act without prior judicial approval.
+- Its agents are respected, feared, and almost universally obeyed.
+- Common saying: "If the Inquisition has arrived, something has already gone terribly wrong."
+- The Inquisition maintains its own intelligence networks and informants.
+- It sometimes clashes with the Directorate of Military Intelligence.
+- Officer joke: "The DMI spies on our enemies. The Inquisition spies on everyone."
+
+Related Entries: GOV-001 — Government of the Sacrament of Kaltheim [Locked]; GOV-004 — Directorate of Military Intelligence [Locked]; LAW-002 — Kaltheimian Justice System [Locked]; REL-002 — The Iron Church [Locked]; COS-006 — The Communion [Locked]; COS-005 — The Blood [Locked]
+
+Source: SRC-050
+
+### GOV-004 - Directorate of Military Intelligence
+
+Canon Status: Locked
+
+Summary: The Directorate of Military Intelligence is the Sacrament's foreign and military intelligence service.
+
+Canon Facts:
+
+- The DMI handles foreign espionage, strategic analysis, reconnaissance, counterintelligence, monitoring foreign militaries, and special operations.
+- Its primary concerns include Veloria, smuggling networks, the Free Marches, Gn'ure, emerging military technologies, and foreign threats to the Sacrament.
+- The DMI is closer to a blend of foreign intelligence and military intelligence than an internal police force.
+- Select DMI officers possess restricted historical knowledge about the Communion, ancient threats, and Joivian-related material.
+- The DMI has a tense but functional relationship with the Inquisition of the Vigil.
+
+Related Entries: GOV-001 — Government of the Sacrament of Kaltheim [Locked]; GOV-003 — The Inquisition of the Vigil [Locked]; NAT-011 — Kaltheim-Veloria Relations [Locked]; SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]
+
+Source: SRC-050
+
+### GOV-005 - Citizenship of the Sacrament
+
+Canon Status: Locked
+
+Summary: Citizenship in the Sacrament of Kaltheim is a sacred covenant of mutual obligation rather than merely a bundle of rights.
+
+Canon Facts:
+
+- A citizen owes service, loyalty, vigilance, and sacrifice.
+- The Sacrament owes protection, justice, community, and purpose.
+- Common saying: "The Sacrament shelters those who serve it."
+- Any recognized mortal person born within the Sacrament is a citizen.
+- Foreigners may naturalize through long-term lawful residence, distinguished military service, exceptional service to Church or State, and the Oath of the Sacrament.
+- Naturalization is difficult but achievable and culminates in a public oath before Church and State representatives.
+- Citizens are expected to complete military training, obey doctrine and law, contribute to society, and participate in communal and religious life.
+- Persistent refusal to fulfill civic obligations may bring stigma, loss of privileges, or in extreme cases revocation of citizenship.
+- Adulthood oath: "I stand the Vigil. I shall bear my burden willingly. I shall defend my kin, my people, and Creation itself. So long as I draw breath, the Sacrament shall not fail through me."
+- Kaltheimians tend to ask, "What are my duties?" rather than "What are my rights?"
+
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; GOV-001 — Government of the Sacrament of Kaltheim [Locked]; LAW-002 — Kaltheimian Justice System [Locked]; SOC-008 — Six Virtues of the Sacrament [Locked]
+
+Source: SRC-050
+
+### GOV-006 - Office of Tactical Security
+
+Canon Status: Locked
+
+Summary: The Office of Tactical Security, or OTS, is the Commonwealth's primary foreign intelligence and covert operations agency.
+
+Canon Facts:
+
+- OTS stands for Office of Tactical Security.
+- OTS handles foreign intelligence gathering, counterintelligence, covert operations, anti-terrorism operations, and national security threats.
+- To the public, it appears necessary, secretive, and often competent.
+- In early campaign framing, OTS may initially appear to be the good guys.
+- Behind the scenes, OTS is deeply compromised by fear, secrecy, and internal corruption.
+- Many senior figures in OTS believe Kaltheim is concealing something powerful enough to threaten or destroy the Commonwealth.
+- OTS is constitutionally subordinate but possesses unusually broad discretionary authority, creating debates over civil liberties, executive power, secrecy, and oversight.
+
+Related Entries: GOV-002 — Government of the Commonwealth of Veloria [Locked]; GOV-007 — Federal Marshals Service [Locked]; LAW-001 — The Public Safety and Temperance Act [Locked]; NAT-011 — Kaltheim-Veloria Relations [Locked]; CAM-001 — Vein of Eismark Memory Premise [Locked]
+
+Source: SRC-056
+
+### GOV-007 - Federal Marshals Service
+
+Canon Status: Locked
+
+Summary: The Federal Marshals Service is the Commonwealth's premier federal law enforcement body and frontier-capable legal arm.
+
+Canon Facts:
+
+- Motto: "The law, wherever it must go."
+- Federal Marshals apprehend fugitives, conduct interstate investigations, protect federal officials, combat organized crime, and operate where local law enforcement is insufficient.
+- Marshals are especially active in the Free Marches, major ports, and frontier territories.
+- Marshals are generally respected, though many Marchers view them as outsiders meddling in local affairs.
+- Local police departments remain common in Velorian cities, but professionalism and corruption vary widely.
+- Private investigators are common in Veloria, especially in large cities; many are former police officers or Marshals.
+
+Related Entries: GOV-002 — Government of the Commonwealth of Veloria [Locked]; GOV-006 — Office of Tactical Security [Locked]; NAT-007 — The Free Marches [Locked]; ORG-002 — The White Hand [Locked]
+
+Source: SRC-056
 
 ## Technology Entries
 
@@ -1493,18 +1898,24 @@ Source: SRC-046
 
 Canon Status: Locked
 
-Summary: Vardheim is the world; Eismark is the continent and common shorthand for the campaign setting.
+Summary: Vardheim is the world; Eismark is the continent, the known civilized world, and the campaign's primary geographic and political focus.
 
 Canon Facts:
 
-- The campaign takes place in Vardheim.
-- Eismark is the continent containing the known nations and regions and is the primary campaign setting.
-- `Eismark` may still be used informally to describe the setting as a whole.
-- Formal ECD entries should use `Vardheim` for the world and `Eismark` for the continent.
+- Eismark is the known civilized world.
+- Distant continents, islands, and isolated lands are known to exist, but none currently rival Eismark in population, industrial development, or political influence.
+- Many distant lands are sparsely settled, isolated by dangerous seas, dominated by hostile environments, or home to societies largely disconnected from continental affairs.
+- Overseas travel exists for commerce, exploration, monster hunting, scholarship, and occasional colonization attempts.
+- Eismark remains the center of history, politics, industry, religion, and civilization for the current campaign.
 
-Related Entries: IMG-004 — Tentative World Map of Eismark [Under Review]; CAP-017 — Vardheim vs Eismark [Locked]
+Consequences:
 
-Source: SRC-012, SRC-013
+- The setting remains focused without denying that maps, sailors, explorers, and stories exist beyond the continent.
+- Distant lands may be expanded later without undermining Eismark's central role.
+
+Related Entries: IMG-004 — Tentative World Map of Eismark [Under Review]; GEO-014 — The Iron Coast and Shattered Isles [Locked]; MON-010 — The Seas of Eismark [Locked]; CAP-017 — Vardheim vs Eismark [Locked]
+
+Source: SRC-060
 
 ### GEO-002 - The Iron Mountains
 
@@ -1544,7 +1955,7 @@ Canon Facts:
 - It was once a city of learning and angelic guidance.
 - It later became a fortress civilization against the Blood.
 - Its abandonment and ruins are tied to Veloria's rise.
-- Its exact relationship to modern Kaltheim's location requires clarification.
+- Its exact relationship to the modern Sacrament of Kaltheim's location requires clarification.
 
 Related Entries: HIS-014 — The Great Pilgrimage [Locked]; HIS-015 — The Rise of Veloria [Locked]; IMG-004 — Tentative World Map of Eismark [Under Review]; CAP-010 — Ancient Kaltheim Geography [Under Review]
 
@@ -1649,14 +2060,26 @@ Source: SRC-018
 
 Canon Status: Locked
 
-Summary: The Ashlands are southwestern scarred lands associated with the Lingering Wars.
+Summary: The Ashlands are a scar left by the Lingering War and the archaeological frontier of Eismark.
 
 Canon Facts:
 
-- The region contains forts/strongholds, roads, and settlements despite devastation.
-- It borders Voss, the Sylvan Veil, Gn'ure, and the Ashen Marches.
+- The Ashlands are dangerous but not completely uninhabitable.
+- The Southern Ashlands contain isolated frontier settlements, mining communities, prospecting camps, forts, scavenger operations, and desperate land claims.
+- Settlements such as Blackwater and Kestrel's Hold survive through mineral wealth, relic hunting, stubbornness, and the desire of some settlers to disappear.
+- The Northern Ashlands grow increasingly dangerous.
+- The northern region is infamous for Lingering War ruins, Blood contamination, lost facilities, sealed vaults, Joivian relics, forgotten laboratories, and expeditions that vanish.
+- Uriel's Testament, monster hunters, scholars, treasure hunters, and fools are drawn to the ruins.
+- Local saying: "The south is poor. The north is hungry."
 
-Source: SRC-018
+Consequences:
+
+- The Ashlands are not merely wasteland; they are where Eismark places ancient vaults, Blood contamination, Joivian traces, and expedition campaigns.
+- Exact ancient geography remains subject to CAP-010 and map-sensitive audit work.
+
+Related Entries: HIS-010 — The Lingering War Begins [Locked]; COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]; ORG-004 — Uriel's Testament [Locked]; CAP-010 — Ancient Kaltheim Geography [Under Review]
+
+Source: SRC-058, SRC-060
 
 ### GEO-013 - The Ashen Marches
 
@@ -1685,6 +2108,236 @@ Canon Facts:
 - The Shattered Isles lie offshore.
 
 Source: SRC-018
+
+## Organization Entries
+
+### ORG-001 - Frontier Rangers
+
+Canon Status: Locked
+
+Summary: The Frontier Rangers are an independent law enforcement, rescue, scouting, and monster-hunting organization operating throughout the Free Marches.
+
+Canon Facts:
+
+- Motto: "No one survives the frontier alone."
+- Rangers protect settlers, escort caravans, map the frontier, hunt monsters, track outlaws, protect trade routes, rescue lost travelers, arbitrate disputes, and scout unexplored territory.
+- Rangers possess little formal authority outside the respect they command.
+- In most Marcher settlements, a Ranger's badge carries tremendous weight.
+- Rangers are famous for practicality, self-reliance, stubbornness, and protection of the frontier.
+- Saying: "If a Ranger can't find you, nobody can."
+
+Related Entries: NAT-007 — The Free Marches [Locked]; MON-003 — Regional Monster Threat Levels [Locked]; MON-009 — Iconic Monsters of Eismark [Locked]
+
+Source: SRC-055
+
+### ORG-002 - The White Hand
+
+Canon Status: Locked
+
+Summary: The White Hand is a loose federation of criminal organizations, smugglers, gangs, and syndicates operating across Veloria, the Free Marches, ports, and even parts of Kaltheim.
+
+Canon Facts:
+
+- The White Hand controls smuggling, black markets, contraband, organized crime, and much of the underworld.
+- It is a principal smuggler of Kaltheimian technology, firearms, machine tools, industrial equipment, replacement parts, and occasionally sacred relics.
+- It maintains strict internal rules.
+- Violating agreements brokered by the White Hand is widely considered dangerous.
+- Some frontier communities tolerate limited White Hand activity when it supplies needed goods or bypasses unpopular restrictions.
+
+Related Entries: SOC-003 — Organized Crime [Locked]; SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]; LAW-001 — The Public Safety and Temperance Act [Locked]; NAT-007 — The Free Marches [Locked]
+
+Source: SRC-055
+
+### ORG-003 - Commonwealth Geographical Society
+
+Canon Status: Locked
+
+Summary: The Commonwealth Geographical Society is Veloria's premier institution for exploration, cartography, natural science, archaeology, expeditions, and discovery.
+
+Canon Facts:
+
+- Motto: "Beyond every horizon lies another question."
+- The Society resembles a blend of National Geographic, a royal geographical society, a museum system, and an archaeological institute.
+- It sponsors expeditions across Eismark and beyond.
+- Members include explorers, naturalists, cartographers, archaeologists, scholars, adventurers, and occasional treasure hunters with academic credentials.
+- It produces some of the most accurate maps in the known world.
+- Expeditions chart unknown territory, document species, explore ruins, recover artifacts, and study ancient civilizations.
+- The Society is an ideal patron organization for adventurers.
+
+Related Entries: GEO-001 — Vardheim and Eismark [Locked]; GEO-012 — The Ashlands [Locked]; MON-010 — The Seas of Eismark [Locked]
+
+Source: SRC-055
+
+### ORG-004 - Uriel's Testament
+
+Canon Status: Locked
+
+Summary: Uriel's Testament is an independent scholarly and religious organization dedicated to recovering the lost history of the First and Second Ages.
+
+Canon Facts:
+
+- Motto: "What was forgotten must be remembered."
+- The Testament seeks ancient ruins, relics, lost records, angelic artifacts, forgotten traditions, and First Ones material.
+- Members believe understanding the past is essential to understanding the future.
+- Most scholars regard the Testament as eccentric but respectable.
+- Critics believe it has an unhealthy fascination with forbidden history.
+- The Iron Church has an uneasy relationship with the Testament.
+- The Testament is accidentally uncovering truths about the Great Forgetting, Uriel, Ancient Kaltheim, and the Joivians without fully understanding the picture.
+
+Related Entries: REL-015 — Uriel, Public Theology [Locked]; NPC-001 — Uriel, the Rememberer [Locked]; HIS-016 — The Great Forgetting [Locked]; GEO-012 — The Ashlands [Locked]; MIL-006 — Joivians [Locked]
+
+Source: SRC-055
+
+### ORG-005 - The Sword of Eismark
+
+Canon Status: Locked
+
+Summary: The Sword of Eismark is the largest independent mercenary and adventuring guild in the known world.
+
+Canon Facts:
+
+- Motto: "Steel for coin. Courage for all."
+- It originated in the Free Marches because Rangers could not be everywhere.
+- Guild halls exist across the Free Marches, Veloria, and major frontier settlements.
+- Members take contracts involving monster hunting, caravan escort, bounty hunting, exploration, security, and military service.
+- Its code emphasizes professionalism, honoring contracts, and protecting fellow members.
+- It is respected in the Marches but viewed more ambivalently in civilized lands.
+
+Related Entries: NAT-007 — The Free Marches [Locked]; MON-003 — Regional Monster Threat Levels [Locked]; MON-009 — Iconic Monsters of Eismark [Locked]
+
+Source: SRC-055
+
+### ORG-006 - Order of the Veiled Hand
+
+Canon Status: Locked
+
+Summary: The Order of the Veiled Hand is an ancient northern martial monastery devoted to discipline, self-mastery, and the Lesser Angel Leonardo.
+
+Canon Facts:
+
+- The Order lies far north of Frosthaven among isolated mountain peaks.
+- It follows Leonardo, the Lesser Angel of Martial Discipline.
+- Leonardo is revered as patron of martial arts, self-mastery, discipline, inner peace, and physical perfection.
+- The Order combines martial training, meditation, philosophy, and spiritual practice.
+- Its monasteries evoke Shaolin traditions while also possessing a secretive, shadowed side.
+- Some initiates become wandering martial artists, bodyguards, mercenaries, assassins, or shinobi.
+- The Order remains officially neutral in worldly affairs.
+- Saying: "The world is temporary. Discipline is eternal."
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]
+
+Source: SRC-055
+
+### ORG-007 - Office of Arcane Regulation
+
+Canon Status: Locked
+
+Summary: The Office of Arcane Regulation is the Commonwealth agency responsible for licensing, monitoring, and policing dangerous magical activity.
+
+Canon Facts:
+
+- The OAR licenses mages, investigates illegal magic, regulates dangerous magical research, and suppresses dark magic.
+- It is often criticized as bureaucratic.
+- It exists because history has repeatedly shown that unregulated magic can be catastrophic.
+
+Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; TEC-002 — Velorian Technology [Locked]; GOV-006 — Office of Tactical Security [Locked]
+
+Source: SRC-055
+
+### ORG-008 - Frontier Rail Companies
+
+Canon Status: Locked
+
+Summary: Frontier rail companies are among the most powerful commercial forces shaping the Free Marches.
+
+Canon Facts:
+
+- Frontier Rail Company seeks to bind the Free Marches more closely to Veloria.
+- Railroad construction has recently suffered alarming accidents and deaths.
+- United Northern focuses on northern rail infrastructure, Frosthaven, Sanctspire, and airship transportation.
+- United Northern has repeatedly failed to establish reliable direct rail links with Kaltheim.
+- Eismark Transportation Company is a massive corporation attempting to connect eastern and western Eismark.
+- ETC competes directly with Frontier Rail and exerts growing influence in the Free Marches.
+
+Related Entries: NAT-007 — The Free Marches [Locked]; SOC-007 — Travel and Transportation [Locked]; ORG-002 — The White Hand [Locked]
+
+Source: SRC-055
+
+### ORG-009 - Malicki and the Mechanical Horses
+
+Canon Status: Locked
+
+Summary: Malicki and the Mechanical Horses are one of the Free Marches' strangest frontier mysteries: someone has been releasing robot horses, and no one knows why.
+
+Canon Facts:
+
+- Mechanical horses have appeared throughout the frontier.
+- Their presence unsettles many Marchers.
+- Rumors include government experiments, ancient technology, divine signs, and arcane mishaps.
+- The truth is that a slightly insane artificer named Malicki really likes horses.
+- Common frontier question: "Why are there metal horses everywhere?"
+
+Related Entries: NAT-007 — The Free Marches [Locked]; TEC-002 — Velorian Technology [Locked]; SOC-007 — Travel and Transportation [Locked]
+
+Source: SRC-055
+
+### ORG-010 - Dreamers of Azhul
+
+Canon Status: Locked
+
+Summary: The Dreamers of Azhul are an apocalyptic Blood cult that mistakes corruption for transcendence.
+
+Canon Facts:
+
+- Motto: "The world must bleed before it can heal."
+- The cult began when an unknown black magician uncovered fragments of an ancient text describing the Blood.
+- The founder incorrectly concluded that the Blood represents the next stage of mortal evolution.
+- The Dreamers believe civilization is diseased and must be cut open so the poison can drain.
+- Members practice ritual bloodletting, self-mutilation, and violent acts meant to purify communities.
+- They seek Veins, Bloodspawn, Blood relics, and a way to reopen the Great Maw.
+- Their theology is almost entirely wrong but extremely dangerous.
+- They misunderstand the Entity as a source of revelation or evolution.
+- Governments classify them as terrorists.
+- The Inquisition of the Vigil considers them an existential threat.
+
+Related Entries: COS-005 — The Blood [Locked]; COS-004 — The Entity [Under Review]; MON-001 — Bloodspawn [Locked]; GOV-003 — The Inquisition of the Vigil [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]
+
+Source: SRC-055, SRC-058
+
+### ORG-011 - Blackstone Mining Company
+
+Canon Status: Locked
+
+Summary: Blackstone Mining Company is the largest private mining corporation in Eismark.
+
+Canon Facts:
+
+- Blackstone operates mines, railroads, refineries, and company towns.
+- Its influence stretches across much of the continent.
+- It is a natural patron, rival, employer, or antagonist for frontier, Ashlands, and industrial campaigns.
+
+Related Entries: GEO-012 — The Ashlands [Locked]; ORG-008 — Frontier Rail Companies [Locked]; NAT-007 — The Free Marches [Locked]
+
+Source: SRC-055
+
+### ORG-012 - Shattered Isles Peoples and Eastern Diaspora
+
+Canon Status: Locked
+
+Summary: The Shattered Isles are home to formidable tribal peoples and eastern martial communities whose traditions survive outside the main political order of Eismark.
+
+Canon Facts:
+
+- Shattered Isles peoples have adapted to one of the deadliest environments in the known world.
+- Many tribes ride dinosaurs, use smaller dinosaurs as hunting companions, domesticate pack dinosaurs, and possess unmatched ecological knowledge.
+- Outsiders often mistake them for primitive; this is often fatal.
+- Far to the east, secluded warrior villages descend from the same broad migration that produced the Order of the Veiled Hand.
+- These communities preserve samurai culture, honor, swordsmanship, and specialized martial disciplines.
+- Very few outsiders are permitted to study there.
+
+Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; ORG-006 — Order of the Veiled Hand [Locked]; SPE-004 — Dragonborn and Dragons [Locked]
+
+Source: SRC-055
 
 ## Military Entries
 
@@ -1748,20 +2401,35 @@ Source: SRC-015
 
 Canon Status: Locked
 
-Summary: Joivians are Ancient Kaltheim holy war machines created as humanity's final hope against the Blood.
+Summary: Joivians are sacred war constructs created during the final years of the Lingering War as humanity's greatest act of devotion and final hope against the Blood.
 
 Canon Facts:
 
-- Joivians were built around the dormant vessels of lesser angels.
+- Official spelling is `Joivian`; `Jovian` is deprecated or restricted archive terminology.
+- Joivians are holy war machines, not walking cathedrals and not objects of worship.
+- They were created during the final years of the Lingering War to combat the Lingering Blood.
+- They represent the pinnacle of First and Second Age engineering, theology, and divine craftsmanship.
+- No living civilization can construct a true Joivian.
+- Most people believe Joivians are myths, legends, religious allegories, or lost holy machines.
+- Joivians were built around dormant vessels of lesser angels.
 - Uriel's Joivian is the sole exception; it was constructed around the vessel of a First One.
 - Nearly every Joivian marched into the Great Maw and was never seen again.
+- No one knows exactly what happened inside the Great Maw.
 - The Joivian containing Uriel remained behind and later became known as The Abandoned One.
-- Official spelling is `Joivian`.
-- `Jovian` is a deprecated spelling.
+- Among the Iron Church, Joivians are regarded with profound reverence as humanity's greatest act of devotion.
+- Shared visual language includes ivory armor, gold trim, blue luminescence, sacred inscriptions, halo motifs, gothic architectural influence, and unmistakably divine craftsmanship.
+- Balanced Frame / Pattern Paladinus: standard all-purpose frame for flexible battlefield adaptation. Its philosophy is "We will hold the line."
+- Nimble Frame / Pattern Seraphus: high-mobility frame for rapid response, reconnaissance, interception, escort duty, and flanking operations. Its philosophy is "We will arrive where we are needed."
+- Heavy Frame / Pattern Clericus: heavily armored siege and support frame for anchoring battle lines, breaking formations, and providing overwhelming firepower. Its philosophy is "We will be the wall."
 
-Related Entries: HIS-011 — The Joivian Project [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; NPC-002 — The Abandoned One [Locked]; CAP-006 — Joivian Construction [Locked]; CAP-007 — Joivian March [Locked]; CAP-014 — Holy Machine Taxonomy [Locked]
+Consequences:
 
-Source: SRC-005, SRC-007, SRC-010, SRC-011
+- The Joivian mystery remains stronger when the world knows they vanished but does not know what happened.
+- Frame pattern names are locked unless later superseded by a dedicated Joivian design audit.
+
+Related Entries: HIS-011 — The Joivian Project [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; NPC-002 — The Abandoned One [Locked]; IMG-005 — Uriel Joivian Form Visual Reference [Locked]; CAP-006 — Joivian Construction [Locked]; CAP-007 — Joivian March [Locked]; CAP-014 — Holy Machine Taxonomy [Locked]
+
+Source: SRC-005, SRC-007, SRC-010, SRC-011, SRC-057
 
 ### MIL-007 - Automatons
 
@@ -1928,14 +2596,20 @@ Canon Facts:
 - They are not demons, undead, or servants of the Entity.
 - No two Bloodspawn are exactly alike.
 - They appear almost correct but never entirely.
+- They are often extremely emaciated, elongated, asymmetrical, and anatomically unstable.
 - They may have distorted proportions, elongated limbs, asymmetry, strange faces, unusual eyes, and unfinished anatomy.
+- Faces may be erased, smoothed away, fused shut, or replaced by sensory tendrils.
+- Tendrils, roots, veins, tentacles, nerves, or trailing appendages may emerge from mouths, eyes, backs, limbs, or torsos.
+- Bones, muscles, organs, and external anatomy may continue shifting after transformation.
+- Most Bloodspawn look less like monsters than people who have been rewritten beyond recognition.
 - Some are instinctive; others retain fragments of memory or personality.
+- Some remain horrifyingly aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 
 Related Entries: COS-005 — The Blood [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019
+Source: SRC-008, SRC-019, SRC-061
 
 ### MON-002 - Aberrations
 
@@ -1948,11 +2622,176 @@ Canon Facts:
 - They are distinct from Bloodspawn.
 - They are intelligent and have reason, ambition, ideology, and goals.
 - Examples include Mind Flayers, Beholders, and Aboleths.
-- They are not necessarily servants of the Entity.
+- They are not servants or extensions of the Entity's will.
 
 Related Entries: COS-004 — The Entity [Under Review]; CAM-001 — Vein of Eismark Memory Premise [Locked]
 
 Source: SRC-008
+
+### MON-003 - Regional Monster Threat Levels
+
+Canon Status: Locked
+
+Summary: Monster density varies sharply across Eismark and helps define how safe civilization feels in each region.
+
+Canon Facts:
+
+- Veloria is low threat: most citizens live their entire lives without encountering a true monster.
+- Velorian adventurers usually encounter criminals, bandits, wild beasts, isolated monsters, and rare rural attacks.
+- The Free Marches are moderate threat: most settlements maintain walls, militias, watchtowers, and warning systems.
+- Kaltheim is moderate threat: wilderness beyond settlements remains dangerous, and military patrols, clergy, and Paladins regularly fight supernatural threats.
+- The Shattered Isles are extreme threat: civilization survives through exceptional skill, adaptation, and stubbornness.
+
+Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; GEO-014 — The Iron Coast and Shattered Isles [Locked]
+
+Source: SRC-058
+
+### MON-004 - Undead, Vampires, and Lycanthropy
+
+Canon Status: Locked
+
+Summary: Undead and curse-bound monsters are rare, feared, and especially associated with Gn'ure, ancient battlefields, curses, and noble horrors.
+
+Canon Facts:
+
+- Undead are rare and deeply feared.
+- Undead manifestations arise from curses, ancient battlefields, profane magic, and unresolved tragedies.
+- Gn'ure is infamous for hauntings, restless spirits, cursed noble houses, ancient tombs, vampires, and lycanthropy.
+- Vampires are dangerous intelligent threats who often hide as aristocrats, politicians, industrialists, financiers, or socialites.
+- In Gn'ure, some ancient vampire families rule openly as cruel nobility.
+- Many isolated Highland communities pay tribute to vampiric lords.
+- Lycanthropy is a magical disease spread through bites and contamination.
+- Gn'ure is the primary lycanthropy hotspot, and entire villages have disappeared in severe outbreaks.
+
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; GEO-003 — The Crown Lands [Locked]
+
+Source: SRC-058
+
+### MON-005 - Dragons
+
+Canon Status: Under Review
+
+Summary: Dragons are rare, powerful, morally individual beings whose origin and relationship to Dragonborn theology should remain flexible until final dragon canon is written.
+
+Canon Facts:
+
+- Dragons are rare but widely known.
+- Most dwell in the Shattered Isles, remote mountain ranges, and unexplored wilderness.
+- Dragons can shape local regions but are not major geopolitical actors.
+- Metallic Dragons are generally regarded as noble, honorable, wise, or protective, though still dangerous.
+- Chromatic Dragons are widely feared as tyrannical, greedy, cruel, or territorial.
+- Both types can be capable of great evil or great virtue.
+- Dragonborn maintain spiritual traditions related to their First One and the great Dragons, but exact theology remains under review.
+- Remove older claims that Dragonborn descend directly from Hararozther until dragon origin is finalized.
+
+Related Entries: SPE-004 — Dragonborn and Dragons [Locked]; GEO-014 — The Iron Coast and Shattered Isles [Locked]
+
+Source: SRC-058, SRC-059
+
+### MON-006 - Aberrations
+
+Canon Status: Locked
+
+Summary: Aberrations are beings changed by contact with the Entity's dreams, the Veins, forbidden truths, or realities beyond Creation.
+
+Canon Facts:
+
+- Aberrations are not servants or extensions of the Entity's will.
+- Most known aberrations are believed to trace their origins to contact with the Entity, its dreams, the Veins, forbidden truths, or realities beyond Creation.
+- Unlike Blood corruption, which twists flesh, the dreams of the Entity twist thought, perception, and understanding.
+- Aberrations retain free will, goals, cultures, and motivations.
+- Mind Flayers are believed to be an ancient civilization irrevocably changed by exposure to realities beyond Creation.
+- Beholders may be dreams of the Entity made real.
+- Aboleths are among the oldest beings in Creation and may remember things mortals were never meant to know.
+- Star Spawn fit as direct manifestations of Entity influence.
+- Aberration encounters should often be philosophical or psychological challenges as much as combat.
+
+Related Entries: COS-004 — The Entity [Under Review]; MON-002 — Aberrations [Locked]; CAM-001 — Vein of Eismark Memory Premise [Locked]
+
+Source: SRC-058
+
+### MON-007 - Blood and Entity Horror Distinction
+
+Canon Status: Locked
+
+Summary: The Blood and the Entity create different kinds of horror: body horror and cosmic horror.
+
+Canon Facts:
+
+- The Blood is physical corruption: body, mutation, flesh, violence, and false evolution.
+- The Blood changes the body.
+- Blood horror should feel existential and biological: failed evolution, unstable anatomy, identity loss, and the terror of being rewritten while some part of the victim may remain aware.
+- The Entity is knowledge, madness, memory, altered reality, impossible dreams, and forbidden understanding.
+- The Entity changes the mind.
+- Bloodspawn are body horror.
+- Aberrations are cosmic horror.
+- A creature touched by both should be among the most terrifying beings in the setting.
+- Traditional cosmological demons and devils do not exist as literal infernal outsiders in Eismark.
+- 5e demons or devils may be reinterpreted as Bloodspawn, nightmares, ancient horrors, aberrations, or other non-infernal threats.
+
+Related Entries: COS-004 — The Entity [Under Review]; COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]; MON-006 — Aberrations [Locked]
+
+Source: SRC-058
+
+### MON-008 - Monstrous Peoples and Orc Raiders
+
+Canon Status: Locked
+
+Summary: Eismark rejects the idea that every member of a monstrous ancestry is inherently evil; culture, region, and individual choice matter.
+
+Canon Facts:
+
+- Orc raiders are culturally distinct from settled Orcs, not biologically different.
+- Usually integrated peoples include Orcs, Dragonborn, Elves, Dwarves, Gnomes, Halflings, some Goblins, and some Hobgoblins.
+- Usually monstrous peoples include Bugbears, many Harpies, many Ogres, and Trolls.
+- Region- and culture-dependent peoples include Kobolds, Minotaurs, Lizardfolk, Centaurs, Hobgoblins, Goblins, and Giants.
+- Hobgoblins are disciplined, martial, honor-focused wanderers often compared to ronin.
+- Bugbears are commonly regarded as dangerous brute monsters.
+- Giants and Humans are distant cousins, and Giants have their own patron angel still awaiting development.
+- Marcher saying: "Judge the man, not the tusks."
+
+Related Entries: SPE-002 — Orcs [Locked]; SPE-006 — Dwarves and Goblins [Locked]; MON-004 — Undead, Vampires, and Lycanthropy [Locked]
+
+Source: SRC-058
+
+### MON-009 - Iconic Monsters of Eismark
+
+Canon Status: Locked
+
+Summary: Eismark's iconic monsters support a modern frontier world where newspapers and radios coexist with old warnings about the woods.
+
+Canon Facts:
+
+- Wargs are larger, smarter, and more cunning than ordinary wolves and are feared in the Marches, Gn'ure, and northern forests.
+- Skinwalkers are terrifying cryptids associated with voice mimicry, identity theft, shapeshifting, and isolated frontier communities.
+- Giant insects, dire creatures, giant spiders, giant scorpions, and regional cryptids are common monster-hunting threats.
+- Wendigos are feared northern predators born from cannibalism, starvation, and despair.
+- Trolls are classic regenerating monsters; children are taught "Burn the body."
+- Hags are common in Gn'ure, ancient forests, frontier regions, and forgotten places; entire villages may unknowingly serve one.
+- Elementals may be natural magical phenomena, summoned entities, or spirits of nature.
+- Ranger saying: "If you hear your name in the woods, and you know you're alone—don't answer."
+- Ranger saying: "If the voice sounds scared, run."
+
+Related Entries: ORG-001 — Frontier Rangers [Locked]; ORG-005 — The Sword of Eismark [Locked]; MON-003 — Regional Monster Threat Levels [Locked]
+
+Source: SRC-058
+
+### MON-010 - The Seas of Eismark
+
+Canon Status: Locked
+
+Summary: The seas of Eismark are dangerous but manageable, allowing maritime trade to remain vital without making oceans impossible.
+
+Canon Facts:
+
+- Threats include sea serpents, dragon turtles, krakens, giant predatory sea life, pirates, storms, and occasional dragons.
+- Long-distance voyages often travel in convoys.
+- Shipping companies may employ monster hunters, battle mages, mercenaries, or armed marines.
+- The Iron Coast remains a major maritime trade region.
+
+Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; SOC-007 — Travel and Transportation [Locked]; ORG-003 — Commonwealth Geographical Society [Locked]
+
+Source: SRC-058
 
 ## Society Entries
 
@@ -2032,6 +2871,221 @@ Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The
 
 Source: SRC-042
 
+### SOC-003 - Organized Crime
+
+Canon Status: Locked
+
+Summary: Organized crime in Eismark is strongest in Veloria, the Free Marches, major ports, and smuggling corridors, with the White Hand as the most important criminal federation.
+
+Canon Facts:
+
+- Organized crime thrives where prohibition, frontier distance, corruption, rail expansion, and technology smuggling overlap.
+- The Firearms and Spirits Act created major black markets in firearms, alcohol, and related contraband.
+- The White Hand is the principal smuggling network tied to Kaltheimian technology, firearms, machine tools, industrial equipment, replacement parts, and occasional sacred relics.
+
+Related Entries: ORG-002 — The White Hand [Locked]; LAW-001 — The Public Safety and Temperance Act [Locked]; SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]
+
+Source: SRC-055
+
+### SOC-004 - Languages of Eismark
+
+Canon Status: Locked
+
+Summary: Eismark's languages preserve culture, class, faith, criminal identity, and fragments of history after the Great Forgetting.
+
+Canon Facts:
+
+- Common is the primary trade and diplomatic language of Eismark.
+- Common is dominant in Veloria, the Free Marches, frontier settlements, major ports, and trade centers.
+- Most educated people speak at least some Common, but regional and ancestral languages remain strong.
+- Modern Kaltheimic is the everyday language of the Sacrament.
+- High Kaltheimic is the ancient and ceremonial language used by senior clergy, scholars, historians, and liturgical services.
+- Ordinary Kaltheimians often know prayers, blessings, and hymns in High Kaltheimic, while clergy and scholars study it in depth.
+- The scriptures of the Iron Church are traditionally preserved in High Kaltheimic.
+- Veloria overwhelmingly speaks Common due to immigration, trade, and civic identity.
+- Undercommon is less a single language than a criminal argot built primarily on Common with coded phrases, loanwords, and regional slang used by smugglers, organized crime, and black-market networks.
+- The Free Marches speak Common with a recognizable Marcher accent.
+- Gnurish remains a strong marker of Highland identity.
+- Elvish, Dwarvish, Orcish, Draconic, Gnomish, and other ancestral languages remain alive.
+- Halflings generally speak the dominant regional language of the community in which they were raised.
+
+Related Entries: HIS-016 — The Great Forgetting [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]; ORG-002 — The White Hand [Locked]
+
+Source: SRC-054
+
+### SOC-005 - Education in Eismark
+
+Canon Status: Locked
+
+Summary: Education in Eismark reflects each society's deepest civic philosophy.
+
+Canon Facts:
+
+- Kaltheimian literacy is nearly universal because education is overseen by the Iron Church.
+- Kaltheimian education forms literate citizens, faithful citizens, and competent professionals.
+- Kaltheim teaches literacy, mathematics, theology, history, civic duty, discipline, and vocation.
+- Advanced Kaltheimian education is attached to churches, military academies, state institutions, Consecrator training, engineering, medicine, and clergy formation.
+- Velorian literacy is very high through public education.
+- Velorian education forms informed citizens, innovators, and professionals.
+- Veloria emphasizes civics, individual advancement, science, law, public debate, and arcane learning.
+- Free Marches education is locally run through community schoolhouses and varies by settlement.
+- Gn'ure education is more limited among the peasantry and stronger among nobility, clergy, and wealthy merchants.
+- Hartfoot Magic Institute is the Commonwealth's premier arcane institution for wizardry, artificing, magical research, and arcane theory.
+- Hartfoot maintains close relationships with OTS, though the exact nature of that cooperation is seldom discussed publicly.
+- Browning University is one of the finest secular universities in Eismark and is famous for law, medicine, political science, engineering, and history.
+- Browning has educated numerous presidents, judges, industrialists, and senior civil servants of the Commonwealth.
+
+Related Entries: TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; GOV-006 — Office of Tactical Security [Locked]; REL-012 — Luke, Public Theology [Locked]
+
+Source: SRC-054
+
+### SOC-006 - Currency of Eismark
+
+Canon Status: Locked
+
+Summary: Marks and Crosses share economic value while revealing the philosophical difference between Veloria's commerce and Kaltheim's institutions.
+
+Canon Facts:
+
+- Most nations use currencies of equivalent value, making trade relatively straightforward.
+- Veloria and much of Eismark use Marks: Copper Marks, Silver Marks, Gold Marks, and Platinum Marks.
+- The Free Marches almost universally use Marks.
+- Kaltheim uses Crosses: Copper Crosses, Silver Crosses, Gold Crosses, and Platinum Crosses.
+- Crosses maintain identical exchange rates with Marks.
+- Crosses often bear the Flaming Sword of Michael, religious iconography, saints, heroes, and angels.
+- Both currencies are accepted widely, but social context matters.
+- Paying in Gold Crosses in a Velorian tavern may attract curiosity or suspicion.
+- Paying in Marks in rural Kaltheim identifies someone as an outsider.
+
+Consequences:
+
+- Same value, different symbolism: Kaltheim treats money as another institution; Veloria treats money as commerce.
+
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]
+
+Source: SRC-055
+
+### SOC-007 - Travel and Transportation
+
+Canon Status: Locked
+
+Summary: Travel in Vardheim reflects a dieselpunk world where railways bind civilization, automobiles remain unevenly distributed, and the frontier still belongs to horses.
+
+Canon Facts:
+
+- Local travel commonly uses horses, wagons, walking, and automobiles.
+- Automobiles exist but are expensive, especially outside major cities.
+- Automobiles are common as urban conveniences, government vehicles, commercial transports, and luxury goods.
+- Frontier roads are often poor, and many settlements can only be reached by horseback.
+- Long-distance travel uses rail, ship, airship, and sometimes automobile.
+- Railways are the backbone of civilization and connect most major settlements.
+- Control of rail infrastructure is strategically vital.
+- Maritime travel remains essential for trade, commerce, and military logistics.
+- The Iron Coast is one of Eismark's busiest maritime regions.
+- Airships are expensive and prestigious, used by wealthy civilians, governments, militaries, and major corporations.
+- Kaltheim is especially associated with trains and disciplined rail logistics.
+- Veloria uses railroads, automobiles, airships, and commercial transport.
+- The frontier still depends heavily on horses.
+
+Related Entries: GEO-001 — Vardheim and Eismark [Locked]; ORG-008 — Frontier Rail Companies [Locked]; ORG-009 — Malicki and the Mechanical Horses [Locked]
+
+Source: SRC-056
+
+### SOC-008 - Six Virtues of the Sacrament
+
+Canon Status: Locked
+
+Summary: The Six Virtues of the Sacrament define Kaltheimian moral culture: Duty, Vigilance, Loyalty, Sacrifice, Discipline, and Honor.
+
+Canon Facts:
+
+- Duty: "A life without duty is a life without purpose."
+- Vigilance: "Eternal vigilance is the price of survival."
+- Loyalty: "Stand by your kin, your comrades, and the Sacrament."
+- Sacrifice: "The burden we bear is the price of tomorrow."
+- Discipline: "Steel is forged through hardship."
+- Honor: "A person's word is the measure of their soul."
+- Kaltheimian characters often ask: "What does Duty demand?"
+
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; GOV-005 — Citizenship of the Sacrament [Locked]; MIL-011 — The Armed Forces of the Sacrament [Locked]
+
+Source: SRC-056
+
+### SOC-009 - Seven Civic Virtues of the Commonwealth
+
+Canon Status: Locked
+
+Summary: The Seven Civic Virtues of the Commonwealth define Velorian moral culture: Liberty, Self-Determination, Innovation, Prosperity, Opportunity, Community, and Courage.
+
+Canon Facts:
+
+- Liberty: "No man should rule another without consent."
+- Self-Determination: "A person should choose their own path."
+- Innovation: "The future belongs to those willing to build it."
+- Prosperity: "A rising tide lifts all ships."
+- Opportunity: "Anyone can make something of themselves."
+- Community: "Neighbors stand together."
+- Courage: "Freedom is worthless if no one will defend it."
+- Community tempers Veloria's individual freedom and prevents liberty from meaning isolation.
+
+Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; GOV-002 — Government of the Commonwealth of Veloria [Locked]; TEC-002 — Velorian Technology [Locked]
+
+Source: SRC-056
+
+### SOC-010 - Remembrance Day and Major Holidays
+
+Canon Status: Locked
+
+Summary: Remembrance Day is one of Eismark's strongest cultural echoes of the Great Forgetting: nearly everyone remembers to remember, but almost no one remembers why.
+
+Canon Facts:
+
+- Remembrance Day is observed throughout much of Eismark.
+- No one remembers when the holiday began or exactly what tragedy it commemorates.
+- Nearly every culture agrees that something terrible was lost.
+- Church bells toll, families gather, candles are lit, and names of the dead are spoken aloud.
+- Most people accept that this is what their ancestors did.
+- Common saying: "We remember, lest we forget."
+- No one can explain what is meant by "forget."
+- The Day of Vigil commemorates humanity's survival during an ancient catastrophe.
+- Kaltheim uses the Day of Vigil to renew oaths of service.
+- Veloria treats the Day of Vigil as remembrance and civic unity.
+- Michaelmas honors Michael with military parades, oath renewals, ceremonies, church services, community festivals, and family gatherings.
+- Founding Day differs by nation: Kaltheim commemorates the modern Sacrament after the Great Pilgrimage; Veloria commemorates ratification of the Commonwealth.
+
+Related Entries: HIS-016 — The Great Forgetting [Locked]; REL-007 — The Number 153 [Locked]; REL-008 — Worship in the Iron Church [Locked]
+
+Source: SRC-056
+
+### SOC-011 - Kaltheimian Family and Gender Roles
+
+Canon Status: Locked
+
+Summary: Kaltheimian family life is traditional, oath-centered, service-oriented, and morally severe toward abuse as a betrayal of duty.
+
+Canon Facts:
+
+- Kaltheimian families are generally smaller due to military service, harsh climate, industrial society, and cultural expectations of duty and discipline.
+- Marriage is understood first as religious covenant, then romantic partnership, then practical union.
+- Common saying: "Love kindles the hearth. Duty keeps it burning."
+- Marriages are freely chosen; arranged marriages are uncommon and considered antiquated.
+- Family approval matters, but the choice rests with the couple.
+- Divorce is permitted by the Iron Church but treated seriously because marriage is sacred.
+- Divorce carries little formal stigma when abuse, abandonment, or infidelity are involved.
+- Kaltheim has strong and clearly defined gender roles.
+- Women may serve in the military, command troops, become Paladins, become Consecrators, hold civil office, serve on the High Synod, and become Lord Protector.
+- Women cannot become ordained clergy within the Iron Church.
+- The restriction is theological rather than social and remains a source of internal debate.
+- Paladins are not clergy; they are holy warriors.
+- Common saying: "A priest tends the soul. A Paladin guards it."
+- Domestic abuse is intolerable and viewed as a betrayal of sacred duties.
+- Conviction may bring imprisonment, public disgrace, and excommunication in severe cases.
+- A Kaltheimian would likely describe an abuser as "a man who failed both his family and the Sacrament."
+
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; GOV-005 — Citizenship of the Sacrament [Locked]; REL-002 — The Iron Church [Locked]; MIL-011 — The Armed Forces of the Sacrament [Locked]
+
+Source: SRC-056
+
 ## Law Entries
 
 ### LAW-001 - The Public Safety and Temperance Act
@@ -2100,6 +3154,42 @@ International Perspective:
 Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MIL-002 — Velorian Armory [Locked]; SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]; SOC-003 — Organized Crime [Future]
 
 Source: SRC-040
+### LAW-002 - Kaltheimian Justice System
+
+Canon Status: Locked
+
+Summary: Justice in the Sacrament is founded on the belief that law derives from doctrine.
+
+Canon Facts:
+
+- There is no true separation between religion and law in Kaltheim.
+- Ordinary crimes are tried before Ecclesiastical Magistrates: ordained Iron Church members trained in theology, jurisprudence, and civil law.
+- Civic courts handle theft, assault, property disputes, contracts, family law, and inheritance.
+- Common saying: "A just society requires righteous judges."
+- Military tribunals handle desertion, insubordination, dereliction of duty, conduct unbecoming, and wartime offenses by members of the armed forces.
+- Military tribunals are usually overseen by senior officers, military magistrates, and Templar representatives.
+- Ecclesiastical Courts are the highest courts of the Sacrament and adjudicate heresy, sedition, corruption, crimes against the Church, major constitutional disputes, and doctrine.
+- Cases involving existential threats, relics, Blood corruption, or Veins almost always fall under Ecclesiastical jurisdiction.
+- The Inquisition investigates but does not normally judge cases.
+- Kaltheimian law emphasizes Truth, Repentance, Restitution, and Protection of the Sacrament.
+- Punishment is meant to restore the individual and the community when possible.
+- Crimes threatening humanity's survival are punished with extreme severity.
+- Common saying: "Mercy is a virtue. Vigilance is a necessity."
+- Capital punishment is uncommon but reserved for irredeemable betrayals of humanity, the Sacrament, or the Vigil.
+- Capital crimes may include treason, murder, foreign espionage, deliberate heresy, severe official or clerical corruption, wartime desertion, collaboration with existential threats, smuggling forbidden relics or Blood-tainted artifacts, knowingly concealing Blood corruption, and acts endangering the Communion or Sacrament.
+- Kaltheim distinguishes error from heresy: error is corrected through instruction, penance, and repentance; heresy is deliberate teaching of false doctrine judged harmful to the Sacrament.
+- Common saying: "Steel may kill a man. Falsehood may kill a people."
+- Penal practice favors repentance, reintegration, imprisonment, labor service, military penal service, public penance, and restitution until an offender is judged unrepentant, corrupt, or existentially dangerous.
+
+Consequences:
+
+- Kaltheim is not cruel for cruelty's sake, but it is uncompromising when survival is at stake.
+- From a Velorian perspective the system often appears authoritarian; from a Kaltheimian perspective it is the necessary architecture of civilization's survival.
+
+Related Entries: GOV-001 — Government of the Sacrament of Kaltheim [Locked]; GOV-003 — The Inquisition of the Vigil [Locked]; GOV-005 — Citizenship of the Sacrament [Locked]; REL-002 — The Iron Church [Locked]; COS-005 — The Blood [Locked]
+
+Source: SRC-050
+
 ## NPC Entries
 
 ### NPC-001 - Uriel, the Rememberer
@@ -2290,7 +3380,7 @@ Design Notes:
 - This entry is distinct from NPC-002, which records The Abandoned One's identity and canon lore.
 - CAM-003 should eventually track clues, reveal stages, encounter framing, and what the characters can learn at different points in the campaign.
 
-Related Entries: NPC-002 — The Abandoned One [Locked]; NPC-001 — Uriel, the Rememberer [Locked]; HIS-012 — Uriel Fractures [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; HIS-016 — The Great Forgetting [Locked]; MIL-006 — Joivians [Locked]; CAM-001 — Vein of Eismark Memory Premise [Locked]; CAM-004 — Project Resurgence [Under Review]; ARC-017 — Project Resurgence [Archived - Reopened Under Review]; CAP-020 — Project Resurgence Campaign Status [Pending]
+Related Entries: NPC-002 — The Abandoned One [Locked]; NPC-001 — Uriel, the Rememberer [Locked]; HIS-012 — Uriel Fractures [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; HIS-016 — The Great Forgetting [Locked]; MIL-006 — Joivians [Locked]; CAM-001 — Vein of Eismark Memory Premise [Locked]; CAM-004 — Project Resurgence [Under Review]; ARC-017 — Project Resurgence [Archived Non-Canon]; CAP-020 — Project Resurgence Campaign Status [Under Review]
 
 Source: SRC-032
 
@@ -2330,7 +3420,7 @@ Consistency Notes:
 - Current reconciliation option: no public search exists, but a secret Kaltheim operation may be active.
 - Final canon status should be resolved through CAP-020 before CAM-004 is marked Locked.
 
-Related Entries: CAM-003 — The Abandoned One [Under Review]; ARC-017 — Project Resurgence [Archived - Reopened Under Review]; MIL-006 — Joivians [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; NPC-002 — The Abandoned One [Locked]; CAP-020 — Project Resurgence Campaign Status [Pending]
+Related Entries: CAM-003 — The Abandoned One [Under Review]; ARC-017 — Project Resurgence [Archived Non-Canon]; MIL-006 — Joivians [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; NPC-002 — The Abandoned One [Locked]; CAP-020 — Project Resurgence Campaign Status [Under Review]
 
 Source: SRC-033, SRC-034
 
@@ -2548,9 +3638,10 @@ Source: SRC-023
 
 ### ARC-017 - Project Resurgence
 
-Canon Status: Archived - Reopened Under Review
+Canon Status: Archived Non-Canon
 Record Type: Archive Entry
 Classification: Restricted - Council of Vigilance
+Record Note: Reopened as under-review campaign material through CAM-004 and CAP-020.
 
 Summary: Archived restricted campaign concept, now reopened under CAM-004, in which Project Resurgence is a secret Council of Vigilance initiative to locate and reactivate a surviving Joivian.
 
@@ -2589,7 +3680,7 @@ Consistency Notes:
 - The Council of Vigilance remains under review unless separately promoted to locked canon.
 - `Divine Engines` and `Jovians` are restricted/archive-language for this concept and should not override current Joivian terminology.
 
-Related Entries: CAM-001 — Vein of Eismark Memory Premise [Locked]; CAM-004 — Project Resurgence [Under Review]; MIL-006 — Joivians [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; NPC-002 — The Abandoned One [Locked]; CAP-006 — Joivian Construction [Locked]; CAP-007 — Joivian March [Locked]; CAP-020 — Project Resurgence Campaign Status [Pending]
+Related Entries: CAM-001 — Vein of Eismark Memory Premise [Locked]; CAM-004 — Project Resurgence [Under Review]; MIL-006 — Joivians [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; NPC-002 — The Abandoned One [Locked]; CAP-006 — Joivian Construction [Locked]; CAP-007 — Joivian March [Locked]; CAP-020 — Project Resurgence Campaign Status [Under Review]
 
 Source: SRC-030, SRC-033, SRC-034
 
@@ -2818,7 +3909,7 @@ Summary: Tentative world map reference for Eismark in the Third Age, showing the
 Represents:
 
 - Eismark as the primary campaign continent within the world of Vardheim.
-- The Third Age political layout dated 1945 A.V. / 1928 V.C.
+- The Third Age political layout dated 1945 AV / 1928 FC.
 - The major national and regional divisions of Kaltheim, Veloria, the Free Marches, the People's State of Rauk, the Republic of Lan Cao, the Kingdom of Voss, Ostmark Confederation, Gn'ure, the Sylvan Veil, the Ashlands, the Ashen Marches, the Iron Coast, and the Shattered Isles.
 - Major cities, towns, villages, forts, ports, roads, rail lines, mines, quarries, national borders, and disputed borders.
 - The current working geography for resolving map-sensitive audit items.
@@ -2836,7 +3927,7 @@ Do Not Use For:
 
 - Final locked canon geography until the map audit is complete.
 - Precise distances beyond the broad scale marker.
-- Final ancient geography, especially Ancient Kaltheim's exact relationship to modern Kaltheim and Veloria.
+- Final ancient geography, especially Ancient Kaltheim's exact relationship to the modern Sacrament of Kaltheim and Veloria.
 - Final Free Marches border rulings until `CAP-019` is resolved.
 - Proof that every unlabeled settlement, ruin, road, or border is exhaustive.
 
@@ -2908,7 +3999,7 @@ Visual Notes:
 - The frame is described as balanced.
 - Alignment is listed as True Neutral (Fractured).
 - The origin is the final years of the Lingering War.
-- The fate note says all Joivians entered the Maw of Sin, all but one.
+- The fate note says all Joivians entered the Maw of Sin, all but one; ECD treats `Maw of Sin` as source-image wording for the Great Maw unless future canon distinguishes the terms.
 
 Lore Notes:
 
@@ -2920,6 +4011,7 @@ Consistency Notes:
 
 - Official ECD spelling remains `Joivian`; `Jovian` is deprecated source-image wording.
 - The image is canon visual language, not an override of established Joivian taxonomy, Uriel canon, or Great Maw chronology.
+- `Maw of Sin` should not replace `Great Maw` in locked historical entries unless the term is later promoted as an in-world synonym.
 
 Related Entries: NPC-001 — Uriel, the Rememberer [Locked]; NPC-002 — The Abandoned One [Locked]; REL-006 — Uriel, Angel of Memory [Locked]; MIL-006 — Joivians [Locked]; HIS-011 — The Joivian Project [Locked]; HIS-012 — Uriel Fractures [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; CAM-003 — The Abandoned One [Under Review]
 
@@ -2963,7 +4055,7 @@ Resolved Audit Items Incorporated:
 - CAP-006: Joivians were built around lesser angel vessels, with Uriel as the sole First One exception.
 - CAP-007: nearly every Joivian marched into the Great Maw; Uriel's Joivian remained as The Abandoned One.
 - CAP-008: Great Forgetting begins immediately, then becomes a civilizational collapse over generations.
-- CAP-009: Ancient Kaltheim, the Great Pilgrimage, and modern Kaltheim must be distinguished.
+- CAP-009: Ancient Kaltheim, the Great Pilgrimage, and the modern Sacrament of Kaltheim must be distinguished.
 - CAP-011: Veins stopped producing new Blood, but existing Blood remained trapped in Creation.
 - CAP-012: First War Bloodspawn were eradicated; new Bloodspawn can still arise from newly released Blood.
 - CAP-013: The Exalted are fully sapient Consecrated whose sacred vessels are forged for war.

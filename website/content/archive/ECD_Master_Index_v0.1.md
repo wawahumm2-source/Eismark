@@ -61,6 +61,14 @@ Canon Status Values:
 - REL-005 — Saint-Servant Adamant [Locked]
 - REL-006 — Uriel, Angel of Memory [Locked]
 - REL-007 — The Number 153 [Locked]
+- REL-008 — Worship in the Iron Church [Locked]
+- REL-009 — Public Theology of the Great Six [Locked]
+- REL-010 — Michael, Public Theology [Locked]
+- REL-011 — Gabriel, Public Theology [Locked]
+- REL-012 — Luke, Public Theology [Locked]
+- REL-013 — John, Public Theology [Locked]
+- REL-014 — Raphael, Public Theology [Locked]
+- REL-015 — Uriel, Public Theology [Locked]
 
 ## Theology
 
@@ -96,6 +104,11 @@ Canon Status Values:
 
 - GOV-001 — Government of the Sacrament of Kaltheim [Locked]
 - GOV-002 — Government of the Commonwealth of Veloria [Locked]
+- GOV-003 — The Inquisition of the Vigil [Locked]
+- GOV-004 — Directorate of Military Intelligence [Locked]
+- GOV-005 — Citizenship of the Sacrament [Locked]
+- GOV-006 — Office of Tactical Security [Locked]
+- GOV-007 — Federal Marshals Service [Locked]
 
 ## Technology
 
@@ -119,6 +132,21 @@ Canon Status Values:
 - GEO-013 — The Ashen Marches [Locked]
 - GEO-014 — The Iron Coast and Shattered Isles [Locked]
 
+## Organizations
+
+- ORG-001 — Frontier Rangers [Locked]
+- ORG-002 — The White Hand [Locked]
+- ORG-003 — Commonwealth Geographical Society [Locked]
+- ORG-004 — Uriel's Testament [Locked]
+- ORG-005 — The Sword of Eismark [Locked]
+- ORG-006 — Order of the Veiled Hand [Locked]
+- ORG-007 — Office of Arcane Regulation [Locked]
+- ORG-008 — Frontier Rail Companies [Locked]
+- ORG-009 — Malicki and the Mechanical Horses [Locked]
+- ORG-010 — Dreamers of Azhul [Locked]
+- ORG-011 — Blackstone Mining Company [Locked]
+- ORG-012 — Shattered Isles Peoples and Eastern Diaspora [Locked]
+
 ## Military
 
 - MIL-001 — Kaltheim Armory [Locked]
@@ -137,16 +165,33 @@ Canon Status Values:
 
 - MON-001 — Bloodspawn [Locked]
 - MON-002 — Aberrations [Locked]
+- MON-003 — Regional Monster Threat Levels [Locked]
+- MON-004 — Undead, Vampires, and Lycanthropy [Locked]
+- MON-005 — Dragons [Under Review]
+- MON-006 — Aberrations [Locked]
+- MON-007 — Blood and Entity Horror Distinction [Locked]
+- MON-008 — Monstrous Peoples and Orc Raiders [Locked]
+- MON-009 — Iconic Monsters of Eismark [Locked]
+- MON-010 — The Seas of Eismark [Locked]
 
 ## Society
 
 - SOC-001 — Automaton Rights and Identity [Locked]
 - SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]
-- SOC-003 — Organized Crime [Future]
+- SOC-003 — Organized Crime [Locked]
+- SOC-004 — Languages of Eismark [Locked]
+- SOC-005 — Education in Eismark [Locked]
+- SOC-006 — Currency of Eismark [Locked]
+- SOC-007 — Travel and Transportation [Locked]
+- SOC-008 — Six Virtues of the Sacrament [Locked]
+- SOC-009 — Seven Civic Virtues of the Commonwealth [Locked]
+- SOC-010 — Remembrance Day and Major Holidays [Locked]
+- SOC-011 — Kaltheimian Family and Gender Roles [Locked]
 
 ## Law
 
 - LAW-001 — The Public Safety and Temperance Act [Locked]
+- LAW-002 — Kaltheimian Justice System [Locked]
 
 ## NPCs
 
@@ -176,7 +221,7 @@ Canon Status Values:
 - ARC-014 — The Exalted [Locked]
 - ARC-015 — Brother Remembrance [Locked]
 - ARC-016 — The Great Silence [Archived Non-Canon]
-- ARC-017 — Project Resurgence [Archived - Reopened Under Review]
+- ARC-017 — Project Resurgence [Archived Non-Canon]
 
 ## ARP
 
