@@ -528,6 +528,9 @@ The Blood is the physical manifestation of the Entity's corruption within Creati
 - References to the Blood carrying a will to unmake Creation are poetic descriptions of the Entity's corrupting influence, not evidence that the Blood itself has independent agency.
 - The Veins ceased producing new Blood after reality was sealed.
 - Blood already present within Creation remained trapped there.
+- Public knowledge is fragmentary: most people know only that a great darkness, plague, divine punishment, demon-war, or terrible age of war threatened civilization long ago.
+- Most ordinary people have never heard the term "the Blood"; those who have usually assume it is metaphor, superstition, or allegory.
+- The Iron Church, Uriel's Testament, the Inquisition of the Vigil, and the Dreamers of Azhul know more, but each preserves incomplete or distorted fragments.
 
 **See Also:** MON-001 — Bloodspawn; GEO-012 — The Ashlands; CAP-011 — Blood Lifecycle; CAP-012 — Bloodspawn
 
@@ -816,7 +819,7 @@ This makes Elves aloof, sorrowful, and sometimes condescending. They pity the yo
 
 Dragonborn are the original inhabitants of the Shattered Isles, heirs to lost kingdoms and city-states. Their civilization fractured over centuries, leaving them without a unified state. Family became their nation.
 
-Dragonborn value honor, family, legacy, personal excellence, and ancestral memory. They maintain ancient spiritual traditions centered on their First One and the great Dragons, but exact dragon theology remains open. Dragonborn inherit Drakharion's honor.
+Dragonborn value honor, family, legacy, personal excellence, and ancestral memory. Many formal names preserve at least ten generations of ancestry, and forgetting one's lineage is shameful. They maintain ancient spiritual traditions centered on their First One and the great Dragons, but exact dragon theology remains open. Dragonborn often regard Dragons with the respect due to an ancient elder or grandparent. Dragonborn inherit Drakharion's honor.
 
 ### SPE-005 — Giants
 
@@ -824,7 +827,7 @@ Giants are created by Asterion.
 
 ### SPE-006 — Dwarves and Goblins
 
-Dwarves were the original inhabitants of the northern mountains. During the Great Pilgrimage, humans arrived as refugees, Dwarves opened the mountains, and together they built the Sacrament. Dwarven engineers played a foundational role in Kaltheim's firearms, artillery, and industrial technologies.
+Dwarves were the original inhabitants of the northern mountains. During the Great Pilgrimage, humans arrived as refugees, Dwarves opened the mountains, and together they built the Sacrament. Dwarven smiths are among Eismark's finest craftsmen, and Dwarven engineers played a foundational role in Kaltheim's firearms, artillery, and industrial technologies.
 
 Dwarves inherit Khorun's endurance. Goblins vary widely, from criminal underworlds and laboring communities to rare brilliant engineers, scholars, lawyers, artificers, and entrepreneurs.
 
@@ -1421,6 +1424,9 @@ Bloodspawn are living things rewritten by exposure to the Blood.
 - Most Bloodspawn look less like monsters than people who have been rewritten beyond recognition.
 - Some are instinctive; others retain fragments of memory or personality.
 - Some remain aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
+- The Inquisition classifies Bloodspawn by behavior and threat rather than species, using working labels such as Stalkers, Mimics, Bloomed, Residuals, Heralds, and Unknown.
+- Veteran Inquisitors say: "If you think you understand a Bloodspawn, you are already dead."
+- Veteran Inquisitors say: "The Blood remembers differently every time."
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 

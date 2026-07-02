@@ -84,6 +84,7 @@ Companion Document: `Eismark_Readable_Guide_v0.1.md` is the reader-facing compan
 - SRC-059: Recovered peoples and species notes, 2026-07-01
 - SRC-060: Recovered geopolitics and Ashlands notes, 2026-07-01
 - SRC-061: Recovered Bloodspawn and Blood-tainted landscape notes, 2026-07-02
+- SRC-062: Recovered public knowledge of the Blood and Bloodspawn classification notes, 2026-07-02
 
 ## History Entries
 
@@ -747,10 +748,16 @@ Canon Facts:
 - References to the Blood carrying a will to unmake Creation are poetic descriptions of the Entity's corrupting influence, not evidence that the Blood itself has independent agency.
 - The Veins ceased producing new Blood after reality was sealed.
 - Blood already present within Creation remained trapped there.
+- Public knowledge of the Blood is fragmentary and confused; most people know only that a great darkness, plague, divine punishment, demon-war, or terrible age of war threatened civilization long ago.
+- Most ordinary people have never heard the term "the Blood"; those who have usually assume it is a religious metaphor, old superstition, or allegory.
+- The senior clergy of the Iron Church preserve the most complete surviving accounts, but even the Church lost much during the Great Forgetting.
+- Uriel's Testament actively searches for evidence of the Blood, the First Age, the Lingering War, and the fate of the Joivians.
+- The Dreamers of Azhul possess fragmentary and catastrophically misunderstood Blood texts.
+- The Inquisition of the Vigil knows enough to treat any possible return of the Blood as a world-ending threat.
 
 Related Entries: MON-001 — Bloodspawn [Locked]; GEO-012 — The Ashlands [Locked]; IMG-001 — The Blood Visual Reference [Locked]; CAP-011 — Blood Lifecycle [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019, SRC-061
+Source: SRC-008, SRC-019, SRC-061, SRC-062
 
 ### COS-006 - The Communion
 
@@ -1268,9 +1275,11 @@ Canon Facts:
 - For many Dragonborn, family became their nation after the loss of empire.
 - Dragonborn maintain ancient spiritual traditions centered upon their First One and the great Dragons; exact dragon theology remains open for future lock.
 - Dragonborn possess long ancestral names and are expected to know their lineages by heart.
+- A formal Dragonborn name may preserve at least ten generations of ancestry, and failure to know one's lineage is considered deeply shameful in many Dragonborn communities.
 - Common proverb: "You are not born alone. Ten generations stand behind you and ten more wait ahead."
 - Dragonborn inherit Drakharion's honor.
 - Dragons are rare but widely known, most often found in the Shattered Isles, remote mountains, and unexplored wilderness.
+- Dragonborn often regard Dragons with the respect due to an ancient elder or grandparent, even while exact theology remains under review.
 - Dragons may be metallic or chromatic, noble or cruel, protective or tyrannical; a dragon should be judged as an individual.
 - Marcher saying: "Never trust a dragon. Never assume one will betray you either."
 
@@ -1307,6 +1316,7 @@ Canon Facts:
 - Kaltheimian Dwarves are fully integrated into the Sacrament; there is little distinction between Kaltheimian Dwarves and Kaltheimian Humans in citizenship, loyalty, or religious identity.
 - Dwarven soldiers are renowned for discipline, stubbornness, courage, and refusal to retreat.
 - Common saying: "A Dwarf yields only to God and gravity."
+- Dwarven smiths are counted among the finest craftsmen in Eismark, and masterwork Dwarven arms and armor command enormous prices.
 - Dwarven engineers played a foundational role in the development of many of Kaltheim's firearms, artillery pieces, and industrial technologies.
 - Dwarven breweries are legendary.
 - Dwarves inherit Khorun's endurance.
@@ -2604,12 +2614,22 @@ Canon Facts:
 - Most Bloodspawn look less like monsters than people who have been rewritten beyond recognition.
 - Some are instinctive; others retain fragments of memory or personality.
 - Some remain horrifyingly aware, beg for death, speak in fragmented memories, mistake strangers for loved ones, or continue old routines after their personhood has collapsed.
+- Bloodspawn are not classified by species by the Inquisition of the Vigil; they are categorized by behavior, threat level, manifestation pattern, and known abilities.
+- Inquisitorial working categories include Stalkers, Mimics, Bloomed, Residuals, Heralds, and Unknown.
+- Stalkers actively hunt prey.
+- Mimics imitate voices, people, or memories.
+- Bloomed are recently transformed victims.
+- Residuals are incomplete manifestations.
+- Heralds are exceptionally powerful Bloodspawn associated with significant Blood activity.
+- Unknown is the most common and safest classification.
+- Veteran Inquisitor saying: "If you think you understand a Bloodspawn, you are already dead."
+- Veteran Inquisitor saying: "The Blood remembers differently every time."
 - The Bloodspawn of the First War were eradicated.
 - New Bloodspawn may arise whenever living creatures are corrupted by newly released Blood.
 
 Related Entries: COS-005 — The Blood [Locked]; CAP-012 — Bloodspawn [Locked]
 
-Source: SRC-008, SRC-019, SRC-061
+Source: SRC-008, SRC-019, SRC-061, SRC-062
 
 ### MON-002 - Aberrations
 
