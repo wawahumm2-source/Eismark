@@ -491,8 +491,8 @@ function renderHome() {
     })
     .join("");
 
-  const featured = findEntryByTitle("The Sacrament of Kaltheim") ?? visibleEntries()[0];
-  const secondary = findEntryByTitle("The Commonwealth of Veloria") ?? visibleEntries()[1];
+  const featured = findEntryByTitle("Creation") ?? visibleEntries().find((entry) => entry.section === "History") ?? visibleEntries()[0];
+  const secondary = findEntryByTitle("The Sacrament of Kaltheim") ?? visibleEntries()[1];
 
   els.homePage.innerHTML = `
     <section class="wiki-intro">
@@ -503,7 +503,7 @@ function renderHome() {
 
     <div class="home-grid">
       <section class="wiki-box featured-box">
-        <h3>Featured Article</h3>
+        <h3>Start with History</h3>
         ${featured ? articleTeaser(featured) : ""}
       </section>
       <section class="wiki-box">
