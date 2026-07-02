@@ -14,7 +14,7 @@ import {
 
 export async function GET(request) {
   if (!isGithubConfigured()) {
-    return Response.json({ ok: false, message: "GitHub OAuth is not configured." }, { status: 500 });
+    return redirectHome(request, "oauth_missing");
   }
 
   const url = new URL(request.url);
@@ -24,7 +24,7 @@ export async function GET(request) {
   const expectedState = cookieStore.get(GITHUB_STATE_COOKIE)?.value;
 
   if (!code || !state || !expectedState || state !== expectedState) {
-    return Response.json({ ok: false, message: "GitHub login state did not match." }, { status: 401 });
+    return redirectHome(request, "state_mismatch");
   }
 
   cookieStore.delete(GITHUB_STATE_COOKIE);
@@ -33,7 +33,7 @@ export async function GET(request) {
     const token = await exchangeCodeForToken(code);
     const user = await fetchGithubUser(token);
     if (!isAllowedGithubUser(user.login)) {
-      return Response.json({ ok: false, message: "This GitHub user is not allowed to edit Eismark." }, { status: 403 });
+      return redirectHome(request, "not_allowed");
     }
     await assertRepoWriteAccess(token, user.login);
     cookieStore.set(
@@ -41,11 +41,15 @@ export async function GET(request) {
       createGithubSession({ token, login: user.login }),
       githubCookieOptions(GITHUB_SESSION_MAX_AGE),
     );
-    return Response.redirect(new URL("/#/home?github=connected", request.url));
+    return redirectHome(request, "connected");
   } catch (error) {
-    return Response.json(
-      { ok: false, message: error.status === 403 ? error.message : "GitHub login failed." },
-      { status: error.status || 500 },
-    );
+    return redirectHome(request, error.status === 403 ? "not_allowed" : "login_failed");
   }
+}
+
+function redirectHome(request, status) {
+  const url = new URL("/", request.url);
+  url.searchParams.set("github", status);
+  url.hash = "/home";
+  return Response.redirect(url, 303);
 }

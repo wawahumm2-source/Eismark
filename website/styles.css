@@ -626,6 +626,26 @@ h1 {
   border-bottom: 1px solid var(--rule);
 }
 
+.system-notice {
+  margin: 0 0 18px;
+  border: 1px solid rgba(49, 83, 65, 0.45);
+  padding: 10px 13px;
+  color: var(--green);
+  background:
+    linear-gradient(90deg, rgba(49, 83, 65, 0.1), transparent),
+    rgba(255, 248, 224, 0.74);
+  font-family: var(--ui-font);
+  line-height: 1.45;
+}
+
+.system-notice.error {
+  border-color: rgba(123, 38, 33, 0.48);
+  color: var(--mahogany);
+  background:
+    linear-gradient(90deg, rgba(123, 38, 33, 0.11), transparent),
+    rgba(255, 248, 224, 0.78);
+}
+
 .wiki-intro h3,
 .wiki-box h3,
 .entry-card h3,

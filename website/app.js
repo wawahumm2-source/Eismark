@@ -596,6 +596,8 @@ function renderHome() {
   const secondary = findEntryByTitle("The Sacrament of Kaltheim") ?? visibleEntries()[1];
 
   els.homePage.innerHTML = `
+    ${githubNoticeHtml()}
+
     <section class="wiki-intro">
       <h3>The Eismark Campaign Setting</h3>
       <p>Eismark is a dieselpunk fantasy world of broken memory, sacred machines, rival republics, ancient wounds, and nations trying to define what humanity owes to the past and to the future.</p>
@@ -633,7 +635,36 @@ function renderHome() {
         <li>GM/Editor mode reveals restricted notes, reports, reference images, and selected spoiler-heavy articles.</li>
       </ul>
     </section>
-  `;
+`;
+}
+
+function githubNoticeHtml() {
+  const status = new URLSearchParams(location.search).get("github");
+  const notices = {
+    connected: {
+      type: "success",
+      message: "GitHub is connected. GM/Editor saves can write back to the repository.",
+    },
+    oauth_missing: {
+      type: "error",
+      message: "GitHub OAuth is not configured on this deployment. Add GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET, GITHUB_OWNER, GITHUB_REPO, GITHUB_BRANCH, GITHUB_ALLOWED_USERS, and AUTH_SECRET in Netlify, then redeploy.",
+    },
+    state_mismatch: {
+      type: "error",
+      message: "GitHub login expired or did not match this browser session. Try connecting again from GM/Editor mode.",
+    },
+    not_allowed: {
+      type: "error",
+      message: "That GitHub account is not allowed to edit this repository.",
+    },
+    login_failed: {
+      type: "error",
+      message: "GitHub login failed. Check the OAuth app callback URL, repository access, and Netlify environment variables.",
+    },
+  };
+  const notice = notices[status];
+  if (!notice) return "";
+  return `<aside class="system-notice ${notice.type}" role="status">${escapeHtml(notice.message)}</aside>`;
 }
 
 function renderSearchResults() {
@@ -805,14 +836,22 @@ function showEntry(entry) {
 
 function renderEditorPanel(entry) {
   const github = state.editorSession;
-  const githubStatus = github?.github
-    ? `GitHub connected as ${github.githubUser}.`
-    : github?.githubRequired
-      ? "GitHub connection required before production saves."
-      : "Local filesystem save mode.";
+  const githubConfigured = Boolean(github?.githubConfigured);
+  let githubStatus = "Local filesystem save mode.";
+  if (github?.github) {
+    githubStatus = `GitHub connected as ${github.githubUser}.`;
+  } else if (!githubConfigured && github?.githubRequired) {
+    githubStatus = "GitHub OAuth is not configured on this deployment. Production saves cannot write back yet.";
+  } else if (!githubConfigured) {
+    githubStatus = "Local filesystem save mode. GitHub OAuth is not configured.";
+  } else if (github?.githubRequired) {
+    githubStatus = "GitHub connection required before production saves.";
+  }
   const connectButton = github?.github
     ? `<button class="button secondary" id="disconnectGithubButton" type="button">Disconnect GitHub</button>`
-    : `<a class="button secondary" id="connectGithubButton" href="/api/github/login">Connect GitHub</a>`;
+    : githubConfigured
+      ? `<a class="button secondary" id="connectGithubButton" href="/api/github/login">Connect GitHub</a>`
+      : `<button class="button secondary" type="button" disabled title="Set GitHub OAuth environment variables in Netlify first.">Connect GitHub</button>`;
 
   return `
     <section class="editor-panel" aria-label="GM/Editor controls">
@@ -1135,6 +1174,10 @@ async function disconnectGithub() {
 
 function handleEditorSaveError(result, fallback) {
   const message = result.message || fallback;
+  if (result.needsGithub && state.editorSession?.githubConfigured === false) {
+    setEditorStatus(`${message} GitHub OAuth is not configured in Netlify yet.`, true);
+    return;
+  }
   setEditorStatus(result.needsGithub ? `${message} Use Connect GitHub first.` : message, true);
 }
 

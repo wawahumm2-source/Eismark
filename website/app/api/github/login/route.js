@@ -10,7 +10,7 @@ import {
 
 export async function GET(request) {
   if (!isGithubConfigured()) {
-    return Response.json({ ok: false, message: "GitHub OAuth is not configured." }, { status: 500 });
+    return redirectHome(request, "oauth_missing");
   }
 
   const config = githubConfig();
@@ -26,4 +26,11 @@ export async function GET(request) {
   });
 
   return Response.redirect(`https://github.com/login/oauth/authorize?${params.toString()}`);
+}
+
+function redirectHome(request, status) {
+  const url = new URL("/", request.url);
+  url.searchParams.set("github", status);
+  url.hash = "/home";
+  return Response.redirect(url, 303);
 }

@@ -63,12 +63,14 @@ Add these Netlify environment variables:
 
 - `GITHUB_CLIENT_ID`
 - `GITHUB_CLIENT_SECRET`
-- `GITHUB_OWNER`
-- `GITHUB_REPO`
-- `GITHUB_BRANCH`
-- `GITHUB_ALLOWED_USERS`
+- `GITHUB_OWNER`: `wawahumm2-source`
+- `GITHUB_REPO`: `Eismark`
+- `GITHUB_BRANCH`: `main`
+- `GITHUB_ALLOWED_USERS`: comma-separated GitHub usernames allowed to edit, for example `wawahumm2-source`
 - `GITHUB_OAUTH_SCOPE` optional, defaults to `repo`
 - `AUTH_SECRET`
+
+If these variables are missing on Netlify, GM/Editor mode can still unlock, but the Connect GitHub control will be disabled and production saves cannot write back to the repository.
 
 Production saves use server-side route handlers and GitHub's REST API. The browser never receives the GitHub client secret or access token.
 
