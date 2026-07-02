@@ -1455,16 +1455,24 @@ Bloodspawn are living things rewritten by exposure to the Blood.
 
 ### MON-002 — Aberrations
 
-Aberrations arise when mortal minds receive dreams, truths, or revelations from the Entity beyond mortal comprehension.
+Aberrations arise when mortal minds, cultures, or entire civilizations receive dreams, truths, revelations, Vein exposure, or contact with realities beyond Creation.
 
 **Lore**
 
 - They are distinct from Bloodspawn.
-- They are intelligent and have reason, ambition, ideology, and goals.
+- They are intelligent and have reason, ambition, ideology, culture, motivation, and goals.
 - Examples include Mind Flayers, Beholders, and Aboleths.
 - They are not servants or extensions of the Entity's will.
+- Most known aberrations are believed to trace their origins to contact with the Entity, its dreams, the Veins, forbidden truths, or realities beyond Creation.
+- Unlike Blood corruption, which twists flesh, the dreams of the Entity twist thought, perception, and understanding.
+- Aberrations retain free will and may pursue goals unrelated to the Entity.
+- Mind Flayers are believed to be an ancient civilization irrevocably changed by exposure to realities beyond Creation.
+- Beholders may be dreams of the Entity made real.
+- Aboleths are among the oldest beings in Creation and may remember things mortals were never meant to know.
+- Star Spawn fit as direct manifestations of Entity influence.
+- Aberration encounters should often be philosophical or psychological challenges as much as combat.
 
-**See Also:** COS-004 — The Entity; CAM-001 — Vein of Eismark Memory Premise
+**See Also:** COS-004 — The Entity; COS-005 — The Blood; MON-007 — Blood and Entity Horror Distinction; CAM-001 — Vein of Eismark Memory Premise
 
 ### MON-003 — Regional Monster Threat Levels
 
@@ -1477,10 +1485,6 @@ Undead are rare, feared, and tied to curses, battlefields, tragedies, and profan
 ### MON-005 — Dragons
 
 Dragons are rare, powerful, and morally individual. Dragonborn origin and dragon theology remain under review, so older claims of direct descent from Hararozther should not be locked.
-
-### MON-006 — Aberrations
-
-Aberrations are beings changed by the Entity's dreams, the Veins, forbidden truths, or realities beyond Creation. They are not servants of the Entity. Mind Flayers are an ancient civilization changed by exposure beyond Creation; Beholders may be dreams of the Entity made real.
 
 ### MON-007 — Blood and Entity Horror Distinction
 

@@ -81,11 +81,10 @@ These entries are both short and missing explicit reference-image coverage.
 | MIL-007 | Automatons | Locked | 68 |
 | MIL-008 | Consecrated | Locked | 60 |
 | MIL-010 | Standard Kaltheim Armor Families | Under Review | 53 |
-| MON-002 | Aberrations | Locked | 54 |
+| MON-002 | Aberrations | Locked | 211 |
 | MON-003 | Regional Monster Threat Levels | Locked | 99 |
 | MON-004 | Undead, Vampires, and Lycanthropy | Locked | 117 |
 | MON-005 | Dragons | Under Review | 129 |
-| MON-006 | Aberrations | Locked | 148 |
 | MON-007 | Blood and Entity Horror Distinction | Locked | 139 |
 | MON-008 | Monstrous Peoples and Orc Raiders | Locked | 120 |
 | MON-010 | The Seas of Eismark | Locked | 70 |
@@ -234,11 +233,10 @@ These entries are both short and missing explicit reference-image coverage.
 
 | ID | Title | Status | Words |
 |---|---|---:|---:|
-| MON-002 | Aberrations | Locked | 54 |
+| MON-002 | Aberrations | Locked | 211 |
 | MON-003 | Regional Monster Threat Levels | Locked | 99 |
 | MON-004 | Undead, Vampires, and Lycanthropy | Locked | 117 |
 | MON-005 | Dragons | Under Review | 129 |
-| MON-006 | Aberrations | Locked | 148 |
 | MON-007 | Blood and Entity Horror Distinction | Locked | 139 |
 | MON-008 | Monstrous Peoples and Orc Raiders | Locked | 120 |
 | MON-010 | The Seas of Eismark | Locked | 70 |
@@ -461,11 +459,10 @@ These entries are both short and missing explicit reference-image coverage.
 | ID | Title | Status | Words |
 |---|---|---:|---:|
 | MON-001 | Bloodspawn | Locked | 276 |
-| MON-002 | Aberrations | Locked | 54 |
+| MON-002 | Aberrations | Locked | 211 |
 | MON-003 | Regional Monster Threat Levels | Locked | 99 |
 | MON-004 | Undead, Vampires, and Lycanthropy | Locked | 117 |
 | MON-005 | Dragons | Under Review | 129 |
-| MON-006 | Aberrations | Locked | 148 |
 | MON-007 | Blood and Entity Horror Distinction | Locked | 139 |
 | MON-008 | Monstrous Peoples and Orc Raiders | Locked | 120 |
 | MON-009 | Iconic Monsters of Eismark | Locked | 153 |

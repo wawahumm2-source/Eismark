@@ -31,7 +31,6 @@ const state = {
 };
 
 const els = {
-  modeLabel: document.querySelector("#modeLabel"),
   gmDialog: document.querySelector("#gmDialog"),
   gmPassword: document.querySelector("#gmPassword"),
   gmError: document.querySelector("#gmError"),
@@ -285,7 +284,8 @@ function bindEvents() {
   });
 
   document.addEventListener("keydown", (event) => {
-    if (!event.altKey || event.key.toLowerCase() !== "g") return;
+    const fnPressed = event.getModifierState?.("Fn") || event.getModifierState?.("FnLock");
+    if (!fnPressed || event.key.toLowerCase() !== "g") return;
     event.preventDefault();
     toggleGmEditorMode();
   });
@@ -378,7 +378,6 @@ function currentEntryFromRoute() {
 }
 
 function render() {
-  els.modeLabel.textContent = state.gmUnlocked ? "GM/Editor Mode" : "Player View";
   renderVisitButtons();
   renderSavedPages();
   renderChapterList();

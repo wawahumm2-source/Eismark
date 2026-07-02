@@ -162,7 +162,7 @@ Source: `Eismark_Additional_Interesting_Ideas_Second_Pass_v0.1.md`
 | SECOND-022 - Kaltheim vs Voss Military Doctrine | Already Canon | MIL-001, MIL-003, NAT-001, NAT-003 | The contrast is already represented, though may support readable-guide prose. |
 | SECOND-023 - Confederation of Ostmark | Should be Promoted | NAT-006, GEO-010, HIS-020 | Strong expansion candidate for Ostmark's neutral commercial defense identity. |
 | SECOND-024 - The Communion | Needs Revision | COS-006, HIS-009, CAM-002 | Strong but may overstate Communion functions such as knowledge monitoring and memory suppression. |
-| SECOND-025 - Aberrations | Already Canon | MON-002, MON-006, MON-007, COS-004 | Aberration/Bloodspawn distinction is canon. |
+| SECOND-025 - Aberrations | Already Canon | MON-002, MON-007, COS-004 | Aberration/Bloodspawn distinction is canon. |
 | SECOND-026 - The Blood | Already Canon | COS-005, MON-001, IMG-001 | Blood aesthetics and transformation language are already canon. |
 | SECOND-027 - PC premise / The Remembered | Needs Revision | CAM-001, CAM-002 | Strong premise material; "Remembered" status should not override current amnesia premise without approval. |
 | SECOND-028 - Soul and Afterlife | Needs Revision | CAP-016, REL-002, COS-006 | Important cosmology proposal; must be reconciled with existing afterlife audit. |

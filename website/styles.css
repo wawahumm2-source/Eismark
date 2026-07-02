@@ -147,7 +147,6 @@ select:focus-visible {
 
 .history-nav,
 .arrow-nav,
-.mode-panel,
 .dialog-actions {
   display: flex;
   gap: 7px;
@@ -290,34 +289,6 @@ h1 {
   font-family: var(--title-font);
   font-size: clamp(2.8rem, 6vw, 5rem);
   line-height: 0.95;
-  font-variant: small-caps;
-}
-
-.mode-panel {
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.mode-label {
-  border: 1px solid rgba(255, 242, 207, 0.52);
-  padding: 7px 10px;
-  color: #ffe7af;
-  background:
-    linear-gradient(180deg, rgba(255, 244, 214, 0.08), rgba(0, 0, 0, 0.16)),
-    rgba(0, 0, 0, 0.22);
-  font-family: var(--ui-font);
-  font-size: 0.82rem;
-  font-variant: small-caps;
-}
-
-.mode-shortcut {
-  border: 1px solid rgba(221, 189, 112, 0.42);
-  padding: 6px 8px;
-  color: #d9bd82;
-  background: rgba(0, 0, 0, 0.16);
-  font-family: var(--ui-font);
-  font-size: 0.78rem;
   font-variant: small-caps;
 }
 
@@ -1290,10 +1261,6 @@ h1 {
   .toolbar {
     align-items: flex-start;
     flex-direction: column;
-  }
-
-  .mode-panel {
-    justify-content: flex-start;
   }
 
   .top-search {

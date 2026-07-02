@@ -2671,18 +2671,26 @@ Source: SRC-008, SRC-019, SRC-061, SRC-062, SRC-066
 
 Canon Status: Locked
 
-Summary: Aberrations arise when mortal minds receive dreams, truths, or revelations from the Entity beyond mortal comprehension.
+Summary: Aberrations are beings changed when mortal minds or civilizations receive dreams, truths, revelations, Vein exposure, or contact with realities beyond Creation.
 
 Canon Facts:
 
 - They are distinct from Bloodspawn.
-- They are intelligent and have reason, ambition, ideology, and goals.
+- They are intelligent and have reason, ambition, ideology, culture, motivation, and goals.
 - Examples include Mind Flayers, Beholders, and Aboleths.
 - They are not servants or extensions of the Entity's will.
+- Most known aberrations are believed to trace their origins to contact with the Entity, its dreams, the Veins, forbidden truths, or realities beyond Creation.
+- Unlike Blood corruption, which twists flesh, the dreams of the Entity twist thought, perception, and understanding.
+- Aberrations retain free will and may pursue goals unrelated to the Entity.
+- Mind Flayers are believed to be an ancient civilization irrevocably changed by exposure to realities beyond Creation.
+- Beholders may be dreams of the Entity made real.
+- Aboleths are among the oldest beings in Creation and may remember things mortals were never meant to know.
+- Star Spawn fit as direct manifestations of Entity influence.
+- Aberration encounters should often be philosophical or psychological challenges as much as combat.
 
-Related Entries: COS-004 — The Entity [Under Review]; CAM-001 — Vein of Eismark Memory Premise [Locked]
+Related Entries: COS-004 — The Entity [Under Review]; COS-005 — The Blood [Locked]; MON-007 — Blood and Entity Horror Distinction [Locked]; CAM-001 — Vein of Eismark Memory Premise [Locked]
 
-Source: SRC-008
+Source: SRC-008, SRC-058
 
 ### MON-003 - Regional Monster Threat Levels
 
@@ -2744,28 +2752,6 @@ Related Entries: SPE-004 — Dragonborn [Locked]; GEO-014 — The Iron Coast and
 
 Source: SRC-058, SRC-059
 
-### MON-006 - Aberrations
-
-Canon Status: Locked
-
-Summary: Aberrations are beings changed by contact with the Entity's dreams, the Veins, forbidden truths, or realities beyond Creation.
-
-Canon Facts:
-
-- Aberrations are not servants or extensions of the Entity's will.
-- Most known aberrations are believed to trace their origins to contact with the Entity, its dreams, the Veins, forbidden truths, or realities beyond Creation.
-- Unlike Blood corruption, which twists flesh, the dreams of the Entity twist thought, perception, and understanding.
-- Aberrations retain free will, goals, cultures, and motivations.
-- Mind Flayers are believed to be an ancient civilization irrevocably changed by exposure to realities beyond Creation.
-- Beholders may be dreams of the Entity made real.
-- Aboleths are among the oldest beings in Creation and may remember things mortals were never meant to know.
-- Star Spawn fit as direct manifestations of Entity influence.
-- Aberration encounters should often be philosophical or psychological challenges as much as combat.
-
-Related Entries: COS-004 — The Entity [Under Review]; MON-002 — Aberrations [Locked]; CAM-001 — Vein of Eismark Memory Premise [Locked]
-
-Source: SRC-058
-
 ### MON-007 - Blood and Entity Horror Distinction
 
 Canon Status: Locked
@@ -2785,7 +2771,7 @@ Canon Facts:
 - Traditional cosmological demons and devils do not exist as literal infernal outsiders in Eismark.
 - 5e demons or devils may be reinterpreted as Bloodspawn, nightmares, ancient horrors, aberrations, or other non-infernal threats.
 
-Related Entries: COS-004 — The Entity [Under Review]; COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]; MON-006 — Aberrations [Locked]
+Related Entries: COS-004 — The Entity [Under Review]; COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]; MON-002 — Aberrations [Locked]
 
 Source: SRC-058
 

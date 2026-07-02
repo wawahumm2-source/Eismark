@@ -177,7 +177,6 @@ Canon Status Values:
 - MON-003 — Regional Monster Threat Levels [Locked]
 - MON-004 — Undead, Vampires, and Lycanthropy [Locked]
 - MON-005 — Dragons [Under Review]
-- MON-006 — Aberrations [Locked]
 - MON-007 — Blood and Entity Horror Distinction [Locked]
 - MON-008 — Monstrous Peoples and Orc Raiders [Locked]
 - MON-009 — Iconic Monsters of Eismark [Locked]

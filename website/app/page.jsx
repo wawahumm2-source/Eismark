@@ -18,10 +18,6 @@ export default function Page() {
           <button className="button search-button" type="submit">Search</button>
           <div id="searchSuggestions" className="search-suggestions hidden"></div>
         </form>
-        <div className="mode-panel">
-          <span id="modeLabel" className="mode-label">Player View</span>
-          <span className="mode-shortcut">Alt+G</span>
-        </div>
       </header>
 
       <main className="wiki-shell">
