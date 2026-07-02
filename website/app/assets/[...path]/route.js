@@ -10,13 +10,27 @@ const CONTENT_TYPES = {
 };
 
 export async function GET(_request, { params }) {
-  const assetsRoot = path.join(process.cwd(), "assets");
-  const assetPath = path.resolve(assetsRoot, ...(params.path ?? []));
-  if (!assetPath.startsWith(assetsRoot)) {
+  const routeParams = await params;
+  const requestedPath = routeParams?.path ?? [];
+  const assetsRoot = path.resolve(process.cwd(), "assets");
+  const assetPath = path.resolve(assetsRoot, ...requestedPath);
+  const relativePath = path.relative(assetsRoot, assetPath);
+
+  if (!requestedPath.length) {
     return new Response("Not found", { status: 404 });
   }
 
-  const body = await readFile(assetPath);
+  if (relativePath.startsWith("..") || path.isAbsolute(relativePath)) {
+    return new Response("Not found", { status: 404 });
+  }
+
+  let body;
+  try {
+    body = await readFile(assetPath);
+  } catch {
+    return new Response("Not found", { status: 404 });
+  }
+
   const ext = path.extname(assetPath).toLowerCase();
   return new Response(body, {
     headers: {
