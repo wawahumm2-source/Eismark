@@ -46,6 +46,7 @@ export function isGmRequest(cookies) {
 
   const payload = `${role}.${expiresAt}`;
   const expected = sign(payload);
+  if (signature.length !== expected.length) return false;
   return crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected));
 }
 

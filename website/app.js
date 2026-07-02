@@ -157,6 +157,10 @@ function friendlySection(section) {
   return FRIENDLY_SECTIONS[section] ?? section;
 }
 
+function chapterSlug(section) {
+  return slugify(friendlySection(section));
+}
+
 function isGmSection(section) {
   return state.manifest?.gmLockedSections?.includes(section) ?? false;
 }
@@ -351,7 +355,7 @@ function applyRoute() {
   }
 
   if (routeType === "chapter" && routeValue) {
-    const section = sections.find((item) => slugify(item) === routeValue);
+    const section = sections.find((item) => slugify(item) === routeValue || chapterSlug(item) === routeValue);
     if (section) {
       state.activeSection = section;
       return;
@@ -470,7 +474,7 @@ function renderChapterList() {
   for (const section of sections) {
     const link = document.createElement("a");
     link.className = `nav-button ${section === state.activeSection && !currentEntryFromRoute() ? "active" : ""}`;
-    link.href = `#/chapter/${slugify(section)}`;
+    link.href = `#/chapter/${chapterSlug(section)}`;
     link.textContent = friendlySection(section);
     els.chapterList.appendChild(link);
   }
@@ -490,7 +494,7 @@ function renderHome() {
     .map((section) => {
       const entries = visibleEntries().filter((entry) => entry.section === section);
       return `
-        <a class="portal-card" href="#/chapter/${slugify(section)}">
+        <a class="portal-card" href="#/chapter/${chapterSlug(section)}">
           <h3>${escapeHtml(friendlySection(section))}</h3>
           <p>${entries.length} entries</p>
         </a>
