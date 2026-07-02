@@ -591,6 +591,16 @@ function showEntry(entry) {
   els.activeDoc.textContent = entry.gmOnly ? "GM Notes" : "Handbook";
   els.activeTitle.textContent = entry.title;
   els.resultCount.textContent = friendlySection(entry.section);
+  const readerBody = cleanReaderBody(entry.body);
+  const keyPoints = extractKeyPoints(readerBody);
+  const keyPointsHtml = keyPoints.length
+    ? `
+      <aside class="key-points-panel" aria-label="Key points">
+        <h3>Key Points</h3>
+        <ul>${keyPoints.map((point) => `<li>${inlineMarkdown(point)}</li>`).join("")}</ul>
+      </aside>
+    `
+    : "";
   els.entryDetail.innerHTML = `
     <nav class="article-nav" aria-label="Article navigation">
       <a class="back-button" href="#/chapter/${slugify(entry.section)}">Back to ${escapeHtml(friendlySection(entry.section))}</a>
@@ -612,7 +622,13 @@ function showEntry(entry) {
       </figure>
     </header>
 
-    <div class="entry-columns">${markdownToHtml(cleanReaderBody(entry.body))}</div>
+    <div class="entry-body-layout ${keyPoints.length ? "has-key-points" : ""}">
+      <section class="lore-panel">
+        <h3>Lore</h3>
+        <div class="entry-columns">${markdownToHtml(readerBody)}</div>
+      </section>
+      ${keyPointsHtml}
+    </div>
   `;
   document.querySelector("#savePageButton").addEventListener("click", () => {
     toggleSavedPage(entry.slug);
@@ -626,11 +642,33 @@ function cleanReaderBody(markdown) {
     .split(/\n/)
     .filter((line) => !/^\s*(Canon Status|Source|Record Note|Image Role|Image File):/i.test(line))
     .filter((line) => !/^\s*\*\*Status:\*\*/i.test(line))
+    .filter((line) => !/^\s*\*\*Lore\*\*/i.test(line))
     .filter((line) => !/^\s*\*\*See Also:\*\*/i.test(line))
     .filter((line) => !/^\s*Related Entries:/i.test(line))
     .join("\n")
     .replace(/\b[A-Z]{2,5}-\d+\s+[—-]\s+/g, "")
     .trim();
+}
+
+function extractKeyPoints(markdown) {
+  const bullets = markdown
+    .split(/\n/)
+    .map((line) => line.trim())
+    .filter((line) => line.startsWith("- "))
+    .map((line) => line.slice(2).trim())
+    .filter((line) => line && line.length <= 180)
+    .slice(0, 6);
+
+  if (bullets.length) return bullets;
+
+  return markdown
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#") && !line.endsWith(":") && !line.startsWith("!"))
+    .flatMap((line) => line.split(/(?<=[.!?])\s+/))
+    .map((line) => line.trim())
+    .filter((line) => line.length >= 28 && line.length <= 180)
+    .slice(0, 4);
 }
 
 function markdownToHtml(markdown) {

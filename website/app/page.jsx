@@ -1,4 +1,4 @@
-import Script from "next/script";
+import AppScript from "./AppScript.jsx";
 
 export const metadata = {
   title: "Eismark World Handbook",
@@ -67,7 +67,7 @@ export default function Page() {
         </form>
       </dialog>
 
-      <Script src="/app.js" type="module" strategy="afterInteractive" />
+      <AppScript />
     </>
   );
 }

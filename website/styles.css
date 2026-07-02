@@ -46,7 +46,7 @@ body {
     repeating-linear-gradient(90deg, rgba(80, 48, 26, 0.024) 0 1px, transparent 1px 7px),
     #cdb37b;
   font-family: var(--body-font);
-  font-size: 18px;
+  font-size: 18.5px;
 }
 
 body::before {
@@ -472,7 +472,7 @@ h1 {
 .content-area {
   position: relative;
   min-width: 0;
-  max-width: 1320px;
+  max-width: 1420px;
   margin-top: 20px;
   border: 1px solid var(--rule);
   padding: clamp(22px, 3vw, 44px);
@@ -708,7 +708,7 @@ h1 {
 }
 
 .entry-detail {
-  max-width: 1160px;
+  max-width: 1260px;
 }
 
 .entry-detail h2 {
@@ -738,19 +738,19 @@ h1 {
 .entry-detail p,
 .entry-detail li,
 .wiki-box li {
-  line-height: 1.66;
+  line-height: 1.74;
 }
 
 .entry-detail p {
-  margin: 0 0 0.9rem;
+  margin: 0 0 1rem;
 }
 
 .entry-columns > p:first-of-type::first-letter {
   float: left;
-  margin: 0.07em 0.08em 0 0;
+  margin: 0.06em 0.1em 0 0;
   color: var(--mahogany);
   font-family: var(--title-font);
-  font-size: 4.15rem;
+  font-size: 4.5rem;
   font-weight: 700;
   line-height: 0.78;
   text-shadow: 1px 1px 0 rgba(255, 241, 198, 0.8);
@@ -856,10 +856,8 @@ h1 {
 }
 
 .entry-columns {
-  column-count: 2;
-  column-gap: 34px;
-  column-rule: 1px solid rgba(140, 103, 56, 0.3);
-  max-width: 98ch;
+  column-count: 1;
+  max-width: 68ch;
 }
 
 .entry-columns figure,
@@ -917,10 +915,10 @@ h1 {
 .article-header {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
-  gap: 24px;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
+  gap: clamp(22px, 3.4vw, 46px);
   align-items: start;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 18px;
 }
@@ -928,31 +926,31 @@ h1 {
 .image-slot {
   position: relative;
   margin: 0;
-  border: 1px solid #402719;
-  padding: 9px;
+  border: 1px solid rgba(124, 91, 50, 0.75);
+  padding: 10px;
   background:
-    linear-gradient(135deg, rgba(255, 238, 182, 0.18), transparent 30%),
-    linear-gradient(180deg, #6a4928, #27160e);
-  box-shadow: 0 9px 22px rgba(50, 30, 16, 0.2);
+    radial-gradient(circle at 50% 30%, rgba(255, 247, 219, 0.78), transparent 64%),
+    linear-gradient(180deg, #efe0b9, #d6bb82);
+  box-shadow: 0 8px 18px rgba(50, 30, 16, 0.12);
 }
 
 .image-slot::before {
   position: absolute;
   inset: 4px;
   pointer-events: none;
-  border: 1px solid rgba(221, 189, 112, 0.7);
+  border: 1px solid rgba(124, 91, 50, 0.42);
   content: "";
 }
 
 .image-slot div {
   display: grid;
   place-items: center;
-  min-height: 176px;
-  border: 1px solid rgba(221, 189, 112, 0.55);
-  color: #ead8aa;
+  min-height: 172px;
+  border: 1px solid rgba(124, 91, 50, 0.48);
+  color: rgba(80, 58, 39, 0.7);
   background:
-    radial-gradient(circle at 50% 24%, rgba(255, 236, 180, 0.13), transparent 46%),
-    linear-gradient(180deg, #2b1a12, #130c08);
+    radial-gradient(circle at 50% 42%, rgba(255, 246, 219, 0.64), transparent 58%),
+    linear-gradient(180deg, #ead6aa, #d9bd82);
   font-family: var(--title-font);
   font-variant: small-caps;
   letter-spacing: 0.06em;
@@ -961,11 +959,45 @@ h1 {
 
 .image-slot figcaption {
   margin-top: 8px;
-  color: #f3ddb0;
+  color: var(--ink-soft);
   font-family: var(--ui-font);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-style: italic;
   text-align: center;
+}
+
+.entry-body-layout {
+  display: grid;
+  gap: clamp(22px, 4vw, 44px);
+}
+
+.entry-body-layout.has-key-points {
+  grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+}
+
+.lore-panel,
+.key-points-panel {
+  min-width: 0;
+}
+
+.lore-panel > h3,
+.key-points-panel > h3 {
+  margin-top: 0;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(140, 103, 56, 0.44);
+}
+
+.key-points-panel {
+  border-left: 1px solid rgba(140, 103, 56, 0.38);
+  padding-left: clamp(18px, 3vw, 34px);
+}
+
+.key-points-panel ul {
+  margin-top: 1rem;
+}
+
+.key-points-panel li {
+  margin-bottom: 0.72rem;
 }
 
 .gm-dialog {
@@ -1061,8 +1093,16 @@ h1 {
 
   .home-grid,
   .article-nav,
-  .article-header {
+  .article-header,
+  .entry-body-layout.has-key-points {
     grid-template-columns: 1fr;
+  }
+
+  .key-points-panel {
+    border-left: 0;
+    border-top: 1px solid rgba(140, 103, 56, 0.38);
+    padding-left: 0;
+    padding-top: 1rem;
   }
 
   .content-area {
