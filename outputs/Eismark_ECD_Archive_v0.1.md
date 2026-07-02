@@ -3749,7 +3749,7 @@ Source: SRC-024
 
 Canon Status: Locked
 Image Role: Canon Visual Reference
-Image File: `C:\Users\wawah\Downloads\the blood.png`
+Image File: `/assets/the-blood.png`
 
 Summary: Visual reference sheet for the Blood, including its impossible hues, corruptive behavior, stages of infection, and environmental effects when land is touched by Blood.
 
@@ -3810,7 +3810,7 @@ Source: SRC-019, SRC-025
 
 Canon Status: Locked
 Image Role: Canon Character Visual Reference
-Image File: `C:\Users\wawah\Downloads\312b6854-410d-4a12-97ac-dc824cc1759f.png`
+Image File: `/assets/brother-remembrance-monastery.png`
 
 Summary: Canon visual reference for Brother Remembrance after laying down his weapons and taking up monastic life within the Monastery of Saint Uriel.
 
@@ -3868,7 +3868,7 @@ Source: SRC-026
 
 Canon Status: Locked
 Image Role: Canon Historical Character Visual Reference
-Image File: `C:\Users\wawah\Downloads\8acd5882-d722-4102-9f90-f70364b990d6.png`
+Image File: `/assets/remembrance-unyielding-war.png`
 
 Summary: Canon visual reference for Brother Remembrance's former battlefield identity as Remembrance, the Unyielding, before he laid down his weapons.
 
@@ -3922,7 +3922,7 @@ Source: SRC-027
 
 Canon Status: Under Review
 Image Role: Tentative Cartographic Reference
-Image File: `C:\Users\wawah\Downloads\Eismark.png`
+Image File: `/assets/eismark-map.png`
 
 Summary: Tentative world map reference for Eismark in the Third Age, showing the continent, its major nations, seas, borders, roads, rail lines, ports, mountains, forests, and notable settlements.
 
@@ -3985,7 +3985,7 @@ Source: SRC-018, SRC-029
 
 Canon Status: Locked
 Image Role: Canon Character / Joivian Visual Reference
-Image File: `C:\Users\wawah\Downloads\cb1f182c-db85-488f-8288-b2a406e5443f.png`
+Image File: `/assets/uriel-joivian-form.png`
 
 Summary: Canon visual reference for Uriel in Joivian form, also known in later memory as The Abandoned One.
 

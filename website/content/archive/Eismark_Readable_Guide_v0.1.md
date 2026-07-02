@@ -2228,7 +2228,7 @@ Image entries are visual references for the setting. They do not replace the ECD
 
 ### IMG-001 — The Blood Visual Reference
 
-![The Blood](C:/Users/wawah/Downloads/the blood.png)
+![The Blood](/assets/the-blood.png)
 
 This image is the canon visual reference for the Blood. It establishes the Blood as something more terrible than poison, disease, or ordinary magic: a reality-defying corruption that stains bodies, souls, memory, and land.
 
@@ -2275,7 +2275,7 @@ The image supports `COS-005 — The Blood`, `MON-001 — Bloodspawn`, and `GEO-0
 
 ### IMG-002 — Brother Remembrance Monastic Visual Reference
 
-![Brother Remembrance in the Monastery of Saint Uriel](C:/Users/wawah/Downloads/312b6854-410d-4a12-97ac-dc824cc1759f.png)
+![Brother Remembrance in the Monastery of Saint Uriel](/assets/brother-remembrance-monastery.png)
 
 This is the primary canon visual reference for Brother Remembrance in the current campaign era. It shows him after he has laid down his weapons and taken up life as a monk, historian, theologian, counselor, and keeper of ancient records.
 
@@ -2319,7 +2319,7 @@ This image should be prioritized over war-era imagery when depicting Brother Rem
 
 ### IMG-003 — Remembrance the Unyielding War-Era Visual Reference
 
-![Remembrance the Unyielding at war](C:/Users/wawah/Downloads/8acd5882-d722-4102-9f90-f70364b990d6.png)
+![Remembrance the Unyielding at war](/assets/remembrance-unyielding-war.png)
 
 This is the canon visual reference for Brother Remembrance's former battlefield identity: Remembrance, the Unyielding. It shows who he was before he laid down his weapons and became a monastic witness to history.
 
@@ -2361,7 +2361,7 @@ This image should be paired with `IMG-002` to show Brother Remembrance's arc fro
 
 ### IMG-004 — Tentative World Map of Eismark
 
-![Tentative World Map of Eismark](C:/Users/wawah/Downloads/Eismark.png)
+![Tentative World Map of Eismark](/assets/eismark-map.png)
 
 This image is the current tentative world map for Eismark in the Third Age. It is the working cartographic reference for the continent, but it is not yet the final locked map.
 
@@ -2412,7 +2412,7 @@ This map is tentative. It should be used as the current working visual reference
 
 ### IMG-005 — Uriel Joivian Form Visual Reference
 
-![Uriel Joivian Form](C:/Users/wawah/Downloads/cb1f182c-db85-488f-8288-b2a406e5443f.png)
+![Uriel Joivian Form](/assets/uriel-joivian-form.png)
 
 Canon visual reference for Uriel in Joivian form, also known in later memory as The Abandoned One. The image depicts Uriel, Angel of Memory, as a sacred, balanced, monumental survivor of the final years of the Lingering War.
 

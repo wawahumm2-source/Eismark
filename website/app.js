@@ -735,9 +735,18 @@ function markdownToHtml(markdown) {
 }
 
 function resolveAssetPath(src) {
-  if (src.includes("cb1f182c-db85-488f-8288-b2a406e5443f.png")) {
-    return "assets/uriel-joivian-form.png";
+  const assetMap = {
+    "the blood.png": "assets/the-blood.png",
+    "312b6854-410d-4a12-97ac-dc824cc1759f.png": "assets/brother-remembrance-monastery.png",
+    "8acd5882-d722-4102-9f90-f70364b990d6.png": "assets/remembrance-unyielding-war.png",
+    "Eismark.png": "assets/eismark-map.png",
+    "cb1f182c-db85-488f-8288-b2a406e5443f.png": "assets/uriel-joivian-form.png",
+  };
+
+  for (const [legacyName, assetPath] of Object.entries(assetMap)) {
+    if (src.includes(legacyName)) return assetPath;
   }
+
   return src;
 }
 
