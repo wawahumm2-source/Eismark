@@ -116,7 +116,7 @@ The First Ones create the mortal peoples that will inherit Creation. Different p
 
 This entry resolves the earlier `HIS-TBD` placeholder. Mortal creation is now locked as `HIS-005`, while the beginning of the First Age is now `HIS-006`.
 
-**See Also:** SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn and Dragons; SPE-005 — Giants; SPE-006 — Dwarves and Goblins; SPE-007 — Gnomes; SPE-008 — Halflings; CAP-001 — HIS-005 Numbering
+**See Also:** SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn and Dragons; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins; CAP-001 — HIS-005 Numbering
 
 ### HIS-006 — The First Age Begins
 
@@ -575,7 +575,7 @@ The First Ones are venerated as divine beings associated with domains and specie
 - Moira: fate, destiny, prophecy, fortune, choice.
 - Elyria: love, family, community, joy, home.
 
-**See Also:** COS-002 — The First Ones; SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn and Dragons; SPE-005 — Giants; SPE-006 — Dwarves and Goblins; SPE-007 — Gnomes; SPE-008 — Halflings
+**See Also:** COS-002 — The First Ones; SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn and Dragons; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins
 
 ### REL-002 — The Iron Church
 
@@ -825,11 +825,17 @@ Dragonborn value honor, family, legacy, personal excellence, and ancestral memor
 
 Giants are created by Asterion.
 
-### SPE-006 — Dwarves and Goblins
+### SPE-006 — Dwarves
 
 Dwarves were the original inhabitants of the northern mountains. During the Great Pilgrimage, humans arrived as refugees, Dwarves opened the mountains, and together they built the Sacrament. Dwarven smiths are among Eismark's finest craftsmen, and Dwarven engineers played a foundational role in Kaltheim's firearms, artillery, and industrial technologies.
 
-Dwarves inherit Khorun's endurance. Goblins vary widely, from criminal underworlds and laboring communities to rare brilliant engineers, scholars, lawyers, artificers, and entrepreneurs.
+Dwarves inherit Khorun's endurance.
+
+### SPE-009 — Goblins
+
+Goblins occupy a varied and often difficult place across Eismark. They may live as tribal peoples, bandits, laborers, criminals, organized crime members, or integrated citizens.
+
+Many Goblins face low formal education, poverty, social stigma, and exclusion from respectable institutions, but they are not inherently evil, comic relief, or disposable enemies. Exceptionally intelligent Goblins may become engineers, lawyers, scholars, artificers, wizards, entrepreneurs, fixers, or political organizers.
 
 ### SPE-007 — Gnomes
 
@@ -1126,7 +1132,7 @@ Vardheim is the world; Eismark is the known civilized world and the campaign's p
 
 This keeps the setting focused while leaving room for future expansion. There are maps beyond Eismark, sailors who return from distant shores, and explorers with strange stories, but history, politics, industry, religion, and civilization are centered on Eismark for the current campaign.
 
-Exact regional placement remains subject to the map audit. Regions such as the Iron Coast, Ashlands, Sylvan Veil, and Gn'ure are canon, but final borders and neighboring relationships should be treated as provisional where audit notes remain open. Older recovered labels such as "The Waking Republic" are superseded by The Commonwealth of Veloria.
+Exact regional placement remains subject to the map audit. Regions such as the Iron Coast, Ashlands, Sylvan Veil, and Gn'ure are canon, but final borders and neighboring relationships should be treated as provisional where audit notes remain open. Older recovered names for Veloria are superseded by The Commonwealth of Veloria.
 
 ### GEO-002 — The Iron Mountains
 

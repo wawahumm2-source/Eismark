@@ -14,6 +14,7 @@
     "The Abandoned One",
     "The Bar"
   ],
+  "entryVisibility": {},
   "documents": [
     {
       "id": "handbook",
@@ -21,6 +22,48 @@
       "file": "archive/Eismark_Readable_Guide_v0.1.md",
       "audience": "player",
       "description": "Player-facing world lore, organized as a campaign handbook."
+    },
+    {
+      "id": "ecd-archive",
+      "title": "ECD Archive",
+      "file": "archive/Eismark_ECD_Archive_v0.1.md",
+      "audience": "gm",
+      "description": "Current Eismark canon source of truth."
+    },
+    {
+      "id": "ecd-master-index",
+      "title": "ECD Master Index",
+      "file": "archive/ECD_Master_Index_v0.1.md",
+      "audience": "gm",
+      "description": "Source map for canon entries, development records, audits, and archive files."
+    },
+    {
+      "id": "source-hierarchy",
+      "title": "Source Hierarchy and Canonization Workflow",
+      "file": "archive/ECD_Source_Hierarchy_and_Canonization_Workflow_v0.1.md",
+      "audience": "gm",
+      "description": "Project reference for canon authority, backlog handling, and promotion review categories."
+    },
+    {
+      "id": "new-canonization-ideas",
+      "title": "New Canonization Ideas Backlog",
+      "file": "archive/Eismark_New_Canonization_Ideas_From_Chat_Export_v0.1.md",
+      "audience": "gm",
+      "description": "Non-canon intake backlog of recovered chat ideas."
+    },
+    {
+      "id": "additional-interesting-ideas-second-pass",
+      "title": "Additional Interesting Ideas Second Pass",
+      "file": "archive/Eismark_Additional_Interesting_Ideas_Second_Pass_v0.1.md",
+      "audience": "gm",
+      "description": "Non-canon second-pass idea-mining backlog from recovered chat material."
+    },
+    {
+      "id": "new-canonization-triage",
+      "title": "New Canonization Ideas Triage",
+      "file": "archive/Eismark_New_Canonization_Ideas_Triage_v0.1.md",
+      "audience": "gm",
+      "description": "Non-canon review categories for recovered chat ideas."
     }
   ]
 }

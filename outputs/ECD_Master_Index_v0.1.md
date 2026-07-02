@@ -17,6 +17,10 @@ Canon Status Values:
 - `Eismark_Audit_Register_v0.3.md`
 - `Eismark_Readable_Guide_v0.1.md`
 - `ECD_Protocol_Addendum_v0.2.md`
+- `ECD_Source_Hierarchy_and_Canonization_Workflow_v0.1.md` [Project Reference]
+- `Eismark_New_Canonization_Ideas_From_Chat_Export_v0.1.md` [Development Backlog; Non-Canon]
+- `Eismark_Additional_Interesting_Ideas_Second_Pass_v0.1.md` [Development Backlog; Non-Canon]
+- `Eismark_New_Canonization_Ideas_Triage_v0.1.md` [Development Review; Non-Canon]
 
 ## History
 
@@ -82,9 +86,10 @@ Canon Status Values:
 - SPE-003 — Elves [Locked]
 - SPE-004 — Dragonborn and Dragons [Locked]
 - SPE-005 — Giants [Locked]
-- SPE-006 — Dwarves and Goblins [Locked]
+- SPE-006 — Dwarves [Locked]
 - SPE-007 — Gnomes [Locked]
 - SPE-008 — Halflings [Locked]
+- SPE-009 — Goblins [Locked]
 
 ## Nations
 
@@ -241,6 +246,9 @@ Canon Status Values:
 - DEV-002 — Exalted Engine Visual Redesign [DEV]
 - DEV-003 — Kaltheim Equipment Overhaul [DEV]
 - DEV-004 — The Bar's Final Gathering [DEV]
+- DEV-005 — New Canonization Ideas Backlog [DEV]
+- DEV-006 — New Canonization Ideas Triage [DEV]
+- DEV-007 — Additional Interesting Ideas Second Pass [DEV]
 
 ## Canon Evolutions
 

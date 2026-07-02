@@ -20,7 +20,7 @@ export default function Page() {
         </form>
         <div className="mode-panel">
           <span id="modeLabel" className="mode-label">Player View</span>
-          <button id="gmButton" className="button secondary" type="button">Unlock GM</button>
+          <span className="mode-shortcut">Alt+G</span>
         </div>
       </header>
 
@@ -55,8 +55,8 @@ export default function Page() {
 
       <dialog id="gmDialog" className="gm-dialog">
         <form method="dialog" id="gmForm">
-          <h2>GM Unlock</h2>
-          <p>Sign in to reveal GM notes, recovered reports, reference images, and campaign-only material.</p>
+          <h2>GM/Editor Unlock</h2>
+          <p>Sign in to GM/Editor mode to reveal restricted material and edit local handbook files.</p>
           <label htmlFor="gmPassword">Password</label>
           <input id="gmPassword" type="password" autoComplete="current-password" />
           <p id="gmError" className="gm-error"></p>

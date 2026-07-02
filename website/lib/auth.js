@@ -17,7 +17,7 @@ function hashPassword(value) {
 
 function expectedPasswordHash() {
   if (process.env.GM_PASSWORD_HASH) return process.env.GM_PASSWORD_HASH;
-  return hashPassword(process.env.GM_PASSWORD || "eismark-gm");
+  return hashPassword(process.env.GM_PASSWORD || "5446");
 }
 
 export function verifyPassword(password) {

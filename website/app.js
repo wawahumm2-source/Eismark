@@ -2,6 +2,7 @@ const SAVED_PAGES_KEY = "eismark-saved-pages";
 const VISIT_HISTORY_KEY = "eismark-visit-history";
 const SAVED_LIST_LIMIT = 5;
 const SEARCH_SUGGESTION_LIMIT = 7;
+const EDITOR_MODES = new Set(["public", "draft", "hidden"]);
 
 const FRIENDLY_SECTIONS = {
   "Peoples and Species": "Peoples",
@@ -25,11 +26,11 @@ const state = {
   visitIndex: 0,
   suppressHistoryRecord: false,
   gmUnlocked: false,
+  editorBusy: false,
 };
 
 const els = {
   modeLabel: document.querySelector("#modeLabel"),
-  gmButton: document.querySelector("#gmButton"),
   gmDialog: document.querySelector("#gmDialog"),
   gmPassword: document.querySelector("#gmPassword"),
   gmError: document.querySelector("#gmError"),
@@ -111,13 +112,26 @@ function parseEntries(markdown) {
 function finalizeEntry(entry) {
   const body = entry.body.join("\n").trim();
   const slug = slugify(`${entry.sectionTitle}-${entry.title}`);
+  const visibility = entryVisibility(entry.id, slug);
   return {
     ...entry,
     body,
     slug,
+    visibility,
+    hiddenFromPlayers: visibility === "hidden" || visibility === "draft",
+    image: firstMarkdownImage(body),
     excerpt: makeExcerpt(cleanReaderBody(body)),
     bodyText: cleanReaderBody(body).toLowerCase(),
     searchText: `${entry.title}\n${entry.sectionTitle}\n${cleanReaderBody(body)}`.toLowerCase(),
+  };
+}
+
+function firstMarkdownImage(markdown) {
+  const match = markdown.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+  if (!match) return null;
+  return {
+    alt: match[1],
+    src: resolveAssetPath(match[2]),
   };
 }
 
@@ -150,7 +164,23 @@ function isGmOnly(section, title) {
 }
 
 function visibleEntries() {
-  return state.entries.filter((entry) => state.gmUnlocked || !entry.gmOnly);
+  return state.entries.filter((entry) => {
+    if (state.gmUnlocked) return true;
+    return !entry.gmOnly && !entry.hiddenFromPlayers;
+  });
+}
+
+function entryVisibility(id, slug) {
+  const map = state.manifest?.entryVisibility ?? {};
+  const status = map[id] ?? map[slug] ?? "public";
+  return EDITOR_MODES.has(status) ? status : "public";
+}
+
+function visibilityLabel(entry) {
+  if (entry.gmOnly) return "GM";
+  if (entry.visibility === "hidden") return "Hidden";
+  if (entry.visibility === "draft") return "Draft";
+  return "Public";
 }
 
 function searchEntries(query) {
@@ -195,7 +225,8 @@ function availableSections() {
 function makeExcerpt(body) {
   const clean = body
     .replace(/!\[[^\]]*\]\([^)]+\)/g, "")
-    .replace(/[#*_`>-]/g, "")
+    .replace(/^>\s?/gm, "")
+    .replace(/[#*_`]/g, "")
     .replace(/\s+/g, " ")
     .trim();
   return clean.slice(0, 210) + (clean.length > 210 ? "..." : "");
@@ -215,6 +246,12 @@ function bindEvents() {
     renderSearchSuggestions();
   });
 
+  els.searchInput.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") return;
+    event.preventDefault();
+    els.searchForm.requestSubmit();
+  });
+
   els.searchInput.addEventListener("focus", renderSearchSuggestions);
 
   document.addEventListener("click", (event) => {
@@ -228,16 +265,6 @@ function bindEvents() {
     if (event.target.value) location.hash = event.target.value;
   });
 
-  els.gmButton.addEventListener("click", () => {
-    if (state.gmUnlocked) {
-      lockGmMode();
-      return;
-    }
-    els.gmPassword.value = "";
-    els.gmError.textContent = "";
-    els.gmDialog.showModal();
-  });
-
   els.unlockButton.addEventListener("click", unlockGmMode);
   els.gmPassword.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
@@ -246,11 +273,28 @@ function bindEvents() {
     }
   });
 
+  document.addEventListener("keydown", (event) => {
+    if (!event.altKey || event.key.toLowerCase() !== "g") return;
+    event.preventDefault();
+    toggleGmEditorMode();
+  });
+
   window.addEventListener("hashchange", () => {
     applyRoute();
     recordVisit(location.hash || "#/home");
     render();
   });
+}
+
+function toggleGmEditorMode() {
+  if (state.gmUnlocked) {
+    lockGmMode();
+    return;
+  }
+
+  els.gmPassword.value = "";
+  els.gmError.textContent = "";
+  els.gmDialog.showModal();
 }
 
 async function unlockGmMode() {
@@ -323,8 +367,7 @@ function currentEntryFromRoute() {
 }
 
 function render() {
-  els.modeLabel.textContent = state.gmUnlocked ? "GM View" : "Player View";
-  els.gmButton.textContent = state.gmUnlocked ? "Lock GM" : "Unlock GM";
+  els.modeLabel.textContent = state.gmUnlocked ? "GM/Editor Mode" : "Player View";
   renderVisitButtons();
   renderSavedPages();
   renderChapterList();
@@ -474,13 +517,19 @@ function renderHome() {
       <div class="portal-grid">${sectionCards}</div>
     </section>
 
+    <section class="wiki-box texture-box">
+      <h3>World Texture</h3>
+      <p>Kaltheim wakes to chant hours, factory whistles, train horns, and bells rolling through smoke-dark streets. Veloria answers with streetcars, newspapers, election crowds, harbor foghorns, and radios murmuring in cafes.</p>
+      <p>In the frontiers and scarred places, rail timetables, wanted posters, expedition notices, monster alarms, and old soldiers' warnings matter as much as kings and doctrine.</p>
+    </section>
+
     <section class="wiki-box">
       <h3>Using This Site</h3>
       <ul>
         <li>Use the search bar for people, nations, places, events, and themes.</li>
         <li>Use the chapter navigation to browse by topic.</li>
         <li>Each article has its own page link.</li>
-        <li>GM mode reveals restricted notes, reports, reference images, and selected spoiler-heavy articles.</li>
+        <li>GM/Editor mode reveals restricted notes, reports, reference images, and selected spoiler-heavy articles.</li>
       </ul>
     </section>
   `;
@@ -572,6 +621,7 @@ function renderEntryCards(entries) {
     card.innerHTML = `
       <span class="chapter-kicker">${escapeHtml(entry.sectionTitle)}</span>
       <h3>${escapeHtml(entry.title)}</h3>
+      ${state.gmUnlocked ? `<span class="entry-status ${entry.visibility}">${escapeHtml(visibilityLabel(entry))}</span>` : ""}
       <p>${escapeHtml(entry.excerpt)}</p>
     `;
     els.entryGrid.appendChild(card);
@@ -601,6 +651,20 @@ function showEntry(entry) {
       </aside>
     `
     : "";
+  const imageSlotHtml = entry.image
+    ? `
+      <figure class="image-slot has-image">
+        <img src="${escapeHtml(entry.image.src)}" alt="${escapeHtml(entry.image.alt || entry.title)}">
+        <figcaption>${escapeHtml(entry.image.alt || "Reference image")}</figcaption>
+      </figure>
+    `
+    : `
+      <figure class="image-slot">
+        <div>Illustration Space</div>
+        <figcaption>Future art, map, portrait, or symbol</figcaption>
+      </figure>
+    `;
+  const editorPanelHtml = state.gmUnlocked ? renderEditorPanel(entry) : "";
   els.entryDetail.innerHTML = `
     <nav class="article-nav" aria-label="Article navigation">
       <a class="back-button" href="#/chapter/${slugify(entry.section)}">Back to ${escapeHtml(friendlySection(entry.section))}</a>
@@ -616,11 +680,10 @@ function showEntry(entry) {
         <p class="chapter-kicker">${escapeHtml(friendlySection(entry.section))}</p>
         <h2>${escapeHtml(entry.title)}</h2>
       </div>
-      <figure class="image-slot">
-        <div>Illustration Space</div>
-        <figcaption>Future art, map, portrait, or symbol</figcaption>
-      </figure>
+      ${imageSlotHtml}
     </header>
+
+    ${editorPanelHtml}
 
     <div class="entry-body-layout ${keyPoints.length ? "has-key-points" : ""}">
       <section class="lore-panel">
@@ -635,6 +698,57 @@ function showEntry(entry) {
     showEntry(entry);
     renderSavedPages();
   });
+
+  bindEditorControls(entry);
+}
+
+function renderEditorPanel(entry) {
+  return `
+    <section class="editor-panel" aria-label="GM/Editor controls">
+      <div class="editor-panel-header">
+        <div>
+          <h3>GM/Editor Controls</h3>
+          <p>Edits save to local repo files for review, commit, and GitHub deployment.</p>
+        </div>
+        <label class="visibility-control">
+          <span>Player visibility</span>
+          <select id="entryVisibility">
+            <option value="public" ${entry.visibility === "public" ? "selected" : ""}>Public</option>
+            <option value="draft" ${entry.visibility === "draft" ? "selected" : ""}>Draft / unfinished</option>
+            <option value="hidden" ${entry.visibility === "hidden" ? "selected" : ""}>Hidden</option>
+          </select>
+        </label>
+      </div>
+      <label class="editor-field">
+        <span>Entry markdown</span>
+        <textarea id="entryEditor" spellcheck="true">${escapeHtml(entry.body)}</textarea>
+      </label>
+      <div class="image-upload-row">
+        <label class="editor-field compact">
+          <span>Add image</span>
+          <input id="entryImageFile" type="file" accept="image/png,image/jpeg,image/webp,image/gif">
+        </label>
+        <label class="editor-field compact">
+          <span>Alt text</span>
+          <input id="entryImageAlt" type="text" value="${escapeHtml(entry.title)}">
+        </label>
+      </div>
+      <div class="editor-actions">
+        <button class="button" id="saveEntryButton" type="button">Save Entry</button>
+        <button class="button secondary" id="uploadImageButton" type="button">Upload Image Into Entry</button>
+        <button class="button secondary" id="saveVisibilityButton" type="button">Save Visibility</button>
+      </div>
+      <p id="editorStatus" class="editor-status" role="status"></p>
+    </section>
+  `;
+}
+
+function bindEditorControls(entry) {
+  if (!state.gmUnlocked) return;
+
+  document.querySelector("#saveEntryButton")?.addEventListener("click", () => saveEntryEdit(entry));
+  document.querySelector("#saveVisibilityButton")?.addEventListener("click", () => saveEntryVisibility(entry));
+  document.querySelector("#uploadImageButton")?.addEventListener("click", () => uploadEntryImage(entry));
 }
 
 function cleanReaderBody(markdown) {
@@ -801,6 +915,98 @@ function toggleSavedPage(slug) {
     state.savedPages = [slug, ...state.savedPages];
   }
   saveSavedPages();
+}
+
+async function saveEntryEdit(entry) {
+  const editor = document.querySelector("#entryEditor");
+  if (!editor) return;
+
+  setEditorStatus("Saving entry...");
+  const response = await fetch("/api/editor/entry", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      id: entry.id,
+      slug: entry.slug,
+      rawTitle: entry.rawTitle,
+      body: editor.value.trim(),
+    }),
+  });
+
+  if (!response.ok) {
+    const result = await response.json().catch(() => ({}));
+    setEditorStatus(result.message || "Save failed.", true);
+    return;
+  }
+
+  setEditorStatus("Saved. Refreshing handbook...");
+  await refreshContent();
+  const updated = state.entries.find((item) => item.slug === entry.slug) ?? entry;
+  showEntry(updated);
+}
+
+async function saveEntryVisibility(entry) {
+  const select = document.querySelector("#entryVisibility");
+  if (!select) return;
+
+  setEditorStatus("Saving visibility...");
+  const response = await fetch("/api/editor/visibility", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      id: entry.id,
+      slug: entry.slug,
+      visibility: select.value,
+    }),
+  });
+
+  if (!response.ok) {
+    const result = await response.json().catch(() => ({}));
+    setEditorStatus(result.message || "Visibility save failed.", true);
+    return;
+  }
+
+  setEditorStatus("Visibility saved.");
+  await refreshContent();
+  render();
+}
+
+async function uploadEntryImage(entry) {
+  const fileInput = document.querySelector("#entryImageFile");
+  const altInput = document.querySelector("#entryImageAlt");
+  const editor = document.querySelector("#entryEditor");
+  const file = fileInput?.files?.[0];
+  if (!file || !editor) {
+    setEditorStatus("Choose an image first.", true);
+    return;
+  }
+
+  setEditorStatus("Uploading image...");
+  const formData = new FormData();
+  formData.append("image", file);
+  formData.append("alt", altInput?.value || entry.title);
+  formData.append("slug", entry.slug);
+
+  const response = await fetch("/api/editor/asset", {
+    method: "POST",
+    body: formData,
+  });
+
+  const result = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    setEditorStatus(result.message || "Image upload failed.", true);
+    return;
+  }
+
+  editor.value = `${editor.value.trim()}\n\n${result.markdown}\n`;
+  setEditorStatus("Image added to the editor. Save the entry to keep it in the handbook.");
+}
+
+function setEditorStatus(message, isError = false) {
+  const status = document.querySelector("#editorStatus");
+  if (!status) return;
+  status.textContent = message;
+  status.classList.toggle("error", isError);
 }
 
 function escapeHtml(value) {

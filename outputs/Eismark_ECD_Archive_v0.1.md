@@ -190,7 +190,7 @@ Consequences:
 - Mortal civilization becomes possible.
 - The First Age begins after mortal peoples enter Creation.
 
-Related Entries: SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn and Dragons [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves and Goblins [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; CAP-001 — HIS-005 Numbering [Locked]
+Related Entries: SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn and Dragons [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]; CAP-001 — HIS-005 Numbering [Locked]
 
 Source: SRC-002, SRC-006, SRC-049
 
@@ -804,7 +804,7 @@ Canon Facts:
 - Moira: fate, destiny, prophecy, fortune, choice.
 - Elyria: love, family, community, joy, home.
 
-Related Entries: COS-002 — The First Ones [Locked]; SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn and Dragons [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves and Goblins [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]
+Related Entries: COS-002 — The First Ones [Locked]; SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn and Dragons [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]
 
 Source: SRC-006
 
@@ -1300,11 +1300,11 @@ Summary: Giants are created by Asterion.
 
 Source: SRC-006
 
-### SPE-006 - Dwarves and Goblins
+### SPE-006 - Dwarves
 
 Canon Status: Locked
 
-Summary: Dwarves are a founding people of the modern Sacrament of Kaltheim, while Goblins occupy a varied and often difficult place across Eismark.
+Summary: Dwarves are a founding people of the modern Sacrament of Kaltheim.
 
 Canon Facts:
 
@@ -1320,15 +1320,37 @@ Canon Facts:
 - Dwarven engineers played a foundational role in the development of many of Kaltheim's firearms, artillery pieces, and industrial technologies.
 - Dwarven breweries are legendary.
 - Dwarves inherit Khorun's endurance.
-- Goblins may live as tribal peoples, bandits, laborers, criminals, organized crime members, or integrated citizens.
-- Most Goblins possess below-average formal education and social status, but exceptionally intelligent Goblins are not unheard of and may become engineers, lawyers, scholars, artificers, wizards, or entrepreneurs.
 
 Consequences:
 
 - The Sacrament was not built through conquest of the Dwarves; it was built through alliance.
 - Dwarven identity reinforces Kaltheim's themes of preservation, endurance, duty, and craft.
 
-Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; HIS-014 — The Great Pilgrimage [Locked]; TEC-001 — Kaltheimian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MON-008 — Monstrous Peoples and Orc Raiders [Locked]
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; HIS-014 — The Great Pilgrimage [Locked]; TEC-001 — Kaltheimian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; SPE-009 — Goblins [Locked]
+
+Source: SRC-059
+
+### SPE-009 - Goblins
+
+Canon Status: Locked
+
+Summary: Goblins occupy a varied and often difficult place across Eismark.
+
+Canon Facts:
+
+- Goblins may live as tribal peoples, bandits, laborers, criminals, organized crime members, or integrated citizens.
+- Many Goblins face low formal education, poverty, social stigma, and exclusion from respectable institutions.
+- Goblin communities vary widely by region; culture, opportunity, and local law matter more than ancestry alone.
+- Exceptionally intelligent Goblins are not unheard of and may become engineers, lawyers, scholars, artificers, wizards, entrepreneurs, fixers, or political organizers.
+- Goblins are not inherently evil, comic relief, or disposable enemies.
+
+Consequences:
+
+- Goblins should be treated as people shaped by circumstance, culture, prejudice, and opportunity.
+- Goblin underworld roles can exist without defining all Goblins as criminals.
+- Goblin characters are useful for stories about class, survival, ingenuity, social mobility, and the margins of industrial civilization.
+
+Related Entries: MON-008 — Monstrous Peoples and Orc Raiders [Locked]; SOC-003 — Organized Crime [Future]; NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]; SPE-006 — Dwarves [Locked]
 
 Source: SRC-059
 
@@ -2774,7 +2796,7 @@ Canon Facts:
 - Giants and Humans are distant cousins, and Giants have their own patron angel still awaiting development.
 - Marcher saying: "Judge the man, not the tusks."
 
-Related Entries: SPE-002 — Orcs [Locked]; SPE-006 — Dwarves and Goblins [Locked]; MON-004 — Undead, Vampires, and Lycanthropy [Locked]
+Related Entries: SPE-002 — Orcs [Locked]; SPE-006 — Dwarves [Locked]; SPE-009 — Goblins [Locked]; MON-004 — Undead, Vampires, and Lycanthropy [Locked]
 
 Source: SRC-058
 
