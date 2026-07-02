@@ -79,3 +79,50 @@ These recovered geopolitics elements are useful as development history but shoul
 3. Exact regional placements from early geopolitics drafts are provisional until the map audit is complete. Names such as the Iron Coast, Ashlands, Sylvan Veil, and Gn'ure can be used, but borders and neighboring relationships should not be locked from older text.
 4. Alternative regional frameworks such as "Crownless Kingdoms," "Grey Frontier," or early secondary-power lists should not replace GEO-001 through GEO-014 unless explicitly reworked and approved.
 5. The Ashlands material is compatible only in revised form: Southern Ashlands as frontier/mining/scavenger territory, Northern Ashlands as ruin/Blood/relic expedition country, and the region as Eismark's archaeological frontier.
+
+## Development Needs
+
+These are not canon promotions. They are work queues for making Eismark richer, easier to visualize, and more playable.
+
+### Needs More Lore
+
+| Area | Touchpoints | Need |
+| --- | --- | --- |
+| Everyday Kaltheim | NAT-001, REL-002, GOV-001, SOC entries | More ordinary life: homes, workplaces, family expectations, meals, factory towns, parish life, reserve service, and how non-soldiers experience the Sacrament. |
+| Everyday Veloria | NAT-002, GOV-002, LAW-001, GOV-006 | More civic texture: newspapers, elections, universities, unions, businesses, private detectives, temperance culture, organized crime pressure, and public distrust of secrecy. |
+| Secondary nations | NAT-003 to NAT-006, GEO-007 to GEO-010 | Voss, Rauk, Lan Cao, and Ostmark need more social life, internal politics, class structure, city identity, holidays, food, military memory, and local tensions. |
+| Gn'ure and the Sylvan Veil | NAT-008, NAT-009, GEO-003, GEO-011, SPE-003 | More culture beyond map role: folklore, settlement styles, relations with monsters, old noble houses, elven memory traditions, and borderland life. |
+| The Iron Coast and Shattered Isles | GEO-014, ORG-012, MON-010, SPE-004 | More maritime culture, ports, island communities, sea monster customs, dragonborn traditions, piracy, coastal trade, and sailor superstition. |
+| The Ashlands | GEO-012, COS-005, MON-001, ORG-004 | Expand frontier routines, expedition logistics, mining camps, ruin law, scavenger guilds, contamination protocol, and what people believe about the northern ruins. |
+| Monster ecology | MON-001 to MON-010 | More regional encounter logic, folklore, professional monster-hunting practice, local names for threats, and how ordinary settlements defend themselves. |
+| Player-facing mysteries | CAM entries, HIS-016, NPC-001, NPC-002 | Define what common people believe, what scholars suspect, what the Church hides or misunderstands, and what only campaign secrets reveal. |
+
+### Needs Reference Images
+
+| Visual Need | Touchpoints | Notes |
+| --- | --- | --- |
+| Kaltheim street and city life | NAT-001, REL-002, TEC-001 | Factory smoke, liturgical processions, soldiers at prayer, rail stations, foundries, winter streets, and ordinary citizens. |
+| Velorian noir city life | NAT-002, GOV-002, LAW-001 | Rainy streets, newspapers, automobiles, civic buildings, universities, speakeasy-adjacent black markets, and OTS/Federal Marshal silhouettes. |
+| Military branches | MIL-001 to MIL-011 | Separate references for Sacrosanct Army, Iron Fleet, Skyward Host, Consecrator Corps, Templar Orders, Velorian troops, Federal Marshals, and battle mages. |
+| Regional landscapes | GEO-001 to GEO-014 | Iron Mountains, Crown Lands, Free Marches, Sylvan Veil, Iron Coast, Shattered Isles, Southern Ashlands, and Northern Ashlands. |
+| Monsters and horror | MON entries, COS-004, COS-005 | Bloodspawn variants, aberrations, undead battlefields, wendigo folklore, sea monsters, and Entity-adjacent impossible spaces. |
+| Peoples of Eismark | SPE entries | Everyday humans, elves, dwarves, dragonborn, orcs, and other peoples in modern clothing, work clothes, ritual dress, and military gear. |
+| Institutions and organizations | GOV, ORG, LAW entries | OTS offices, Inquisition chambers, DMI facilities, Commonwealth Geographical Society expeditions, White Hand smuggling scenes, and Uriel's Testament archives. |
+
+### Creative Touches Needed To Make The World Feel Alive
+
+| Touch Type | Examples To Develop |
+| --- | --- |
+| Soundscape | Kaltheim chant hours, factory whistles, train horns, church bells, radio sermons, Velorian streetcars, harbor foghorns, Ashlands wind over ruins. |
+| Public rituals | Remembrance Day, oath ceremonies, election days, mourning rites, military funerals, ship blessings, university commencements, harvest festivals. |
+| Speech and slang | National sayings, soldier slang, frontier warnings, Velorian political jokes, Kaltheimian proverbs, sailor curses, monster-hunter shorthand. |
+| Food and drink | Kaltheim ration culture, monastery meals, Velorian cafes, frontier camp food, coastal fish markets, dwarven mountain fare, prohibition-era substitutes. |
+| Printed life | Newspapers, pamphlets, ration cards, rail timetables, wanted posters, expedition prospectuses, church bulletins, political broadsheets. |
+| Work and class | Factory shifts, mine camps, railroad crews, university labs, clergy service, military careers, civil service offices, frontier land claims. |
+| Entertainment | Music halls, hymn traditions, radio dramas, sporting clubs, tavern games, military bands, illegal clubs, traveling shows, expedition lectures. |
+| Small dangers | Bad roads, harsh weather, smuggling checkpoints, monster alarms, curfews, contaminated wells, old mine collapses, suspicious dreams. |
+| Local texture | Neighborhood names, shop signs, school mottos, saints' days, veterans' lodges, street foods, children's games, regional insults, memorial statues. |
+
+### Development Rule
+
+When adding new lore from these queues, preserve the current canon hierarchy: ECD first, readable guide second, recovered files as source material only. Mark uncertain items as DEV, Under Review, or Archived Non-Canon rather than quietly promoting them.
