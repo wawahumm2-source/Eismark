@@ -1917,11 +1917,14 @@ Canon Facts:
 - Many distant lands are sparsely settled, isolated by dangerous seas, dominated by hostile environments, or home to societies largely disconnected from continental affairs.
 - Overseas travel exists for commerce, exploration, monster hunting, scholarship, and occasional colonization attempts.
 - Eismark remains the center of history, politics, industry, religion, and civilization for the current campaign.
+- Exact regional placement remains subordinate to the current map audit; names such as the Iron Coast, Ashlands, Sylvan Veil, and Gn'ure are canon regions, but final borders and neighboring relationships should be treated as provisional where audit notes remain open.
+- Historical or recovered labels such as "The Waking Republic" are superseded by The Commonwealth of Veloria.
 
 Consequences:
 
 - The setting remains focused without denying that maps, sailors, explorers, and stories exist beyond the continent.
 - Distant lands may be expanded later without undermining Eismark's central role.
+- Government and regional descriptions should use the modern ECD entries rather than older recovered geopolitical drafts.
 
 Related Entries: IMG-004 — Tentative World Map of Eismark [Under Review]; GEO-014 — The Iron Coast and Shattered Isles [Locked]; MON-010 — The Seas of Eismark [Locked]; CAP-017 — Vardheim vs Eismark [Locked]
 
@@ -2085,6 +2088,7 @@ Canon Facts:
 Consequences:
 
 - The Ashlands are not merely wasteland; they are where Eismark places ancient vaults, Blood contamination, Joivian traces, and expedition campaigns.
+- The region functions as Eismark's great archaeological frontier: a place for Lingering War expeditions, sealed military sites, corrupted landscapes, lost laboratories, forgotten facilities, and discoveries that should not have survived.
 - Exact ancient geography remains subject to CAP-010 and map-sensitive audit work.
 
 Related Entries: HIS-010 — The Lingering War Begins [Locked]; COS-005 — The Blood [Locked]; MON-001 — Bloodspawn [Locked]; ORG-004 — Uriel's Testament [Locked]; CAP-010 — Ancient Kaltheim Geography [Under Review]

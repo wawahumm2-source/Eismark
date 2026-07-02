@@ -1122,7 +1122,11 @@ Eismark is the primary campaign continent of Vardheim. Its mountains, forests, c
 
 ### GEO-001 — Vardheim and Eismark
 
-Vardheim is the world; Eismark is the known civilized world and the campaign's primary continent. Distant continents, islands, and isolated lands exist, but none rival Eismark in population, industrial development, or political influence. This keeps the setting focused while leaving room for future expansion.
+Vardheim is the world; Eismark is the known civilized world and the campaign's primary continent. Distant continents, islands, and isolated lands exist, but none rival Eismark in population, industrial development, or political influence. Most are sparsely settled, isolated by dangerous seas, dominated by hostile environments, or home to societies largely disconnected from the affairs of the continent.
+
+This keeps the setting focused while leaving room for future expansion. There are maps beyond Eismark, sailors who return from distant shores, and explorers with strange stories, but history, politics, industry, religion, and civilization are centered on Eismark for the current campaign.
+
+Exact regional placement remains subject to the map audit. Regions such as the Iron Coast, Ashlands, Sylvan Veil, and Gn'ure are canon, but final borders and neighboring relationships should be treated as provisional where audit notes remain open. Older recovered labels such as "The Waking Republic" are superseded by The Commonwealth of Veloria.
 
 ### GEO-002 — The Iron Mountains
 
@@ -1227,9 +1231,11 @@ The Sylvan Veil occupies the western forest realm.
 
 ### GEO-012 — The Ashlands
 
-The Ashlands are a scar left by the Lingering War and the archaeological frontier of Eismark. The Southern Ashlands hold frontier settlements, mines, prospectors, scavengers, forts, and desperate land claims. The Northern Ashlands are far worse: Lingering War ruins, Blood contamination, lost facilities, sealed vaults, Joivian relics, and expeditions that vanish.
+The Ashlands are a scar left by the Lingering War and the archaeological frontier of Eismark. The Southern Ashlands hold frontier settlements, mines, prospectors, scavengers, forts, and desperate land claims. The Northern Ashlands are far worse: Lingering War ruins, Blood contamination, lost facilities, sealed vaults, Joivian relics, forgotten laboratories, and expeditions that vanish.
 
 Local saying: "The south is poor. The north is hungry."
+
+The Ashlands are not merely wasteland. They are where Eismark places ancient vaults, corrupted landscapes, sealed military sites, Joivian traces, forgotten facilities, and expedition campaigns.
 
 ### GEO-013 — The Ashen Marches
 
