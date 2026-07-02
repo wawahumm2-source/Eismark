@@ -85,6 +85,9 @@ Companion Document: `Eismark_Readable_Guide_v0.1.md` is the reader-facing compan
 - SRC-060: Recovered geopolitics and Ashlands notes, 2026-07-01
 - SRC-061: Recovered Bloodspawn and Blood-tainted landscape notes, 2026-07-02
 - SRC-062: Recovered public knowledge of the Blood and Bloodspawn classification notes, 2026-07-02
+- SRC-063: `Eismark_NPC_Index_From_Second_Pass_v0.1.md`, 2026-07-02
+- SRC-064: `Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md`, 2026-07-02
+- SRC-065: `Eismark_Lore_And_Reference_Image_Gap_Audit_v0.1.md`, 2026-07-02
 
 ## History Entries
 
@@ -190,7 +193,7 @@ Consequences:
 - Mortal civilization becomes possible.
 - The First Age begins after mortal peoples enter Creation.
 
-Related Entries: SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn and Dragons [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]; CAP-001 — HIS-005 Numbering [Locked]
+Related Entries: SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]; CAP-001 — HIS-005 Numbering [Locked]
 
 Source: SRC-002, SRC-006, SRC-049
 
@@ -804,7 +807,7 @@ Canon Facts:
 - Moira: fate, destiny, prophecy, fortune, choice.
 - Elyria: love, family, community, joy, home.
 
-Related Entries: COS-002 — The First Ones [Locked]; SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn and Dragons [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]
+Related Entries: COS-002 — The First Ones [Locked]; SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]
 
 Source: SRC-006
 
@@ -1258,11 +1261,11 @@ Related Entries: REL-001 — The First Ones Pantheon [Locked]; GEO-011 — The S
 
 Source: SRC-059
 
-### SPE-004 - Dragonborn and Dragons
+### SPE-004 - Dragonborn
 
 Canon Status: Locked
 
-Summary: Dragonborn are a people of lost homelands, ancestral memory, honor, family, and legacy; dragons remain rare, dangerous, and morally individual.
+Summary: Dragonborn are a people of lost homelands, ancestral memory, honor, family, and legacy.
 
 Canon Facts:
 
@@ -1278,15 +1281,11 @@ Canon Facts:
 - A formal Dragonborn name may preserve at least ten generations of ancestry, and failure to know one's lineage is considered deeply shameful in many Dragonborn communities.
 - Common proverb: "You are not born alone. Ten generations stand behind you and ten more wait ahead."
 - Dragonborn inherit Drakharion's honor.
-- Dragons are rare but widely known, most often found in the Shattered Isles, remote mountains, and unexplored wilderness.
-- Dragonborn often regard Dragons with the respect due to an ancient elder or grandparent, even while exact theology remains under review.
-- Dragons may be metallic or chromatic, noble or cruel, protective or tyrannical; a dragon should be judged as an individual.
-- Marcher saying: "Never trust a dragon. Never assume one will betray you either."
 
 Consequences:
 
 - Dragonborn carry civilization through family, memory, and lineage rather than territory.
-- Dragon origin and dragon religion should not be over-specified until finalized.
+- Dragonborn theology should not be over-specified until dragon canon is finalized.
 
 Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; MON-005 — Dragons [Under Review]; REL-001 — The First Ones Pantheon [Locked]
 
@@ -2371,7 +2370,7 @@ Canon Facts:
 - These communities preserve samurai culture, honor, swordsmanship, and specialized martial disciplines.
 - Very few outsiders are permitted to study there.
 
-Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; ORG-006 — Order of the Veiled Hand [Locked]; SPE-004 — Dragonborn and Dragons [Locked]
+Related Entries: GEO-014 — The Iron Coast and Shattered Isles [Locked]; ORG-006 — Order of the Veiled Hand [Locked]; SPE-004 — Dragonborn [Locked]
 
 Source: SRC-055
 
@@ -2730,7 +2729,7 @@ Canon Facts:
 - Dragonborn maintain spiritual traditions related to their First One and the great Dragons, but exact theology remains under review.
 - Remove older claims that Dragonborn descend directly from Hararozther until dragon origin is finalized.
 
-Related Entries: SPE-004 — Dragonborn and Dragons [Locked]; GEO-014 — The Iron Coast and Shattered Isles [Locked]
+Related Entries: SPE-004 — Dragonborn [Locked]; GEO-014 — The Iron Coast and Shattered Isles [Locked]
 
 Source: SRC-058, SRC-059
 
@@ -3319,6 +3318,524 @@ Canon Facts:
 Related Entries: MIL-009 — Exalted [Locked]; REL-002 — The Iron Church [Locked]; NPC-001 — Uriel, the Rememberer [Locked]; IMG-002 — Brother Remembrance Monastic Visual Reference [Locked]; IMG-003 — Remembrance the Unyielding War-Era Visual Reference [Locked]
 
 Source: SRC-023
+
+### NPC-005 - Magister Azhul, the Dreaming King
+
+Canon Status: Under Review
+
+Summary: Magister Azhul is a major cosmic-horror antagonist tied to forbidden scholarship, the Blood, the Entity, and the Dreamers of Azhul.
+
+Canon Facts:
+
+- Known names and titles include Azhul, Archmagister Severian Holt, the Dreaming King, Prophet of the New Flesh, the First Dreamer, the Sleeper Beneath the Hills, and He Who Dreams in Color.
+- Recovered material frames him as a former scholar named Severian Holt who became a lich after pursuing truths connected to the Great Forgetting, the First Age, the Blood, or the Entity.
+- His followers are the Dreamers of Azhul.
+- Azhul wants to meet Uriel and believes Uriel possesses the Final Truth.
+- His theology is dangerous because it may contain fragments of real knowledge arranged into almost entirely false conclusions.
+
+Consequences:
+
+- Azhul should function less as a simple necromancer and more as a tragic visionary whose conclusions could unravel minds, institutions, and history.
+- His relationship to Uriel should remain campaign-relevant and not fully public knowledge.
+
+Related Entries: ORG-010 — Dreamers of Azhul [Locked]; COS-004 — The Entity [Under Review]; COS-005 — The Blood [Locked]; NPC-001 — Uriel, the Rememberer [Locked]
+
+Source: SRC-063, SRC-055
+
+### NPC-006 - Professor Kathargeryhavander
+
+Canon Status: Under Review
+
+Summary: Professor Kathargeryhavander is a Dragonborn explorer, archaeologist, cartographer, historian, and senior fellow of the Commonwealth Geographical Society.
+
+Canon Facts:
+
+- Common names and titles include Professor Kath, Old Kath, the Last Wayfinder, Cartographer of the Shattered Isles, the Man Who Walked Beyond the Map, and Professor Emeritus of Browning University.
+- He is beloved as an adventure-facing NPC: curious, kind, absent-minded, stubborn, and famous for discovering ruins.
+- He has worked with Uriel's Testament but opposes reckless scholarship.
+- He has concealed at least one terrible discovery.
+- Recovered formal ancestral names associated with his lineage include Kathargellhavander, Vorashkerynthalax, Drakharionvelas, Kartharaxion, Veyrathandar, Kharazenthyr, Valakarion, Harazethax, Kaeltheryn, and Ithrakar the Wayfinder.
+
+Consequences:
+
+- Professor Kath is a natural patron for expeditions into ruins, the Shattered Isles, ancient battlefields, and forgotten maps.
+- His long lineage is a useful model for Dragonborn ancestral naming.
+
+Related Entries: ORG-003 — Commonwealth Geographical Society [Locked]; ORG-004 — Uriel's Testament [Locked]; SPE-004 — Dragonborn [Locked]; GEO-014 — The Iron Coast and Shattered Isles [Locked]
+
+Source: SRC-063
+
+### NPC-007 - Director Marcus Vale
+
+Canon Status: Under Review
+
+Summary: Marcus Vale is the human Director of the Office of Tactical Security.
+
+Canon Facts:
+
+- Recovered notes describe him as a late-50s patriot, war hero, and servant of the republic.
+- He is pragmatic and willing to use covert methods to protect the Commonwealth.
+- He believes the Commonwealth must survive at any cost.
+- He respects President Theodore Ashcroft but believes Ashcroft is too idealistic.
+- The OTS may act without the President's knowledge.
+
+Consequences:
+
+- Marcus Vale should initially appear as one of the good people trying to protect Veloria.
+- His danger lies in the distance between democratic legitimacy and secret necessity.
+
+Related Entries: GOV-006 — Office of Tactical Security [Locked]; GOV-002 — Government of the Commonwealth of Veloria [Locked]; NPC-014 — President Theodore Ashcroft [Under Review]
+
+Source: SRC-063, SRC-064
+
+### NPC-008 - Father Lucian Vale
+
+Canon Status: Under Review
+
+Summary: Father Lucian Vale is a Kaltheimian priest, former archpriest, and wandering mercy-focused religious figure.
+
+Canon Facts:
+
+- Known titles include Archpriest Lucian Vale of Sanctspire, the Pilgrim Saint, and the Wandering Father.
+- He left institutional power after war changed him.
+- His mercy-focused theology creates tension inside Kaltheim without simply condemning the Sacrament.
+- Recovered notes suggest he may be devoted to Seraphael.
+- He has never received public comment from Archon Quintus Michael.
+
+Consequences:
+
+- Father Lucian is useful as a living example of dissent, mercy, and reform inside Kaltheim rather than outside it.
+- His presence should complicate simplistic readings of the Iron Church.
+
+Related Entries: REL-002 — The Iron Church [Locked]; REL-008 — Worship in the Iron Church [Locked]; GOV-001 — Government of the Sacrament of Kaltheim [Locked]; NPC-009 — Archon Quintus Michael [Under Review]
+
+Source: SRC-063, SRC-064
+
+### NPC-009 - Archon Quintus Michael
+
+Canon Status: Under Review
+
+Summary: Archon Quintus Michael is the human Archon of the Vigil, First Servant of Michael, and Keeper of the Communion.
+
+Canon Facts:
+
+- He is the spiritual head of the Sacrament.
+- Recovered notes describe him as contemplative, humble, and immovable when the Blood, heresy, or Communion are threatened.
+- He is a close friend of Grand Inquisitor Cassian Voss.
+- Their dynamic is described as The Sword and the Candle.
+- He has never publicly commented on Father Lucian Vale.
+
+Consequences:
+
+- Quintus should embody spiritual gravity rather than simple political command.
+- His friendship with Cassian Voss makes the Inquisition feel morally rooted rather than merely punitive.
+
+Related Entries: GOV-001 — Government of the Sacrament of Kaltheim [Locked]; REL-002 — The Iron Church [Locked]; GOV-003 — The Inquisition of the Vigil [Locked]; NPC-013 — Grand Inquisitor Cassian Voss [Under Review]
+
+Source: SRC-063, SRC-064
+
+### NPC-010 - Queen Aelirya Silverbough
+
+Canon Status: Under Review
+
+Summary: Queen Aelirya Silverbough is the ruler of the Sylvan Veil and a mourning witness to the long memory of the Elves.
+
+Canon Facts:
+
+- Recovered notes identify her as Queen Aelirya and ruler of the Sylvan Veil.
+- Later roster material labels her the mourning witness.
+- She is said to quietly support Uriel's Testament.
+- Her role links the Sylvan Veil to recovered history, hidden memory, and cautious aid.
+
+Consequences:
+
+- Aelirya should not be treated as merely an isolated forest monarch.
+- Her support for Uriel's Testament gives adventurers a route into Elven memory politics.
+
+Related Entries: NAT-009 — The Sylvan Veil [Locked]; GEO-011 — The Sylvan Veil [Locked]; ORG-004 — Uriel's Testament [Locked]; SPE-003 — Elves [Locked]
+
+Source: SRC-063, SRC-064
+
+### NPC-011 - King Alaric IV of House Vossen
+
+Canon Status: Under Review
+
+Summary: King Alaric IV of House Vossen is a placeholder monarch for the Kingdom of Voss.
+
+Canon Facts:
+
+- Recovered notes mention him as a possible constitutional monarch of Voss.
+- The name is explicitly treated as replaceable if later Voss canon changes.
+
+Consequences:
+
+- Use Alaric IV as provisional court and diplomatic texture until Voss receives fuller political canon.
+
+Related Entries: NAT-003 — Kingdom of Voss [Locked]; GEO-007 — Voss [Locked]; MIL-003 — Voss Doctrine [Locked]
+
+Source: SRC-063
+
+### NPC-012 - Lord Protector Gravk Vagrkheim
+
+Canon Status: Under Review
+
+Summary: Gravk Vagrkheim is the Orc Lord Protector of the Sacrament and the secular-military head of Kaltheim.
+
+Canon Facts:
+
+- Titles include Lord Protector of the Sacrament, Marshal of the Northern Host, and Defender of the Pilgrimage.
+- He is a legendary war hero and master tactician who rose through frontier campaigns.
+- He is credited with defeating major incursions, reforming Kaltheimian military doctrine, and modernizing parts of the armed forces.
+- He is brutish, direct, uncompromising, strategically sharp, and politically capable.
+- Soldiers adore him; enemies fear him.
+- Recovered notes say he fought as a young officer during the Great Continental War, but his age needs timeline confirmation.
+
+Consequences:
+
+- Gravk should read as a soldier-statesman: blunt enough to feel dangerous, wise enough to help keep the Sacrament alive.
+- His existence reinforces that Orcs can hold the highest offices in Kaltheim through service and merit.
+
+Related Entries: GOV-001 — Government of the Sacrament of Kaltheim [Locked]; MIL-011 — The Armed Forces of the Sacrament [Locked]; SPE-002 — Orcs [Locked]; HIS-020 — The Great Continental War [Locked]
+
+Source: SRC-064
+
+### NPC-013 - Grand Inquisitor Cassian Voss
+
+Canon Status: Under Review
+
+Summary: Cassian Voss is the human Grand Inquisitor of the Inquisition of the Vigil.
+
+Canon Facts:
+
+- Titles include Grand Inquisitor, the Black Shepherd, Keeper of the Vigil, and Warden of the Veins.
+- He was born in a northern Ashlands frontier village that vanished when he was twelve; only Cassian survived.
+- He investigates Blood outbreaks, aberrant incursions, heretical cults, ancient ruins, and phenomena officially denied by the state.
+- He is one of the few living people said to have stood before an active Vein.
+- He is gentle, patient, compassionate, observant, and terrifying when facing existential threats.
+- He privately believes Uriel is still alive.
+- He is a close friend of Archon Quintus Michael; their dynamic is described as The Sword and the Candle.
+
+Consequences:
+
+- Cassian proves Kaltheim can be merciful and frightening at the same time.
+- His private belief about Uriel should remain sensitive, potentially campaign-shaping knowledge.
+
+Related Entries: GOV-003 — The Inquisition of the Vigil [Locked]; COS-005 — The Blood [Locked]; COS-004 — The Entity [Under Review]; NPC-009 — Archon Quintus Michael [Under Review]; NPC-001 — Uriel, the Rememberer [Locked]
+
+Source: SRC-064
+
+### NPC-014 - President Theodore Ashcroft
+
+Canon Status: Under Review
+
+Summary: Theodore Ashcroft is the human President of the Commonwealth of Veloria and a Valorian Federalist reformer.
+
+Canon Facts:
+
+- Titles include President of the Commonwealth of Veloria and Commander-in-Chief of the Commonwealth Armed Forces.
+- He was born to a middle-class family in Veleris.
+- He served as an officer in the Commonwealth Army, then as a lawyer and Senator.
+- He rose to the Presidency on promises to fight corruption, strengthen infrastructure, expand opportunity, and preserve democratic institutions.
+- He is charismatic, sincere, deeply principled, and fundamentally decent.
+- Marcus Vale respects him but believes he is too idealistic.
+- OTS may act without his knowledge.
+
+Consequences:
+
+- Ashcroft is the honest reformer trying to govern a republic full of corruption, spies, prohibition failures, and impossible threats.
+- He should make Veloria's democratic ideals feel real, not merely rhetorical.
+
+Related Entries: GOV-002 — Government of the Commonwealth of Veloria [Locked]; GOV-006 — Office of Tactical Security [Locked]; NPC-007 — Director Marcus Vale [Under Review]; NAT-002 — The Commonwealth of Veloria [Locked]
+
+Source: SRC-064
+
+### NPC-015 - Director Grizzik Bramblegear
+
+Canon Status: Under Review
+
+Summary: Grizzik Bramblegear is the Goblin Director of the Commonwealth Arcane Commission.
+
+Canon Facts:
+
+- Titles include Director of the Commonwealth Arcane Commission, Professor Emeritus of Hartfoot Magic Institute, and Senior Fellow of the Commonwealth Geographical Society.
+- He was born in the industrial districts of Veleris and underestimated by nearly everyone.
+- He graduated from Hartfoot Magic Institute with highest honors.
+- He is a renowned scholar of magical law, respected abjuration specialist, and expert on magical safety.
+- He is professional, disciplined, uncompromising, and dreaded by illegal mages.
+- He deeply distrusts the OTS, considering them too willing to ignore law in pursuit of results.
+- He has secretly studied Blood artifacts, Second Age relics, and aberrant phenomena; the knowledge terrifies him.
+
+Consequences:
+
+- Grizzik is a strong example of Goblins as serious professionals and civic figures.
+- He can serve as a lawful counterweight to the OTS and to reckless arcane experimentation.
+
+Related Entries: SPE-009 — Goblins [Locked]; GOV-006 — Office of Tactical Security [Locked]; ORG-007 — Office of Arcane Regulation [Locked]; SOC-005 — Education in Eismark [Locked]; COS-005 — The Blood [Locked]
+
+Source: SRC-064
+
+### NPC-016 - Elias "Old Crow" Mercer
+
+Canon Status: Under Review
+
+Summary: Elias "Old Crow" Mercer is a frontier legend and older lore-bearing adventuring contact.
+
+Canon Facts:
+
+- The first NPC index had Old Crow without a full name; the second sweep recovers Elias "Old Crow" Mercer.
+- He is framed as someone players may trust before realizing he knows far too much about things that should not exist.
+- Later roster material labels him the frontier legend.
+- He is useful, comforting, and increasingly suspicious.
+
+Consequences:
+
+- Old Crow is a natural guide for Free Marches, Ashlands, and frontier mysteries.
+- His knowledge should feel earned by survival, but not fully explainable.
+
+Related Entries: NAT-007 — The Free Marches [Locked]; GEO-005 — The Free Marches [Locked]; ORG-001 — Frontier Rangers [Locked]; GEO-012 — The Ashlands [Locked]
+
+Source: SRC-064
+
+### NPC-017 - Marshal Helena "Saint" Graves
+
+Canon Status: Under Review
+
+Summary: Helena "Saint" Graves is a famous monster slayer and marshal.
+
+Canon Facts:
+
+- Earlier auto-detection identified "Saint Helena Graves"; the recovered correction is Marshal Helena "Saint" Graves.
+- Saint is her nickname and does not necessarily mean she is a religious saint.
+- Later roster material labels her the monster slayer.
+- Her reputation may be half badge, half campfire myth.
+
+Consequences:
+
+- Helena is a strong Federal Marshal, Ranger, or frontier monster-hunter contact.
+- Her nickname should create folklore texture without confusing her with formal Iron Church sainthood.
+
+Related Entries: GOV-007 — Federal Marshals Service [Locked]; ORG-001 — Frontier Rangers [Locked]; MON-003 — Regional Monster Threat Levels [Locked]; MON-009 — Iconic Monsters of Eismark [Locked]
+
+Source: SRC-064
+
+### NPC-018 - Lord Alistair Blackthorne
+
+Canon Status: Under Review
+
+Summary: Alistair Blackthorne is a vampire lord of Blackthorn Keep and Warden of the Eastern Moors.
+
+Canon Facts:
+
+- He is a vampire with an apparent age in the mid-40s and an actual age of at least four centuries.
+- He is the worst-kept secret in Gn'ure: everyone knows he is a vampire, but no one can prove it.
+- His lands are prosperous, orderly, healthy, and deeply disturbing.
+- Peasants do not leave.
+- He is refined, charismatic, cultured, and monstrously patient.
+- He views humans as beloved livestock.
+
+Consequences:
+
+- Blackthorne's realm should feel horrifying because it works too well.
+- He provides a courtly Gothic horror face for Gn'ure politics.
+
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; MON-004 — Undead, Vampires, and Lycanthropy [Locked]; SOC-003 — Organized Crime [Locked]
+
+Source: SRC-064
+
+### NPC-019 - Lord Edmund Cairn
+
+Canon Status: Under Review
+
+Summary: Edmund Cairn is the human King of Cairnhold and Lord of the Dying Crown.
+
+Canon Facts:
+
+- He is an ancient ruler who has held power for over sixty years.
+- He suffers from a wasting disease that should have killed him years ago.
+- His realm has fallen into paranoia, succession crises, and intrigue.
+- Rumors say he uses forbidden magic to prolong his life.
+- His children are already quietly preparing for civil war.
+
+Consequences:
+
+- Cairn is a dying king whose refusal to die is poisoning an entire realm.
+- His court can anchor succession plots, forbidden magic, and slow political collapse.
+
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; MON-004 — Undead, Vampires, and Lycanthropy [Locked]; COS-004 — The Entity [Under Review]
+
+Source: SRC-064
+
+### NPC-020 - Jarl Skorri Stone-Eater
+
+Canon Status: Under Review
+
+Summary: Skorri Stone-Eater is a Hill Giant lord of High Crag, known as the Laughing Giant.
+
+Canon Facts:
+
+- He is one of the few Giants to openly rule humans.
+- His subjects live in terror beneath arbitrary laws, strange punishments, and cruel games.
+- He genuinely likes his subjects but does not understand them.
+- He is described as a bored immortal child with absolute power.
+
+Consequences:
+
+- Skorri's affection should be almost as dangerous as his cruelty.
+- His rule reinforces that Gn'ure can contain both political horror and monstrous feudal absurdity.
+
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; SPE-005 — Giants [Locked]; MON-008 — Monstrous Peoples and Orc Raiders [Locked]
+
+Source: SRC-064
+
+### NPC-021 - Lady Moira Ashvale
+
+Canon Status: Under Review
+
+Summary: Moira Ashvale is the human Lady of Ashvale, known as the Iron Rose.
+
+Canon Facts:
+
+- She is young, brilliant, terrifying, and modernizing.
+- She has modernized her military, expanded industry, founded schools, and hired foreign advisors.
+- Many commoners genuinely love her.
+- Her ultimate ambition is the reunification of Gn'ure through conquest.
+- She is politically gifted, ruthless, and possibly capable of succeeding.
+
+Consequences:
+
+- Moira is the reformer-conqueror who might save Gn'ure by becoming everyone else's nightmare.
+- She can make modernization feel hopeful and dangerous at the same time.
+
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; MIL-003 — Voss Doctrine [Locked]
+
+Source: SRC-064
+
+### NPC-022 - Duke Fergus Morrow
+
+Canon Status: Under Review
+
+Summary: Fergus Morrow is the human Duke of Morrowmere and Master of Crows.
+
+Canon Facts:
+
+- He rules one of the wealthiest regions in Gn'ure.
+- He is infamous for espionage, blackmail, assassination, and political manipulation.
+- His spy network stretches across the Highlands.
+- His personal motto is: "A dead enemy is useful only once. A compromised enemy is useful forever."
+
+Consequences:
+
+- Fergus should make every conversation in Gn'ure feel like a trap.
+- He is an ideal patron, enemy, or hidden hand in Highland intrigue.
+
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; SOC-003 — Organized Crime [Locked]; GOV-004 — Directorate of Military Intelligence [Locked]
+
+Source: SRC-064
+
+### NPC-023 - Don Salvatore Moretti
+
+Canon Status: Under Review
+
+Summary: Salvatore Moretti is a major criminal figure, likely tied to the White Hand or the Velorian underworld.
+
+Canon Facts:
+
+- He appears in the major NPC roster under Criminal Underworld.
+- His name and title imply a charismatic mafia-boss archetype.
+- He still needs assignment to a city, syndicate, and relationship to the White Hand.
+
+Consequences:
+
+- Moretti is a natural noir patron, rival, or underworld enemy for Veloria.
+
+Related Entries: ORG-002 — The White Hand [Locked]; SOC-003 — Organized Crime [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]
+
+Source: SRC-064
+
+### NPC-024 - Abigail "Black Abby" Reed
+
+Canon Status: Under Review
+
+Summary: Abigail "Black Abby" Reed is a major criminal figure suited to smuggling, piracy, port crime, or frontier logistics.
+
+Canon Facts:
+
+- She appears in the major NPC roster under Criminal Underworld.
+- She could connect naturally to Davenport, the Iron Coast, Shattered Isles piracy, or Marcher smuggling.
+- Her nickname is table-facing and should be preserved.
+
+Consequences:
+
+- Black Abby is a strong smuggler queen candidate hiding in plain sight.
+- Her final faction placement should connect organized crime to shipping, rail, or frontier supply.
+
+Related Entries: ORG-002 — The White Hand [Locked]; SOC-003 — Organized Crime [Locked]; GEO-014 — The Iron Coast and Shattered Isles [Locked]; NAT-007 — The Free Marches [Locked]
+
+Source: SRC-064
+
+### NPC-025 - Viktor Kane
+
+Canon Status: Under Review
+
+Summary: Viktor Kane is a former railroad engineer turned outlaw.
+
+Canon Facts:
+
+- Recovered notes connect him to major rail-related criminal operations.
+- He likely ties to frontier rail expansion, sabotage, robberies, industrial theft, or outlaw engineering.
+- He is White Hand-adjacent until final faction placement is decided.
+
+Consequences:
+
+- Viktor is the outlaw engineer who knows how to break the systems civilization depends on.
+- He should be useful for train robberies, sabotage arcs, and industrial crime.
+
+Related Entries: ORG-008 — Frontier Rail Companies [Locked]; ORG-002 — The White Hand [Locked]; SOC-003 — Organized Crime [Locked]; NAT-007 — The Free Marches [Locked]
+
+Source: SRC-064
+
+### NPC-026 - The Broker
+
+Canon Status: Under Review
+
+Summary: The Broker is an information dealer, fixer, black-market coordinator, or neutral underworld contact.
+
+Canon Facts:
+
+- The Broker appears in the major NPC roster under Criminal Underworld.
+- The name is likely a title rather than a personal name.
+- The Broker may function as a recurring noir information NPC, fence, or White Hand mediator.
+- The core campaign role is "the person everyone hates needing and needs anyway."
+
+Consequences:
+
+- The Broker is useful wherever the party needs information that no respectable institution will admit exists.
+- Their identity should remain flexible until assigned to a city, syndicate, or campaign arc.
+
+Related Entries: SOC-003 — Organized Crime [Locked]; ORG-002 — The White Hand [Locked]; GOV-006 — Office of Tactical Security [Locked]
+
+Source: SRC-064
+
+### NPC-027 - Saint Raphael the Artificer
+
+Canon Status: Under Review
+
+Summary: Saint Raphael the Artificer is a recovered sacred or artificer figure associated with construct-related material, but the identity is unresolved.
+
+Canon Facts:
+
+- The name appears as the attributed source of a quote in recovered Warforged or construct material.
+- The entry needs review because it may overlap or conflict with Raphael as a First One.
+- The safest current reading is that Saint Raphael the Artificer may be a saintly title, later devotional attribution, mistranslation, or distinct historical figure rather than automatically the First One Raphael.
+
+Consequences:
+
+- Do not lock Saint Raphael the Artificer as a separate canon person until construct theology is audited.
+- The name can be preserved as a useful recovered lead.
+
+Related Entries: REL-014 — Raphael, Public Theology [Locked]; REL-001 — The First Ones Pantheon [Locked]; MIL-007 — Automatons [Locked]; SOC-001 — Automaton Rights and Identity [Locked]
+
+Source: SRC-063
 ## Campaign Entries
 
 ### CAM-001 - Vein of Eismark Memory Premise

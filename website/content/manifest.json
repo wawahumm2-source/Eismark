@@ -64,6 +64,27 @@
       "file": "archive/Eismark_New_Canonization_Ideas_Triage_v0.1.md",
       "audience": "gm",
       "description": "Non-canon review categories for recovered chat ideas."
+    },
+    {
+      "id": "lore-reference-image-gap-audit",
+      "title": "Lore and Reference Image Gap Audit",
+      "file": "archive/Eismark_Lore_And_Reference_Image_Gap_Audit_v0.1.md",
+      "audience": "gm",
+      "description": "Mechanical audit of lore depth and reference image gaps."
+    },
+    {
+      "id": "npc-index-second-pass",
+      "title": "NPC Index From Second Pass",
+      "file": "archive/Eismark_NPC_Index_From_Second_Pass_v0.1.md",
+      "audience": "gm",
+      "description": "Non-canon extracted NPC and named-figure review index."
+    },
+    {
+      "id": "npc-second-sweep",
+      "title": "NPC Second Sweep From Memory Archive",
+      "file": "archive/Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md",
+      "audience": "gm",
+      "description": "Recovered NPC roster and fuller character notes from the memory archive."
     }
   ]
 }

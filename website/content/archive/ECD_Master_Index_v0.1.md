@@ -21,6 +21,9 @@ Canon Status Values:
 - `Eismark_New_Canonization_Ideas_From_Chat_Export_v0.1.md` [Development Backlog; Non-Canon]
 - `Eismark_Additional_Interesting_Ideas_Second_Pass_v0.1.md` [Development Backlog; Non-Canon]
 - `Eismark_New_Canonization_Ideas_Triage_v0.1.md` [Development Review; Non-Canon]
+- `Eismark_Lore_And_Reference_Image_Gap_Audit_v0.1.md` [Development Audit; Non-Canon]
+- `Eismark_NPC_Index_From_Second_Pass_v0.1.md` [Development Index; Non-Canon]
+- `Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md` [Development Recovery; Non-Canon]
 
 ## History
 
@@ -84,7 +87,7 @@ Canon Status Values:
 - SPE-001 — Humans [Locked]
 - SPE-002 — Orcs [Locked]
 - SPE-003 — Elves [Locked]
-- SPE-004 — Dragonborn and Dragons [Locked]
+- SPE-004 — Dragonborn [Locked]
 - SPE-005 — Giants [Locked]
 - SPE-006 — Dwarves [Locked]
 - SPE-007 — Gnomes [Locked]
@@ -204,6 +207,29 @@ Canon Status Values:
 - NPC-002 — The Abandoned One [Locked]
 - NPC-003 — The Bartender [Locked]
 - NPC-004 — Brother Remembrance [Locked]
+- NPC-005 — Magister Azhul, the Dreaming King [Under Review]
+- NPC-006 — Professor Kathargeryhavander [Under Review]
+- NPC-007 — Director Marcus Vale [Under Review]
+- NPC-008 — Father Lucian Vale [Under Review]
+- NPC-009 — Archon Quintus Michael [Under Review]
+- NPC-010 — Queen Aelirya Silverbough [Under Review]
+- NPC-011 — King Alaric IV of House Vossen [Under Review]
+- NPC-012 — Lord Protector Gravk Vagrkheim [Under Review]
+- NPC-013 — Grand Inquisitor Cassian Voss [Under Review]
+- NPC-014 — President Theodore Ashcroft [Under Review]
+- NPC-015 — Director Grizzik Bramblegear [Under Review]
+- NPC-016 — Elias "Old Crow" Mercer [Under Review]
+- NPC-017 — Marshal Helena "Saint" Graves [Under Review]
+- NPC-018 — Lord Alistair Blackthorne [Under Review]
+- NPC-019 — Lord Edmund Cairn [Under Review]
+- NPC-020 — Jarl Skorri Stone-Eater [Under Review]
+- NPC-021 — Lady Moira Ashvale [Under Review]
+- NPC-022 — Duke Fergus Morrow [Under Review]
+- NPC-023 — Don Salvatore Moretti [Under Review]
+- NPC-024 — Abigail "Black Abby" Reed [Under Review]
+- NPC-025 — Viktor Kane [Under Review]
+- NPC-026 — The Broker [Under Review]
+- NPC-027 — Saint Raphael the Artificer [Under Review]
 
 ## Campaign
 

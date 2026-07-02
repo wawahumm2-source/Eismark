@@ -116,7 +116,7 @@ The First Ones create the mortal peoples that will inherit Creation. Different p
 
 This entry resolves the earlier `HIS-TBD` placeholder. Mortal creation is now locked as `HIS-005`, while the beginning of the First Age is now `HIS-006`.
 
-**See Also:** SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn and Dragons; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins; CAP-001 — HIS-005 Numbering
+**See Also:** SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins; CAP-001 — HIS-005 Numbering
 
 ### HIS-006 — The First Age Begins
 
@@ -575,7 +575,7 @@ The First Ones are venerated as divine beings associated with domains and specie
 - Moira: fate, destiny, prophecy, fortune, choice.
 - Elyria: love, family, community, joy, home.
 
-**See Also:** COS-002 — The First Ones; SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn and Dragons; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins
+**See Also:** COS-002 — The First Ones; SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins
 
 ### REL-002 — The Iron Church
 
@@ -815,11 +815,11 @@ Elves resisted the Great Forgetting better than most peoples. They do not rememb
 
 This makes Elves aloof, sorrowful, and sometimes condescending. They pity the younger races even as they look down upon them. Many Elves see themselves as the closest living reflection of their First One's teachings, though some quietly wonder how much they too have forgotten. Elves inherit Elaris's memory.
 
-### SPE-004 — Dragonborn and Dragons
+### SPE-004 — Dragonborn
 
 Dragonborn are the original inhabitants of the Shattered Isles, heirs to lost kingdoms and city-states. Their civilization fractured over centuries, leaving them without a unified state. Family became their nation.
 
-Dragonborn value honor, family, legacy, personal excellence, and ancestral memory. Many formal names preserve at least ten generations of ancestry, and forgetting one's lineage is shameful. They maintain ancient spiritual traditions centered on their First One and the great Dragons, but exact dragon theology remains open. Dragonborn often regard Dragons with the respect due to an ancient elder or grandparent. Dragonborn inherit Drakharion's honor.
+Dragonborn value honor, family, legacy, personal excellence, and ancestral memory. Many formal names preserve at least ten generations of ancestry, and forgetting one's lineage is shameful. They maintain ancient spiritual traditions centered on their First One and the great Dragons, but exact dragon theology remains open. Dragonborn inherit Drakharion's honor.
 
 ### SPE-005 — Giants
 
@@ -1793,6 +1793,166 @@ Brother Remembrance is one of the oldest living Exalted and one of the most belo
 - It is said that no one leaves Brother Remembrance with the answer they expected; some leave with wisdom, and others leave with a question that takes the rest of their lives to answer.
 
 **See Also:** MIL-009 — Exalted; REL-002 — The Iron Church; NPC-001 — Uriel, the Rememberer; IMG-002 — Brother Remembrance Monastic Visual Reference; IMG-003 — Remembrance the Unyielding War-Era Visual Reference
+
+### NPC-005 — Magister Azhul, the Dreaming King
+
+**Status:** Under Review
+
+Magister Azhul is a major cosmic-horror antagonist tied to forbidden scholarship, the Blood, the Entity, and the Dreamers of Azhul. Known names and titles include Azhul, Archmagister Severian Holt, the Dreaming King, Prophet of the New Flesh, the First Dreamer, the Sleeper Beneath the Hills, and He Who Dreams in Color.
+
+Recovered material frames him as a former scholar named Severian Holt who became a lich after pursuing truths connected to the Great Forgetting, the First Age, the Blood, or the Entity. His followers are the Dreamers of Azhul. Azhul wants to meet Uriel and believes Uriel possesses the Final Truth. His theology may contain fragments of real knowledge arranged into almost entirely false conclusions.
+
+### NPC-006 — Professor Kathargeryhavander
+
+**Status:** Under Review
+
+Professor Kathargeryhavander is a Dragonborn explorer, archaeologist, cartographer, historian, and senior fellow of the Commonwealth Geographical Society. Common names and titles include Professor Kath, Old Kath, the Last Wayfinder, Cartographer of the Shattered Isles, the Man Who Walked Beyond the Map, and Professor Emeritus of Browning University.
+
+He is curious, kind, absent-minded, stubborn, and famous for discovering ruins. He has worked with Uriel's Testament but opposes reckless scholarship. He has concealed at least one terrible discovery. Recovered formal ancestral names associated with his lineage include Kathargellhavander, Vorashkerynthalax, Drakharionvelas, Kartharaxion, Veyrathandar, Kharazenthyr, Valakarion, Harazethax, Kaeltheryn, and Ithrakar the Wayfinder.
+
+### NPC-007 — Director Marcus Vale
+
+**Status:** Under Review
+
+Marcus Vale is the human Director of the Office of Tactical Security. Recovered notes describe him as a late-50s patriot, war hero, and servant of the republic. He is pragmatic and willing to use covert methods to protect the Commonwealth. He believes the Commonwealth must survive at any cost.
+
+He respects President Theodore Ashcroft but believes Ashcroft is too idealistic. The OTS may act without the President's knowledge. Marcus Vale should initially appear as one of the good people trying to protect Veloria; his danger lies in the distance between democratic legitimacy and secret necessity.
+
+### NPC-008 — Father Lucian Vale
+
+**Status:** Under Review
+
+Father Lucian Vale is a Kaltheimian priest, former archpriest, and wandering mercy-focused religious figure. Known titles include Archpriest Lucian Vale of Sanctspire, the Pilgrim Saint, and the Wandering Father. He left institutional power after war changed him.
+
+His mercy-focused theology creates tension inside Kaltheim without simply condemning the Sacrament. Recovered notes suggest he may be devoted to Seraphael. He has never received public comment from Archon Quintus Michael.
+
+### NPC-009 — Archon Quintus Michael
+
+**Status:** Under Review
+
+Archon Quintus Michael is the human Archon of the Vigil, First Servant of Michael, and Keeper of the Communion. He is the spiritual head of the Sacrament. Recovered notes describe him as contemplative, humble, and immovable when the Blood, heresy, or Communion are threatened.
+
+He is a close friend of Grand Inquisitor Cassian Voss; their dynamic is described as The Sword and the Candle. Quintus should embody spiritual gravity rather than simple political command.
+
+### NPC-010 — Queen Aelirya Silverbough
+
+**Status:** Under Review
+
+Queen Aelirya Silverbough is the ruler of the Sylvan Veil and a mourning witness to the long memory of the Elves. Later roster material labels her the mourning witness. She is said to quietly support Uriel's Testament.
+
+Her support for Uriel's Testament gives adventurers a route into Elven memory politics and links the Sylvan Veil to recovered history, hidden memory, and cautious aid.
+
+### NPC-011 — King Alaric IV of House Vossen
+
+**Status:** Under Review
+
+King Alaric IV of House Vossen is a placeholder monarch for the Kingdom of Voss. Recovered notes mention him as a possible constitutional monarch, but the name is explicitly treated as replaceable if later Voss canon changes.
+
+### NPC-012 — Lord Protector Gravk Vagrkheim
+
+**Status:** Under Review
+
+Gravk Vagrkheim is the Orc Lord Protector of the Sacrament and the secular-military head of Kaltheim. Titles include Lord Protector of the Sacrament, Marshal of the Northern Host, and Defender of the Pilgrimage.
+
+He is a legendary war hero and master tactician who rose through frontier campaigns. He is credited with defeating major incursions, reforming Kaltheimian military doctrine, and modernizing parts of the armed forces. He is brutish, direct, uncompromising, strategically sharp, and politically capable. Soldiers adore him; enemies fear him. His age needs timeline confirmation because recovered notes say he fought as a young officer during the Great Continental War.
+
+### NPC-013 — Grand Inquisitor Cassian Voss
+
+**Status:** Under Review
+
+Cassian Voss is the human Grand Inquisitor of the Inquisition of the Vigil. Titles include Grand Inquisitor, the Black Shepherd, Keeper of the Vigil, and Warden of the Veins. He was born in a northern Ashlands frontier village that vanished when he was twelve; only Cassian survived.
+
+He investigates Blood outbreaks, aberrant incursions, heretical cults, ancient ruins, and phenomena officially denied by the state. He is one of the few living people said to have stood before an active Vein. He is gentle, patient, compassionate, observant, and terrifying when facing existential threats. He privately believes Uriel is still alive.
+
+### NPC-014 — President Theodore Ashcroft
+
+**Status:** Under Review
+
+Theodore Ashcroft is the human President of the Commonwealth of Veloria and a Valorian Federalist reformer. He was born to a middle-class family in Veleris, served as an officer in the Commonwealth Army, and later became a lawyer and Senator.
+
+He rose to the Presidency on promises to fight corruption, strengthen infrastructure, expand opportunity, and preserve democratic institutions. He is charismatic, sincere, deeply principled, and fundamentally decent. Marcus Vale respects him but believes he is too idealistic. OTS may act without his knowledge.
+
+### NPC-015 — Director Grizzik Bramblegear
+
+**Status:** Under Review
+
+Grizzik Bramblegear is the Goblin Director of the Commonwealth Arcane Commission. Titles include Director of the Commonwealth Arcane Commission, Professor Emeritus of Hartfoot Magic Institute, and Senior Fellow of the Commonwealth Geographical Society.
+
+He was born in the industrial districts of Veleris and underestimated by nearly everyone. He graduated from Hartfoot Magic Institute with highest honors. He is a renowned scholar of magical law, respected abjuration specialist, and expert on magical safety. He deeply distrusts the OTS and has secretly studied Blood artifacts, Second Age relics, and aberrant phenomena.
+
+### NPC-016 — Elias "Old Crow" Mercer
+
+**Status:** Under Review
+
+Elias "Old Crow" Mercer is a frontier legend and older lore-bearing adventuring contact. The first NPC index had Old Crow without a full name; the second sweep recovers Elias "Old Crow" Mercer. He is framed as someone players may trust before realizing he knows far too much about things that should not exist.
+
+### NPC-017 — Marshal Helena "Saint" Graves
+
+**Status:** Under Review
+
+Helena "Saint" Graves is a famous monster slayer and marshal. Earlier auto-detection identified "Saint Helena Graves"; the recovered correction is Marshal Helena "Saint" Graves. Saint is her nickname and does not necessarily mean she is a religious saint. Her reputation may be half badge, half campfire myth.
+
+### NPC-018 — Lord Alistair Blackthorne
+
+**Status:** Under Review
+
+Alistair Blackthorne is a vampire lord of Blackthorn Keep and Warden of the Eastern Moors. He is a vampire with an apparent age in the mid-40s and an actual age of at least four centuries. He is the worst-kept secret in Gn'ure: everyone knows he is a vampire, but no one can prove it.
+
+His lands are prosperous, orderly, healthy, and deeply disturbing. Peasants do not leave. He is refined, charismatic, cultured, and monstrously patient. He views humans as beloved livestock.
+
+### NPC-019 — Lord Edmund Cairn
+
+**Status:** Under Review
+
+Edmund Cairn is the human King of Cairnhold and Lord of the Dying Crown. He is an ancient ruler who has held power for over sixty years. He suffers from a wasting disease that should have killed him years ago. His realm has fallen into paranoia, succession crises, and intrigue. Rumors say he uses forbidden magic to prolong his life. His children are already quietly preparing for civil war.
+
+### NPC-020 — Jarl Skorri Stone-Eater
+
+**Status:** Under Review
+
+Skorri Stone-Eater is a Hill Giant lord of High Crag, known as the Laughing Giant. He is one of the few Giants to openly rule humans. His subjects live in terror beneath arbitrary laws, strange punishments, and cruel games. He genuinely likes his subjects but does not understand them. He is described as a bored immortal child with absolute power.
+
+### NPC-021 — Lady Moira Ashvale
+
+**Status:** Under Review
+
+Moira Ashvale is the human Lady of Ashvale, known as the Iron Rose. She is young, brilliant, terrifying, and modernizing. She has modernized her military, expanded industry, founded schools, and hired foreign advisors. Many commoners genuinely love her. Her ultimate ambition is the reunification of Gn'ure through conquest.
+
+### NPC-022 — Duke Fergus Morrow
+
+**Status:** Under Review
+
+Fergus Morrow is the human Duke of Morrowmere and Master of Crows. He rules one of the wealthiest regions in Gn'ure. He is infamous for espionage, blackmail, assassination, and political manipulation. His spy network stretches across the Highlands. His personal motto is: "A dead enemy is useful only once. A compromised enemy is useful forever."
+
+### NPC-023 — Don Salvatore Moretti
+
+**Status:** Under Review
+
+Salvatore Moretti is a major criminal figure, likely tied to the White Hand or the Velorian underworld. He appears in the major NPC roster under Criminal Underworld. His name and title imply a charismatic mafia-boss archetype. He still needs assignment to a city, syndicate, and relationship to the White Hand.
+
+### NPC-024 — Abigail "Black Abby" Reed
+
+**Status:** Under Review
+
+Abigail "Black Abby" Reed is a major criminal figure suited to smuggling, piracy, port crime, or frontier logistics. She could connect naturally to Davenport, the Iron Coast, Shattered Isles piracy, or Marcher smuggling. Her nickname is table-facing and should be preserved.
+
+### NPC-025 — Viktor Kane
+
+**Status:** Under Review
+
+Viktor Kane is a former railroad engineer turned outlaw. Recovered notes connect him to major rail-related criminal operations. He likely ties to frontier rail expansion, sabotage, robberies, industrial theft, or outlaw engineering. He is White Hand-adjacent until final faction placement is decided.
+
+### NPC-026 — The Broker
+
+**Status:** Under Review
+
+The Broker is an information dealer, fixer, black-market coordinator, or neutral underworld contact. The name is likely a title rather than a personal name. The Broker may function as a recurring noir information NPC, fence, or White Hand mediator. Their core campaign role is "the person everyone hates needing and needs anyway."
+
+### NPC-027 — Saint Raphael the Artificer
+
+**Status:** Under Review
+
+Saint Raphael the Artificer is a recovered sacred or artificer figure associated with construct-related material, but the identity is unresolved. The name appears as the attributed source of a quote in recovered Warforged or construct material. The safest current reading is that Saint Raphael the Artificer may be a saintly title, later devotional attribution, mistranslation, or distinct historical figure rather than automatically the First One Raphael.
 
 ## Campaign Premise
 
