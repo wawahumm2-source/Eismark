@@ -27,6 +27,7 @@ const state = {
   suppressHistoryRecord: false,
   gmUnlocked: false,
   editorBusy: false,
+  editorSession: null,
 };
 
 const els = {
@@ -66,10 +67,16 @@ async function refreshContent() {
   const manifestResponse = await fetch("/api/manifest", { cache: "no-store" });
   state.manifest = await manifestResponse.json();
   state.gmUnlocked = Boolean(state.manifest.gm);
+  await refreshEditorSession();
 
   const handbookResponse = await fetch("/api/handbook", { cache: "no-store" });
   const markdown = await handbookResponse.text();
   state.entries = parseEntries(markdown);
+}
+
+async function refreshEditorSession() {
+  const response = await fetch("/api/editor/session", { cache: "no-store" });
+  state.editorSession = response.ok ? await response.json() : null;
 }
 
 function parseEntries(markdown) {
@@ -703,12 +710,22 @@ function showEntry(entry) {
 }
 
 function renderEditorPanel(entry) {
+  const github = state.editorSession;
+  const githubStatus = github?.github
+    ? `GitHub connected as ${github.githubUser}.`
+    : github?.githubRequired
+      ? "GitHub connection required before production saves."
+      : "Local filesystem save mode.";
+  const connectButton = github?.github
+    ? `<button class="button secondary" id="disconnectGithubButton" type="button">Disconnect GitHub</button>`
+    : `<a class="button secondary" id="connectGithubButton" href="/api/github/login">Connect GitHub</a>`;
+
   return `
     <section class="editor-panel" aria-label="GM/Editor controls">
       <div class="editor-panel-header">
         <div>
           <h3>GM/Editor Controls</h3>
-          <p>Edits save to local repo files for review, commit, and GitHub deployment.</p>
+          <p>${escapeHtml(githubStatus)}</p>
         </div>
         <label class="visibility-control">
           <span>Player visibility</span>
@@ -737,6 +754,7 @@ function renderEditorPanel(entry) {
         <button class="button" id="saveEntryButton" type="button">Save Entry</button>
         <button class="button secondary" id="uploadImageButton" type="button">Upload Image Into Entry</button>
         <button class="button secondary" id="saveVisibilityButton" type="button">Save Visibility</button>
+        ${connectButton}
       </div>
       <p id="editorStatus" class="editor-status" role="status"></p>
     </section>
@@ -749,6 +767,7 @@ function bindEditorControls(entry) {
   document.querySelector("#saveEntryButton")?.addEventListener("click", () => saveEntryEdit(entry));
   document.querySelector("#saveVisibilityButton")?.addEventListener("click", () => saveEntryVisibility(entry));
   document.querySelector("#uploadImageButton")?.addEventListener("click", () => uploadEntryImage(entry));
+  document.querySelector("#disconnectGithubButton")?.addEventListener("click", disconnectGithub);
 }
 
 function cleanReaderBody(markdown) {
@@ -935,7 +954,13 @@ async function saveEntryEdit(entry) {
 
   if (!response.ok) {
     const result = await response.json().catch(() => ({}));
-    setEditorStatus(result.message || "Save failed.", true);
+    handleEditorSaveError(result, "Save failed.");
+    return;
+  }
+
+  const result = await response.json().catch(() => ({}));
+  if (result.github) {
+    setEditorStatus("Saved to GitHub. Netlify will show the update after deployment finishes.");
     return;
   }
 
@@ -962,7 +987,13 @@ async function saveEntryVisibility(entry) {
 
   if (!response.ok) {
     const result = await response.json().catch(() => ({}));
-    setEditorStatus(result.message || "Visibility save failed.", true);
+    handleEditorSaveError(result, "Visibility save failed.");
+    return;
+  }
+
+  const result = await response.json().catch(() => ({}));
+  if (result.github) {
+    setEditorStatus("Visibility saved to GitHub. It will apply after deployment finishes.");
     return;
   }
 
@@ -994,12 +1025,23 @@ async function uploadEntryImage(entry) {
 
   const result = await response.json().catch(() => ({}));
   if (!response.ok) {
-    setEditorStatus(result.message || "Image upload failed.", true);
+    handleEditorSaveError(result, "Image upload failed.");
     return;
   }
 
   editor.value = `${editor.value.trim()}\n\n${result.markdown}\n`;
   setEditorStatus("Image added to the editor. Save the entry to keep it in the handbook.");
+}
+
+async function disconnectGithub() {
+  await fetch("/api/github/logout", { method: "POST" });
+  await refreshEditorSession();
+  render();
+}
+
+function handleEditorSaveError(result, fallback) {
+  const message = result.message || fallback;
+  setEditorStatus(result.needsGithub ? `${message} Use Connect GitHub first.` : message, true);
 }
 
 function setEditorStatus(message, isError = false) {

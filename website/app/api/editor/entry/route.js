@@ -3,11 +3,14 @@ import path from "node:path";
 import { cookies } from "next/headers";
 import { isGmRequest } from "../../../../lib/auth";
 import { readManifest } from "../../../../lib/content";
+import { getGithubFile, readGithubSession, saveGithubFilesBatch, shouldUseGithubWrites } from "../../../../lib/github-editor";
 
 const OUTPUT_READABLE = path.resolve(process.cwd(), "..", "outputs", "Eismark_Readable_Guide_v0.1.md");
+const OUTPUT_READABLE_REPO_PATH = "outputs/Eismark_Readable_Guide_v0.1.md";
 
 export async function POST(request) {
-  if (!isGmRequest(await cookies())) {
+  const cookieStore = await cookies();
+  if (!isGmRequest(cookieStore)) {
     return Response.json({ ok: false, message: "GM/Editor mode required." }, { status: 401 });
   }
 
@@ -22,6 +25,39 @@ export async function POST(request) {
 
   const manifest = await readManifest();
   const handbookPath = path.resolve(process.cwd(), "content", manifest.handbookFile);
+  const handbookRepoPath = `website/content/${manifest.handbookFile}`;
+
+  if (shouldUseGithubWrites()) {
+    const session = readGithubSession(cookieStore);
+    if (!session) {
+      return Response.json(
+        { ok: false, message: "Connect GitHub before saving to the repository.", needsGithub: true },
+        { status: 401 },
+      );
+    }
+
+    try {
+      const files = [];
+      for (const repoPath of [handbookRepoPath, OUTPUT_READABLE_REPO_PATH]) {
+        const current = await getGithubFile(repoPath, session.token);
+        if (!current) throw new Error(`Could not load ${repoPath} from GitHub.`);
+        files.push({
+          path: repoPath,
+          content: replaceEntryBody(current.content, { rawTitle, id, body: nextBody }),
+        });
+      }
+
+      await saveGithubFilesBatch({
+        files,
+        message: `Update ${id || rawTitle}`,
+        token: session.token,
+      });
+      return Response.json({ ok: true, github: true, written: files.map((file) => file.path) });
+    } catch (error) {
+      return Response.json({ ok: false, message: error.message || "GitHub save failed." }, { status: error.status || 500 });
+    }
+  }
+
   const written = [];
 
   for (const filePath of [handbookPath, OUTPUT_READABLE]) {

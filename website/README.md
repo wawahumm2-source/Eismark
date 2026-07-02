@@ -33,7 +33,7 @@ http://127.0.0.1:3000
 Local default GM password:
 
 ```text
-eismark-gm
+5446
 ```
 
 For hosting, set Netlify environment variables instead of relying on the local default:
@@ -42,6 +42,35 @@ For hosting, set Netlify environment variables instead of relying on the local d
 - `AUTH_SECRET`: a long random secret used to sign the GM session cookie.
 
 The GM session is stored in an httpOnly signed cookie. Static JavaScript no longer contains the GM password hash.
+
+## GitHub Editor Write-Back
+
+GM/Editor mode can reveal and locally edit content after the GM password gate. Permanent production writes require a separate GitHub OAuth login, so knowing the GM password is not enough to commit to the repository.
+
+Create a GitHub OAuth App and set its callback URL to:
+
+```text
+https://<site-domain>/api/github/callback
+```
+
+For local development, also allow:
+
+```text
+http://127.0.0.1:3000/api/github/callback
+```
+
+Add these Netlify environment variables:
+
+- `GITHUB_CLIENT_ID`
+- `GITHUB_CLIENT_SECRET`
+- `GITHUB_OWNER`
+- `GITHUB_REPO`
+- `GITHUB_BRANCH`
+- `GITHUB_ALLOWED_USERS`
+- `GITHUB_OAUTH_SCOPE` optional, defaults to `repo`
+- `AUTH_SECRET`
+
+Production saves use server-side route handlers and GitHub's REST API. The browser never receives the GitHub client secret or access token.
 
 ## Deploy To Netlify
 
@@ -53,6 +82,12 @@ The GM session is stored in an httpOnly signed cookie. Static JavaScript no long
 6. Add environment variables in Netlify:
    - `GM_PASSWORD`
    - `AUTH_SECRET`
+   - `GITHUB_CLIENT_ID`
+   - `GITHUB_CLIENT_SECRET`
+   - `GITHUB_OWNER`
+   - `GITHUB_REPO`
+   - `GITHUB_BRANCH`
+   - `GITHUB_ALLOWED_USERS`
 7. Deploy.
 8. Confirm the temporary Netlify URL works before connecting your custom domain.
 
