@@ -18,6 +18,13 @@
         <button class="button search-button" type="submit">Search</button>
         <div id="searchSuggestions" class="search-suggestions hidden"></div>
       </form>
+      <div id="gmAccess" class="gm-access hidden">
+        <button id="gmStatusButton" class="gm-status-button" type="button" aria-haspopup="menu" aria-expanded="false">GM/Editor</button>
+        <div id="gmQuickMenu" class="gm-quick-menu hidden" role="menu" aria-label="GM/Editor menu">
+          <button id="editCurrentEntryButton" type="button" role="menuitem">Open Entry Controls</button>
+          <button id="lockGmButton" type="button" role="menuitem">Exit GM/Editor</button>
+        </div>
+      </div>
     </header>
 
     <main class="wiki-shell">

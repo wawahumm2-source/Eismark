@@ -35,6 +35,11 @@ const els = {
   gmPassword: document.querySelector("#gmPassword"),
   gmError: document.querySelector("#gmError"),
   unlockButton: document.querySelector("#unlockButton"),
+  gmAccess: document.querySelector("#gmAccess"),
+  gmStatusButton: document.querySelector("#gmStatusButton"),
+  gmQuickMenu: document.querySelector("#gmQuickMenu"),
+  editCurrentEntryButton: document.querySelector("#editCurrentEntryButton"),
+  lockGmButton: document.querySelector("#lockGmButton"),
   historyBack: document.querySelector("#historyBack"),
   historyForward: document.querySelector("#historyForward"),
   searchForm: document.querySelector("#searchForm"),
@@ -245,7 +250,17 @@ function makeExcerpt(body) {
 function bindEvents() {
   els.searchForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    state.query = els.searchInput.value.trim().toLowerCase();
+    const query = els.searchInput.value.trim();
+    if (isEditorCommand(query)) {
+      state.query = "";
+      els.searchInput.value = "";
+      hideSearchSuggestions();
+      location.hash = query.toLowerCase() === "/editor" ? "#/editor" : "#/gm";
+      openGmUnlockDialog();
+      return;
+    }
+
+    state.query = query.toLowerCase();
     hideSearchSuggestions();
     location.hash = state.query ? "#/search" : "#/home";
     render();
@@ -266,6 +281,7 @@ function bindEvents() {
 
   document.addEventListener("click", (event) => {
     if (!els.searchForm.contains(event.target)) hideSearchSuggestions();
+    if (!els.gmAccess?.contains(event.target)) hideGmQuickMenu();
   });
 
   els.historyBack.addEventListener("click", () => moveVisitHistory(-1));
@@ -276,6 +292,12 @@ function bindEvents() {
   });
 
   els.unlockButton.addEventListener("click", unlockGmMode);
+  els.gmStatusButton?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleGmQuickMenu();
+  });
+  els.editCurrentEntryButton?.addEventListener("click", openCurrentEntryControls);
+  els.lockGmButton?.addEventListener("click", lockGmMode);
   els.gmPassword.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
@@ -303,9 +325,19 @@ function toggleGmEditorMode() {
     return;
   }
 
+  openGmUnlockDialog();
+}
+
+function openGmUnlockDialog() {
+  if (state.gmUnlocked) {
+    showGmQuickMenu();
+    return;
+  }
+
   els.gmPassword.value = "";
   els.gmError.textContent = "";
-  els.gmDialog.showModal();
+  if (!els.gmDialog.open) els.gmDialog.showModal();
+  window.setTimeout(() => els.gmPassword.focus(), 0);
 }
 
 async function unlockGmMode() {
@@ -328,6 +360,7 @@ async function unlockGmMode() {
 }
 
 async function lockGmMode() {
+  hideGmQuickMenu();
   await fetch("/api/logout", { method: "POST" });
   await refreshContent();
   if (isGmSection(state.activeSection)) state.activeSection = availableSections()[0] ?? "History";
@@ -343,6 +376,11 @@ function applyRoute() {
 
   if (!hash) {
     location.hash = "#/home";
+    return;
+  }
+
+  if (routeType === "gm" || routeType === "editor") {
+    if (!state.gmUnlocked) openGmUnlockDialog();
     return;
   }
 
@@ -378,6 +416,7 @@ function currentEntryFromRoute() {
 }
 
 function render() {
+  renderGmAccess();
   renderVisitButtons();
   renderSavedPages();
   renderChapterList();
@@ -392,6 +431,58 @@ function render() {
   } else {
     renderChapter();
   }
+}
+
+function isEditorCommand(query) {
+  return ["/gm", "/editor"].includes(query.trim().toLowerCase());
+}
+
+function renderGmAccess() {
+  if (!els.gmAccess) return;
+  els.gmAccess.classList.toggle("hidden", !state.gmUnlocked);
+  if (!state.gmUnlocked) {
+    hideGmQuickMenu();
+    return;
+  }
+
+  if (els.editCurrentEntryButton) {
+    els.editCurrentEntryButton.disabled = !currentEntryFromRoute();
+  }
+}
+
+function toggleGmQuickMenu() {
+  if (els.gmQuickMenu?.classList.contains("hidden")) {
+    showGmQuickMenu();
+  } else {
+    hideGmQuickMenu();
+  }
+}
+
+function showGmQuickMenu() {
+  if (!state.gmUnlocked || !els.gmQuickMenu || !els.gmStatusButton) return;
+  els.gmQuickMenu.classList.remove("hidden");
+  els.gmStatusButton.setAttribute("aria-expanded", "true");
+  if (els.editCurrentEntryButton) {
+    els.editCurrentEntryButton.disabled = !currentEntryFromRoute();
+  }
+}
+
+function hideGmQuickMenu() {
+  els.gmQuickMenu?.classList.add("hidden");
+  els.gmStatusButton?.setAttribute("aria-expanded", "false");
+}
+
+function openCurrentEntryControls() {
+  hideGmQuickMenu();
+  const entry = currentEntryFromRoute();
+  if (!entry) return;
+
+  showEntry(entry);
+  window.requestAnimationFrame(() => {
+    const panel = document.querySelector(".editor-panel");
+    panel?.scrollIntoView({ behavior: "smooth", block: "start" });
+    document.querySelector("#entryEditor")?.focus();
+  });
 }
 
 function renderVisitButtons() {
@@ -560,7 +651,7 @@ function renderSearchResults() {
 
 function renderSearchSuggestions() {
   const query = els.searchInput.value.trim().toLowerCase();
-  if (!query) {
+  if (!query || isEditorCommand(query)) {
     hideSearchSuggestions();
     return;
   }

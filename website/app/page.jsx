@@ -18,6 +18,13 @@ export default function Page() {
           <button className="button search-button" type="submit">Search</button>
           <div id="searchSuggestions" className="search-suggestions hidden"></div>
         </form>
+        <div id="gmAccess" className="gm-access hidden">
+          <button id="gmStatusButton" className="gm-status-button" type="button" aria-haspopup="menu" aria-expanded="false">GM/Editor</button>
+          <div id="gmQuickMenu" className="gm-quick-menu hidden" role="menu" aria-label="GM/Editor menu">
+            <button id="editCurrentEntryButton" type="button" role="menuitem">Open Entry Controls</button>
+            <button id="lockGmButton" type="button" role="menuitem">Exit GM/Editor</button>
+          </div>
+        </div>
       </header>
 
       <main className="wiki-shell">

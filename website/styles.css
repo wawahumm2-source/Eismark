@@ -279,6 +279,73 @@ select:focus-visible {
   padding: 10px 13px;
 }
 
+.gm-access {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.gm-status-button {
+  min-height: 34px;
+  border: 1px solid rgba(221, 189, 112, 0.5);
+  padding: 6px 10px;
+  color: #f7e4ad;
+  background:
+    linear-gradient(180deg, rgba(255, 244, 207, 0.08), rgba(0, 0, 0, 0.16)),
+    rgba(33, 18, 12, 0.68);
+  box-shadow: 0 1px 0 rgba(255, 242, 207, 0.14) inset;
+  cursor: pointer;
+  font-family: var(--ui-font);
+  font-size: 0.78rem;
+  font-variant: small-caps;
+}
+
+.gm-status-button:hover,
+.gm-status-button[aria-expanded="true"] {
+  border-color: var(--gold-light);
+  color: #fff3cf;
+  background:
+    linear-gradient(180deg, rgba(255, 244, 207, 0.14), rgba(0, 0, 0, 0.1)),
+    rgba(75, 23, 21, 0.78);
+}
+
+.gm-quick-menu {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 8px);
+  right: 0;
+  display: grid;
+  min-width: 190px;
+  border: 1px solid var(--rule);
+  outline: 1px solid rgba(255, 244, 205, 0.7);
+  outline-offset: -4px;
+  padding: 7px;
+  background:
+    linear-gradient(180deg, rgba(255, 249, 228, 0.98), rgba(232, 207, 151, 0.98));
+  box-shadow: 0 16px 30px rgba(43, 25, 12, 0.3);
+}
+
+.gm-quick-menu button {
+  border: 0;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  font-family: var(--ui-font);
+  text-align: left;
+}
+
+.gm-quick-menu button:hover:not(:disabled),
+.gm-quick-menu button:focus-visible {
+  background:
+    linear-gradient(90deg, rgba(185, 139, 60, 0.26), rgba(255, 246, 219, 0.12));
+  color: var(--mahogany);
+}
+
+.gm-quick-menu button:disabled {
+  cursor: default;
+  opacity: 0.48;
+}
+
 h1,
 h2,
 h3 {
