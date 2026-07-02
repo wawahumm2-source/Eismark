@@ -5,6 +5,9 @@
 [build.environment]
   NEXT_TELEMETRY_DISABLED = "1"
 
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 [functions]
   included_files = [
     "app.js",
