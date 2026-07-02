@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eismark World Handbook</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar wiki-topbar">
+      <a class="site-mark" href="#/home">Eismark<span>Wiki</span></a>
+      <nav class="history-nav" aria-label="Page history">
+        <button id="historyBack" class="history-button" type="button" title="Previous visited page">←</button>
+        <button id="historyForward" class="history-button" type="button" title="Next visited page">→</button>
+      </nav>
+      <form id="searchForm" class="top-search">
+        <input id="searchInput" class="search-input" type="search" placeholder="Search EismarkWiki">
+        <button class="button search-button" type="submit">Search</button>
+        <div id="searchSuggestions" class="search-suggestions hidden"></div>
+      </form>
+      <div class="mode-panel">
+        <span id="modeLabel" class="mode-label">Player View</span>
+        <button id="gmButton" class="button secondary" type="button">Unlock GM</button>
+      </div>
+    </header>
+
+    <main class="wiki-shell">
+      <aside class="sidebar" aria-label="Library navigation">
+        <section class="panel saved-panel">
+          <h2>Saved Pages</h2>
+          <div id="savedList" class="section-list saved-list"></div>
+          <select id="savedSelect" class="saved-select hidden" aria-label="Saved pages"></select>
+        </section>
+
+        <section class="panel">
+          <h2>Chapters</h2>
+          <div id="chapterList" class="section-list chapter-list"></div>
+        </section>
+
+      </aside>
+
+      <section class="content-area wiki-page">
+        <div id="toolbar" class="toolbar">
+          <div>
+            <p id="activeDoc" class="active-doc">Main Page</p>
+            <h2 id="activeTitle">Eismark</h2>
+          </div>
+          <div id="resultCount" class="result-count"></div>
+        </div>
+
+        <div id="homePage" class="home-page"></div>
+        <div id="entryGrid" class="entry-grid"></div>
+        <article id="entryDetail" class="entry-detail hidden"></article>
+      </section>
+    </main>
+
+    <dialog id="gmDialog" class="gm-dialog">
+      <form method="dialog" id="gmForm">
+        <h2>GM Unlock</h2>
+        <p>This local gate reveals GM notes, recovered reports, and reference images.</p>
+        <label for="gmPassword">Password</label>
+        <input id="gmPassword" type="password" autocomplete="current-password">
+        <p id="gmError" class="gm-error"></p>
+        <div class="dialog-actions">
+          <button class="button secondary" value="cancel" type="submit">Cancel</button>
+          <button id="unlockButton" class="button" value="default" type="button">Unlock</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

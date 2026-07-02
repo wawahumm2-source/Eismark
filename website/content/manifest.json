@@ -1,0 +1,26 @@
+{
+  "world": "Eismark",
+  "handbookFile": "archive/Eismark_Readable_Guide_v0.1.md",
+  "gmLockedSections": [
+    "Campaign Premise",
+    "Archive Notes",
+    "Recovery Reports",
+    "Images"
+  ],
+  "gmLockedTitlePatterns": [
+    "Brother Remembrance",
+    "Uriel",
+    "The Bartender",
+    "The Abandoned One",
+    "The Bar"
+  ],
+  "documents": [
+    {
+      "id": "handbook",
+      "title": "World Handbook",
+      "file": "archive/Eismark_Readable_Guide_v0.1.md",
+      "audience": "player",
+      "description": "Player-facing world lore, organized as a campaign handbook."
+    }
+  ]
+}
