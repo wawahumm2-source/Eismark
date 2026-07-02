@@ -74,6 +74,8 @@ If these variables are missing on Netlify, GM/Editor mode can still unlock, but 
 
 Production saves use server-side route handlers and GitHub's REST API. The browser never receives the GitHub client secret or access token.
 
+GitHub write-back is required automatically on Netlify. For another production host, set `EISMARK_GITHUB_WRITES=true`.
+
 ## Deploy To Netlify
 
 1. Push this project to a Git provider connected to Netlify.

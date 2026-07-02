@@ -39,7 +39,7 @@ export function isGithubConfigured() {
 }
 
 export function shouldUseGithubWrites() {
-  return process.env.NETLIFY === "true" || process.env.NODE_ENV === "production";
+  return process.env.NETLIFY === "true" || process.env.EISMARK_GITHUB_WRITES === "true";
 }
 
 export function createGithubState() {

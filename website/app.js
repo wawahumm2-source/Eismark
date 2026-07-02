@@ -843,15 +843,18 @@ function renderEditorPanel(entry) {
   } else if (!githubConfigured && github?.githubRequired) {
     githubStatus = "GitHub OAuth is not configured on this deployment. Production saves cannot write back yet.";
   } else if (!githubConfigured) {
-    githubStatus = "Local filesystem save mode. GitHub OAuth is not configured.";
+    githubStatus = "Local filesystem save mode.";
   } else if (github?.githubRequired) {
     githubStatus = "GitHub connection required before production saves.";
   }
-  const connectButton = github?.github
-    ? `<button class="button secondary" id="disconnectGithubButton" type="button">Disconnect GitHub</button>`
-    : githubConfigured
-      ? `<a class="button secondary" id="connectGithubButton" href="/api/github/login">Connect GitHub</a>`
-      : `<button class="button secondary" type="button" disabled title="Set GitHub OAuth environment variables in Netlify first.">Connect GitHub</button>`;
+  let connectButton = "";
+  if (github?.github) {
+    connectButton = `<button class="button secondary" id="disconnectGithubButton" type="button">Disconnect GitHub</button>`;
+  } else if (githubConfigured) {
+    connectButton = `<a class="button secondary" id="connectGithubButton" href="/api/github/login">Connect GitHub</a>`;
+  } else if (github?.githubRequired) {
+    connectButton = `<button class="button secondary" type="button" disabled title="Set GitHub OAuth environment variables in Netlify first.">Connect GitHub</button>`;
+  }
 
   return `
     <section class="editor-panel" aria-label="GM/Editor controls">
@@ -1175,7 +1178,7 @@ async function disconnectGithub() {
 function handleEditorSaveError(result, fallback) {
   const message = result.message || fallback;
   if (result.needsGithub && state.editorSession?.githubConfigured === false) {
-    setEditorStatus(`${message} GitHub OAuth is not configured in Netlify yet.`, true);
+    setEditorStatus(`${message} GitHub OAuth is not configured for this deployment yet.`, true);
     return;
   }
   setEditorStatus(result.needsGithub ? `${message} Use Connect GitHub first.` : message, true);
