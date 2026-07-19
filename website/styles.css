@@ -1022,7 +1022,7 @@ h1 {
 
 .entry-columns {
   column-count: 1;
-  max-width: 68ch;
+  max-width: 78ch;
 }
 
 .entry-columns figure,
@@ -1079,63 +1079,36 @@ h1 {
 
 .article-header {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
-  gap: clamp(22px, 3.4vw, 46px);
-  align-items: start;
   margin-bottom: 28px;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 18px;
 }
 
-.image-slot {
+.article-figure {
   position: relative;
-  margin: 0;
+  float: right;
+  width: min(38%, 340px);
+  min-width: 250px;
+  margin: 0.25rem 0 1.5rem clamp(22px, 3vw, 38px);
   border: 1px solid rgba(124, 91, 50, 0.75);
   padding: 10px;
-  background:
-    radial-gradient(circle at 50% 30%, rgba(255, 247, 219, 0.78), transparent 64%),
-    linear-gradient(180deg, #efe0b9, #d6bb82);
+  background: linear-gradient(180deg, #24160f, #120b07);
   box-shadow: 0 8px 18px rgba(50, 30, 16, 0.12);
 }
 
-.image-slot::before {
+.article-figure::before {
   position: absolute;
   inset: 4px;
   pointer-events: none;
-  border: 1px solid rgba(124, 91, 50, 0.42);
+  border: 1px solid rgba(221, 189, 112, 0.32);
   content: "";
 }
 
-.image-slot div {
-  display: grid;
-  place-items: center;
-  min-height: 172px;
-  border: 1px solid rgba(124, 91, 50, 0.48);
-  color: rgba(80, 58, 39, 0.7);
-  background:
-    radial-gradient(circle at 50% 42%, rgba(255, 246, 219, 0.64), transparent 58%),
-    linear-gradient(180deg, #ead6aa, #d9bd82);
-  font-family: var(--title-font);
-  font-variant: small-caps;
-  letter-spacing: 0.06em;
-  text-align: center;
-}
-
-.image-slot.has-image {
-  background:
-    linear-gradient(180deg, #24160f, #120b07);
-}
-
-.image-slot.has-image::before {
-  border-color: rgba(221, 189, 112, 0.32);
-}
-
-.image-slot img {
+.article-figure img {
   display: block;
   width: 100%;
-  max-height: 300px;
-  object-fit: cover;
+  max-height: 420px;
+  object-fit: contain;
   border: 1px solid rgba(221, 189, 112, 0.64);
   padding: 0;
   outline: 0;
@@ -1143,9 +1116,9 @@ h1 {
   box-shadow: none;
 }
 
-.image-slot figcaption {
+.article-figure figcaption {
   margin-top: 8px;
-  color: var(--ink-soft);
+  color: #d8c397;
   font-family: var(--ui-font);
   font-size: 0.9rem;
   font-style: italic;
@@ -1237,38 +1210,61 @@ h1 {
   color: var(--wine);
 }
 
-.entry-body-layout {
-  display: grid;
-  gap: clamp(22px, 4vw, 44px);
+.wiki-article-body {
+  max-width: 86ch;
 }
 
-.entry-body-layout.has-key-points {
-  grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+.related-articles {
+  clear: both;
+  margin-top: 2.6rem;
+  border-top: 1px solid rgba(140, 103, 56, 0.52);
+  padding-top: 0.25rem;
 }
 
-.lore-panel,
-.key-points-panel {
-  min-width: 0;
-}
-
-.lore-panel > h3,
-.key-points-panel > h3 {
-  margin-top: 0;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid rgba(140, 103, 56, 0.44);
-}
-
-.key-points-panel {
-  border-left: 1px solid rgba(140, 103, 56, 0.38);
-  padding-left: clamp(18px, 3vw, 34px);
-}
-
-.key-points-panel ul {
+.related-articles h3 {
   margin-top: 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid rgba(140, 103, 56, 0.32);
 }
 
-.key-points-panel li {
-  margin-bottom: 0.72rem;
+.related-articles ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.related-articles li {
+  margin: 0;
+  border-bottom: 1px solid rgba(140, 103, 56, 0.25);
+  padding: 0.72rem 0;
+}
+
+.related-articles li::before {
+  display: none;
+}
+
+.related-articles a {
+  color: var(--wine);
+  font-family: var(--title-font);
+  font-size: 1.02rem;
+  font-weight: 700;
+}
+
+.related-articles a:hover {
+  color: var(--mahogany-light);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.related-articles span {
+  display: block;
+  margin-top: 0.18rem;
+  color: var(--muted);
+  font-family: var(--ui-font);
+  font-size: 0.78rem;
+  font-variant: small-caps;
 }
 
 .gm-dialog {
@@ -1339,9 +1335,14 @@ h1 {
 
   .sidebar {
     position: static;
+    order: 2;
     max-height: none;
     border: 1px solid var(--rule);
     margin-top: 14px;
+  }
+
+  .content-area {
+    order: 1;
   }
 
   .entry-grid,
@@ -1370,16 +1371,16 @@ h1 {
 
   .home-grid,
   .article-nav,
-  .article-header,
-  .entry-body-layout.has-key-points {
+  .related-articles ul {
     grid-template-columns: 1fr;
   }
 
-  .key-points-panel {
-    border-left: 0;
-    border-top: 1px solid rgba(140, 103, 56, 0.38);
-    padding-left: 0;
-    padding-top: 1rem;
+  .article-figure {
+    float: none;
+    width: 100%;
+    max-width: 480px;
+    min-width: 0;
+    margin: 0 auto 1.5rem;
   }
 
   .content-area {

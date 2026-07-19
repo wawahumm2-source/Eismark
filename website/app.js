@@ -775,29 +775,36 @@ function showEntry(entry) {
   els.activeDoc.textContent = entry.gmOnly ? "GM Notes" : "Handbook";
   els.activeTitle.textContent = entry.title;
   els.resultCount.textContent = friendlySection(entry.section);
-  const readerBody = cleanReaderBody(entry.body);
-  const keyPoints = extractKeyPoints(readerBody);
-  const keyPointsHtml = keyPoints.length
+  let readerBody = cleanReaderBody(entry.body);
+  if (entry.image) readerBody = removeFirstMarkdownImage(readerBody);
+  const relatedEntries = relatedArticlesFor(entry);
+  const relatedArticlesHtml = relatedEntries.length
     ? `
-      <aside class="key-points-panel" aria-label="Key points">
-        <h3>Key Points</h3>
-        <ul>${keyPoints.map((point) => `<li>${inlineMarkdown(point)}</li>`).join("")}</ul>
-      </aside>
+      <section class="related-articles" aria-labelledby="relatedArticlesTitle">
+        <h3 id="relatedArticlesTitle">Related Articles</h3>
+        <ul>
+          ${relatedEntries
+            .map(
+              (related) => `
+                <li>
+                  <a href="#/entry/${related.slug}">${escapeHtml(related.title)}</a>
+                  <span>${escapeHtml(related.sectionTitle)}</span>
+                </li>
+              `,
+            )
+            .join("")}
+        </ul>
+      </section>
     `
     : "";
   const imageSlotHtml = entry.image
     ? `
-      <figure class="image-slot has-image">
-        <img src="${escapeHtml(entry.image.src)}" alt="${escapeHtml(entry.image.alt || entry.title)}">
+      <figure class="article-figure">
+        <img src="${escapeHtml(entry.image.src)}" alt="${escapeHtml(entry.image.alt || entry.title)}" decoding="async">
         <figcaption>${escapeHtml(entry.image.alt || "Reference image")}</figcaption>
       </figure>
     `
-    : `
-      <figure class="image-slot">
-        <div>Illustration Space</div>
-        <figcaption>Future art, map, portrait, or symbol</figcaption>
-      </figure>
-    `;
+    : "";
   const editorPanelHtml = state.gmUnlocked ? renderEditorPanel(entry) : "";
   els.entryDetail.innerHTML = `
     <nav class="article-nav" aria-label="Article navigation">
@@ -814,18 +821,15 @@ function showEntry(entry) {
         <p class="chapter-kicker">${escapeHtml(friendlySection(entry.section))}</p>
         <h2>${escapeHtml(entry.title)}</h2>
       </div>
-      ${imageSlotHtml}
     </header>
 
     ${editorPanelHtml}
 
-    <div class="entry-body-layout ${keyPoints.length ? "has-key-points" : ""}">
-      <section class="lore-panel">
-        <h3>Lore</h3>
-        <div class="entry-columns">${markdownToHtml(readerBody)}</div>
-      </section>
-      ${keyPointsHtml}
-    </div>
+    <article class="wiki-article-body">
+      ${imageSlotHtml}
+      <div class="entry-columns">${markdownToHtml(readerBody)}</div>
+      ${relatedArticlesHtml}
+    </article>
   `;
   document.querySelector("#savePageButton").addEventListener("click", () => {
     toggleSavedPage(entry.slug);
@@ -921,37 +925,94 @@ function bindEditorControls(entry) {
 }
 
 function cleanReaderBody(markdown) {
-  return markdown
-    .split(/\n/)
-    .filter((line) => !/^\s*(Canon Status|Source|Record Note|Image Role|Image File):/i.test(line))
-    .filter((line) => !/^\s*\*\*Status:\*\*/i.test(line))
-    .filter((line) => !/^\s*\*\*Lore\*\*/i.test(line))
-    .filter((line) => !/^\s*\*\*See Also:\*\*/i.test(line))
-    .filter((line) => !/^\s*Related Entries:/i.test(line))
+  const readerLines = [];
+  let skippingConsequences = false;
+
+  for (const sourceLine of markdown.split(/\n/)) {
+    const line = sourceLine.trim();
+    const isConsequencesHeading = /^\*\*Consequences\*\*$|^Consequences:$/i.test(line);
+    const isMetadata =
+      /^(Canon Status|Source|Record Note|Image Role|Image File):/i.test(line) ||
+      /^\*\*Status:\*\*/i.test(line) ||
+      /^\*\*See Also:\*\*/i.test(line) ||
+      /^Related Entries:/i.test(line);
+    const isNewSection = /^#{2,6}\s+/.test(line) || /^\*\*[^*]+\*\*$/.test(line);
+
+    if (isConsequencesHeading) {
+      skippingConsequences = true;
+      continue;
+    }
+
+    if (skippingConsequences) {
+      if (isMetadata) {
+        skippingConsequences = false;
+        continue;
+      }
+      if (!isNewSection) continue;
+      skippingConsequences = false;
+    }
+
+    if (isMetadata || /^\*\*Lore\*\*$/i.test(line)) continue;
+    if (/^This entry resolves the earlier `HIS-TBD` placeholder\./i.test(line)) continue;
+    if (/Joivian construction and spelling are locked by CAP-/i.test(line)) continue;
+
+    readerLines.push(rewriteReaderLine(sourceLine));
+  }
+
+  return readerLines
     .join("\n")
     .replace(/\b[A-Z]{2,5}-\d+\s+[—-]\s+/g, "")
     .trim();
 }
 
-function extractKeyPoints(markdown) {
-  const bullets = markdown
-    .split(/\n/)
-    .map((line) => line.trim())
-    .filter((line) => line.startsWith("- "))
-    .map((line) => line.slice(2).trim())
-    .filter((line) => line && line.length <= 180)
-    .slice(0, 6);
+function rewriteReaderLine(line) {
+  return line
+    .replace(
+      /The ECD currently names at least eighteen First Ones; the exact historical total is not locked\./i,
+      "Surviving traditions name at least eighteen First Ones, though no definitive historical total is known.",
+    )
+    .replace(
+      /Official spelling is `Joivian`; `Jovian` is deprecated or restricted archive (?:language|terminology)\./i,
+      "These sacred constructs are called `Joivians`.",
+    )
+    .replace(/Official spelling is `Joivian`; `Jovian` is deprecated\./i, "These sacred constructs are called `Joivians`.");
+}
 
-  if (bullets.length) return bullets;
-
+function removeFirstMarkdownImage(markdown) {
+  let removed = false;
   return markdown
-    .split(/\n+/)
-    .map((line) => line.trim())
-    .filter((line) => line && !line.startsWith("#") && !line.endsWith(":") && !line.startsWith("!"))
-    .flatMap((line) => line.split(/(?<=[.!?])\s+/))
-    .map((line) => line.trim())
-    .filter((line) => line.length >= 28 && line.length <= 180)
-    .slice(0, 4);
+    .split(/\n/)
+    .filter((line) => {
+      if (!removed && /^\s*!\[[^\]]*\]\([^)]+\)\s*$/.test(line)) {
+        removed = true;
+        return false;
+      }
+      return true;
+    })
+    .join("\n")
+    .trim();
+}
+
+function relatedArticlesFor(entry) {
+  const ids = [];
+  const seen = new Set();
+  const relationLines = entry.body
+    .split(/\n/)
+    .filter((line) => /^\s*(?:\*\*See Also:\*\*|Related Entries:)/i.test(line));
+
+  for (const line of relationLines) {
+    for (const match of line.matchAll(/\b([A-Z]{2,5}-(?:\d+|[A-Z0-9]+))\b/g)) {
+      if (match[1] !== entry.id && !seen.has(match[1])) {
+        ids.push(match[1]);
+        seen.add(match[1]);
+      }
+    }
+  }
+
+  const permittedSlugs = new Set(visibleEntries().map((candidate) => candidate.slug));
+  return ids
+    .map((id) => state.entries.find((candidate) => candidate.id === id))
+    .filter((candidate) => candidate && permittedSlugs.has(candidate.slug));
 }
 
 function markdownToHtml(markdown) {
@@ -979,12 +1040,30 @@ function markdownToHtml(markdown) {
       continue;
     }
 
-    if (line.startsWith("### ")) {
+    const heading = line.match(/^#{2,6}\s+(.+)$/);
+    if (heading) {
       if (inList) {
         html += "</ul>";
         inList = false;
       }
-      html += `<h3>${inlineMarkdown(displayTitle(line.slice(4)))}</h3>`;
+      html += `<h3>${inlineMarkdown(displayTitle(heading[1]))}</h3>`;
+      continue;
+    }
+
+    const standaloneHeading = line.match(/^\*\*([^*]+)\*\*$/);
+    if (standaloneHeading) {
+      if (inList) {
+        html += "</ul>";
+        inList = false;
+      }
+      const headingLabels = {
+        "Canon Facts": "Overview",
+        "Sourcebook Note": "Interpretation",
+        "Lore Notes": "Context",
+        "Consistency Note": "Continuity",
+      };
+      const label = headingLabels[standaloneHeading[1]] ?? standaloneHeading[1];
+      html += `<h3>${escapeHtml(label)}</h3>`;
       continue;
     }
 
