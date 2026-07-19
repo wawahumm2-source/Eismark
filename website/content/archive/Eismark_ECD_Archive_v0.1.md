@@ -318,7 +318,7 @@ Canon Facts:
 - Uriel is the sole exception.
 - Uriel's Joivian alone is constructed around the vessel of a First One.
 - This makes Uriel's Joivian unique.
-- Official spelling is `Joivian`; `Jovian` is deprecated.
+- These sacred constructs are known as `Joivians`.
 
 Consequences:
 
@@ -663,7 +663,7 @@ Canon Facts:
 - The First Ones are also known as Archangels or High Angels.
 - The First Ones are the highest order of angels.
 - The First Ones were created directly by the Creator.
-- The ECD currently names at least eighteen First Ones; the exact historical total is not locked.
+- Surviving traditions name at least eighteen First Ones, though no definitive historical total is known.
 - The First Ones were entrusted with shaping Creation, guiding early Creation, creating the lesser angels, waging the First War, and founding the Communion.
 - References to "Angels walked Vardheim" may refer broadly to both First Ones and Lesser Angels.
 
@@ -2563,7 +2563,7 @@ Summary: Joivians are sacred war constructs created during the final years of th
 
 Canon Facts:
 
-- Official spelling is `Joivian`; `Jovian` is deprecated or restricted archive terminology.
+- These sacred constructs are known as `Joivians`.
 - Joivians are holy war machines, not walking cathedrals and not objects of worship.
 - They were created during the final years of the Lingering War to combat the Lingering Blood.
 - They represent the pinnacle of First and Second Age engineering, theology, and divine craftsmanship.
@@ -2610,16 +2610,31 @@ Source: SRC-005, SRC-006
 
 Canon Status: Locked
 
-Summary: Consecrated are living sacred constructs and Eismark's unique evolution of the Warforged concept.
+Handbook Placement: Peoples and Species
+
+Summary: Consecrated are living sacred people of Kaltheim: entirely mechanical vessels awakened through the miracle of Consecration and imbued with souls.
 
 Canon Facts:
 
 - The First Consecrated is Saint-Servant Adamant.
 - Consecrated are tied to Michael's visions and the Age of Revelation.
-- They have distinct lore, appearance, origins, and spiritual significance.
 - They descend philosophically and technologically from later attempts to recreate the Joivians.
+- A Consecrated is generally human-sized or only slightly taller, with balanced proportions made for life among humanity rather than for war.
+- Their bodies are entirely mechanical: diesel engines, servos, actuators, reinforced joints, pressure systems, and complex internal mechanisms. Nothing about their physical form is biological or arcane.
+- The miracle of Consecration spiritually imbues their consciousness. Consecrated are fully alive, possess souls and free will, and are never regarded as programmed or controlled objects.
+- Kaltheimians almost unanimously accept Consecrated as living, thinking beings and equals among humanity. Their divine creation is understood as analogous to the creation of other peoples.
+- Each Consecrated is individually designed by a Consecrator as an engineered vessel, sacred statement, and work of art. No two are alike.
+- Each is created with an intended vocation in mind, such as a builder, healer, guardian, scholar, laborer, priest, soldier, or companion. This purpose shapes the body, tools, markings, and hopes invested in its Awakening.
+- Consecrated share a higher calling to serve Michael and the people of Creation. They live that calling through their own judgment, faith, relationships, and choices; some fulfill the vocation imagined for them, while others find faithful service leads elsewhere.
+- Layered, individually shaped steel plates form their skin. Their bodies show hammered contours, weld seams, repairs, bolts, hinges, rivets, ventilation slots, access panels, and religious inscriptions scraped or engraved into the metal.
+- Faces vary widely. Some are expressive and human-adjacent; others are sculpted masks, severe construct faces, permanent knightly helms, visors, crowned brows, or faceplates.
+- Engine arrangements vary. Some Consecrated bear visible diesel packs with exhaust pipes, cooling fins, fuel lines, and access hatches; others conceal their engines beneath chest and back plates.
+- Their ordinary soundscape includes cooling metal, pressure release, adjusting servos, and the steady rhythm of an engine at rest.
+- Clothing is personal. Some wear robes, uniforms, aprons, tabards, tool harnesses, scarves, or monastic habits, while others leave their crafted bodies uncovered.
+- Their markings may preserve saints' names, liturgical fragments, their Awakening record, the 153-bead devotional pattern, a prayer to Michael, or names of those they have served beside.
+- Consecrated appear throughout Kaltheimian life as priests, monks, artisans, dockworkers, engineers, soldiers, parents, and citizens.
 
-Related Entries: REL-002 — The Iron Church [Locked]; MIL-006 — Joivians [Locked]; MIL-009 — Exalted [Locked]; CAP-014 — Holy Machine Taxonomy [Locked]
+Related Entries: REL-002 — The Iron Church [Locked]; REL-003 — Consecrators and the Awakening [Locked]; REL-005 — Saint-Servant Adamant [Locked]; THE-001 — Michael's Faithful and Michael's Sword [Locked]; MIL-006 — Joivians [Locked]; MIL-009 — Exalted [Locked]; CAP-014 — Holy Machine Taxonomy [Locked]
 
 Source: SRC-005, SRC-006
 

@@ -110,8 +110,6 @@ The First Ones and lesser angels shape the physical world and establish its natu
 
 The First Ones create the mortal peoples that will inherit Creation. Different peoples are tied to different First Ones, and later religious traditions preserve those origins through the First Ones Pantheon.
 
-This entry resolves the earlier `HIS-TBD` placeholder. Mortal creation is now locked as `HIS-005`, while the beginning of the First Age is now `HIS-006`.
-
 **See Also:** SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins; CAP-001 — HIS-005 Numbering
 
 ### HIS-006 — The First Age Begins
@@ -204,7 +202,7 @@ Ancient Kaltheim creates the Joivians as humanity's final hope against the Blood
 - Uriel is the sole exception.
 - Uriel's Joivian alone is constructed around the vessel of a First One.
 - This makes Uriel's Joivian unique.
-- Official spelling is `Joivian`; `Jovian` is deprecated.
+- These sacred constructs are known as `Joivians`.
 
 **Consequences**
 
@@ -448,7 +446,7 @@ The First Ones are the highest order of angels within Eismark's cosmology.
 - The First Ones are also known as Archangels or High Angels.
 - The First Ones are the highest order of angels.
 - The First Ones were created directly by the Creator.
-- The ECD currently names at least eighteen First Ones; the exact historical total is not locked.
+- Surviving traditions name at least eighteen First Ones, though no definitive historical total is known.
 - The First Ones were entrusted with shaping Creation, guiding early Creation, creating the lesser angels, waging the First War, and founding the Communion.
 - References to "Angels walked Vardheim" may refer broadly to both First Ones and Lesser Angels.
 
@@ -864,6 +862,42 @@ Detailed Halfling nations, regional histories, and responses to the Great Forget
 Goblins occupy a varied and often difficult place across Eismark. They may live as tribal peoples, bandits, laborers, criminals, organized crime members, or integrated citizens.
 
 Many Goblins face low formal education, poverty, social stigma, and exclusion from respectable institutions, but they are not inherently evil, comic relief, or disposable enemies. Exceptionally intelligent Goblins may become engineers, lawyers, scholars, artificers, wizards, entrepreneurs, fixers, or political organizers.
+
+### MIL-008 — Consecrated
+
+Consecrated are living sacred people of Kaltheim. Their bodies are entirely mechanical, but they are fully alive in mind and spirit: people awakened through faith, craftsmanship, and the miracle of Consecration.
+
+**Awakening and Purpose**
+
+The making of a Consecrated is called an Awakening, not a manufacture. Consecrators build the vessel through disciplined engineering and sacred rite, then a new soul awakens within it. A Consecrated is never regarded as programmed, controlled, or incomplete. They possess independent thought, emotion, memory, faith, hopes, fears, and free will.
+
+Within Kaltheim, Consecrated are almost unanimously accepted as living, thinking beings and equals among humanity. Their divine creation is understood as analogous to the creation of other peoples. They are not a theological exception to personhood; they are one of the Sacrament's peoples.
+
+Each Consecrated is made with an intended vocation in mind. A Consecrator and the community commissioning the Awakening may envision a builder, healer, guardian, scholar, laborer, priest, soldier, or companion. That vocation shapes the vessel's design, its tools, its markings, and the sacred hopes invested in its creation.
+
+All Consecrated share a higher calling: to serve Michael and the people of Creation. They live that calling through their own judgment, faith, relationships, and choices. Some fulfill the work imagined for them; others discover that faithful service asks something different of them.
+
+**Appearance and Construction**
+
+A Consecrated is generally human-sized or only slightly taller, built with balanced proportions for life among humanity rather than as a weapon. They can sit at a table, kneel in prayer, carry a child, work at a forge, stand watch at a gate, or walk through a market without turning every moment into a spectacle.
+
+Their bodies are entirely mechanical. Diesel engines, servos, actuators, reinforced joints, pressure systems, and complex internal mechanisms give them strength and movement. Nothing about their physical form is biological, nor is it arcane.
+
+Layered, individually shaped steel plates form their skin. Hammered contours, weld seams, repaired fractures, bolts, hinges, rivets, ventilation slots, access panels, and religious inscriptions mark the metal. Some Consecrated have expressive, human-adjacent faces with crafted brows, articulated mouths, and eye lenses. Others have sculpted metal masks, narrow eye-slits, fixed jaws, severe geometric features, permanent knightly helms, visors, crowned brows, or faceplates that were never meant to come off.
+
+No two Consecrated are alike. One may resemble a noble knight in full plate, another a grim crusader with narrow amber lenses, a gentle artisan with an expressive bronze face, a hooded monastic figure, a utilitarian laborer with reinforced hands and exposed joints, or a solemn figure whose armor bears halo imagery.
+
+**Engines, Dress, and Devotion**
+
+Some Consecrated bear visible diesel packs across their backs, with exhaust pipes, cooling fins, fuel lines, and access hatches. Others conceal their engines beneath chest and back plates. Their presence carries the soft ticking of cooling metal, the muted hiss of pressure release, adjusting servos, and the steady rhythm of an engine at rest.
+
+Clothing is personal and reflects design, vocation, comfort, faith, and self-expression. Some wear robes, coats, uniforms, aprons, tabards, belts, tool harnesses, scarves, or monastic habits. Others leave their crafted bodies uncovered because their vessel was designed as a complete sacred form.
+
+Their religious markings are scraped into armor, re-engraved after repairs, painted over older prayers, worn smooth at the edges, or hidden inside breastplates and joint housings. A Consecrated may carry the names of saints, fragments of liturgy, a record of their Awakening, the 153-bead devotional pattern, a prayer to Michael, or the names of people they have served beside.
+
+Consecrated live throughout Kaltheimian society as priests, monks, artisans, dockworkers, engineers, soldiers, parents, and citizens.
+
+**See Also:** REL-002 — The Iron Church; REL-003 — Consecrators and the Awakening; REL-005 — Saint-Servant Adamant; THE-001 — Michael's Faithful and Michael's Sword; MIL-006 — Joivians; MIL-009 — Exalted; CAP-014 — Holy Machine Taxonomy
 
 ## Nations
 
@@ -1350,7 +1384,7 @@ Lan Cao integrates magical artillery, artificers, and scientific research into m
 
 Joivians are sacred war constructs created in the final years of the Lingering War. They are humanity's greatest act of devotion, not objects of worship. No living civilization can build a true Joivian.
 
-Official spelling is `Joivian`; `Jovian` is deprecated or restricted archive language. Nearly every Joivian marched into the Great Maw and was never seen again. No one knows exactly what happened. Uriel's Joivian remained behind and became The Abandoned One.
+These sacred constructs are known as `Joivians`. Nearly every Joivian marched into the Great Maw and was never seen again. No one knows exactly what happened. Uriel's Joivian remained behind and became The Abandoned One.
 
 The three locked frame patterns are Paladinus, the balanced frame; Seraphus, the nimble frame; and Clericus, the heavy frame. Their philosophies are: "We will hold the line," "We will arrive where we are needed," and "We will be the wall."
 
@@ -1366,19 +1400,6 @@ Automatons are conventional mechanical constructs and the closest standard D&D e
 - Automatons are a separate technological lineage from Joivians, Consecrated, and Exalted Engines.
 
 **See Also:** HIS-020 — The Great Continental War; NAT-004 — People's State of Rauk; CAP-014 — Holy Machine Taxonomy
-
-### MIL-008 — Consecrated
-
-Consecrated are living sacred constructs and Eismark's unique evolution of the Warforged concept.
-
-**Lore**
-
-- The First Consecrated is Saint-Servant Adamant.
-- Consecrated are tied to Michael's visions and the Age of Revelation.
-- They have distinct lore, appearance, origins, and spiritual significance.
-- They descend philosophically and technologically from later attempts to recreate the Joivians.
-
-**See Also:** REL-002 — The Iron Church; MIL-006 — Joivians; MIL-009 — Exalted; CAP-014 — Holy Machine Taxonomy
 
 ### MIL-009 — Exalted
 

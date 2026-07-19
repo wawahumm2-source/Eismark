@@ -95,6 +95,7 @@ Canon Status Values:
 - SPE-007 — Gnomes [Locked]
 - SPE-008 — Halflings [Locked]
 - SPE-009 — Goblins [Locked]
+- MIL-008 — Consecrated [Locked]
 
 ## Nations
 
@@ -166,7 +167,6 @@ Canon Status Values:
 - MIL-005 — Lan Cao Doctrine [Locked]
 - MIL-006 — Joivians [Locked]
 - MIL-007 — Automatons [Locked]
-- MIL-008 — Consecrated [Locked]
 - MIL-009 — Exalted [Locked]
 - MIL-010 — Standard Kaltheim Armor Families [Under Review]
 - MIL-011 — The Armed Forces of the Sacrament [Locked]
