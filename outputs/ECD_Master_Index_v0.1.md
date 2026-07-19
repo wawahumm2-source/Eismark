@@ -273,6 +273,10 @@ Canon Status Values:
 - IMG-003 — Remembrance the Unyielding War-Era Visual Reference [Locked]
 - IMG-004 — Tentative World Map of Eismark [Under Review]
 - IMG-005 — Uriel Joivian Form Visual Reference [Locked]
+- IMG-006 — Consecrated Forge Artisan Visual Reference [Locked]
+- IMG-007 — Consecrated Infantry Support Visual Reference [Locked]
+- IMG-008 — Consecrated Monastic Devotee Visual Reference [Locked]
+- IMG-009 — Consecrated Defender in Combat Visual Reference [Locked]
 
 ## Development
 

@@ -2634,7 +2634,7 @@ Canon Facts:
 - Their markings may preserve saints' names, liturgical fragments, their Awakening record, the 153-bead devotional pattern, a prayer to Michael, or names of those they have served beside.
 - Consecrated appear throughout Kaltheimian life as priests, monks, artisans, dockworkers, engineers, soldiers, parents, and citizens.
 
-Related Entries: REL-002 — The Iron Church [Locked]; REL-003 — Consecrators and the Awakening [Locked]; REL-005 — Saint-Servant Adamant [Locked]; THE-001 — Michael's Faithful and Michael's Sword [Locked]; MIL-006 — Joivians [Locked]; MIL-009 — Exalted [Locked]; CAP-014 — Holy Machine Taxonomy [Locked]
+Related Entries: REL-002 — The Iron Church [Locked]; REL-003 — Consecrators and the Awakening [Locked]; REL-005 — Saint-Servant Adamant [Locked]; THE-001 — Michael's Faithful and Michael's Sword [Locked]; MIL-006 — Joivians [Locked]; MIL-009 — Exalted [Locked]; CAP-014 — Holy Machine Taxonomy [Locked]; IMG-006 — Consecrated Forge Artisan Visual Reference [Locked]; IMG-007 — Consecrated Infantry Support Visual Reference [Locked]; IMG-008 — Consecrated Monastic Devotee Visual Reference [Locked]; IMG-009 — Consecrated Defender in Combat Visual Reference [Locked]
 
 Source: SRC-005, SRC-006
 
@@ -4865,6 +4865,155 @@ Consistency Notes:
 Related Entries: NPC-001 — Uriel, the Rememberer [Locked]; NPC-002 — The Abandoned One [Locked]; REL-006 — Uriel, Angel of Memory [Locked]; MIL-006 — Joivians [Locked]; HIS-011 — The Joivian Project [Locked]; HIS-012 — Uriel Fractures [Locked]; HIS-013 — The Joivians March Into the Great Maw [Locked]; CAM-003 — The Abandoned One [Under Review]
 
 Source: SRC-044
+
+### IMG-006 - Consecrated Forge Artisan Visual Reference
+
+Canon Status: Locked
+Image Role: Canon Consecrated Vocation Visual Reference
+Image File: `/assets/consecrated-forge-artisan.png`
+
+Summary: Canon visual reference for a Consecrated artisan whose vessel, clothing, tools, and visible diesel engine arrangement were shaped around a life of skilled labor.
+
+Represents:
+
+- Consecrated as workers and artisans rather than beings defined exclusively by warfare.
+- A dark iron vessel with an expressive armored face, layered mechanical construction, and warm optical lenses.
+- A visible engine pack with exhaust stacks, cooling structures, piping, and access housings.
+- Practical clothing and equipment, including a scarf, leather apron, tool harness, hammer, and tongs.
+- A Consecrated actively shaping heated steel through ordinary craftsmanship rather than arcane power.
+
+Use For:
+
+- Consecrated artisans, smiths, machinists, industrial workers, and engineers.
+- Visible diesel-engine arrangements and vocation-specific body design.
+- Kaltheimian forge interiors and the dignity attached to disciplined craftsmanship.
+
+Do Not Use For:
+
+- A universal facial pattern or engine arrangement for Consecrated.
+- Evidence that Consecrated are produced as standardized industrial laborers.
+- Arcane forging or magically animated machinery.
+
+Consistency Notes:
+
+- The figure is fully mechanical and spiritually alive.
+- Its intended vocation informs its vessel without overriding free will or personhood.
+- The image aligns with Kaltheimian teaching that building honors Creation even though the machine itself is not holy.
+
+Related Entries: MIL-008 — Consecrated [Locked]; REL-003 — Consecrators and the Awakening [Locked]; TEC-001 — Kaltheimian Technology [Locked]; REL-012 — Luke, Public Theology [Locked]
+
+Source: User-approved visual reference, 2026-07-19
+
+### IMG-007 - Consecrated Infantry Support Visual Reference
+
+Canon Status: Locked
+Image Role: Canon Consecrated Military Visual Reference
+Image File: `/assets/consecrated-infantry-support.png`
+
+Summary: Canon visual reference for a Consecrated infantry support specialist equipped for sustained battlefield service.
+
+Represents:
+
+- A heavily reinforced but human-scale Consecrated military vessel.
+- A permanent armored head combining a knightly helm with an integrated mechanical grille and amber eye lenses.
+- A visible diesel engine pack, field coat, ammunition harness, utility pouches, and support weapon.
+- Consecrated service within Kaltheim's professional combined-arms military.
+
+Use For:
+
+- Consecrated machine gunners, infantry support personnel, and military specialists.
+- Practical battlefield modifications to Consecrated vessels and clothing.
+- The visual relationship between sacred engineering and Kaltheimian military equipment.
+
+Do Not Use For:
+
+- A claim that all Consecrated serve in the military.
+- A standardized body shared by all Consecrated soldiers.
+- Exact weapon mechanics, ammunition capacity, or finalized equipment statistics.
+
+Consistency Notes:
+
+- Military function is an intended vocation, not programming or ownership.
+- The figure remains a citizen and person serving through judgment and faith.
+- The engine pack and field equipment are compatible with mundane Kaltheimian diesel technology.
+
+Related Entries: MIL-008 — Consecrated [Locked]; MIL-001 — Kaltheim Armory [Locked]; MIL-010 — Standard Kaltheim Armor Families [Under Review]; MIL-011 — The Armed Forces of the Sacrament [Locked]
+
+Source: User-approved visual reference, 2026-07-19
+
+### IMG-008 - Consecrated Monastic Devotee Visual Reference
+
+Canon Status: Locked
+Image Role: Canon Consecrated Religious Visual Reference
+Image File: `/assets/consecrated-monastic-devotee.png`
+
+Summary: Canon visual reference for a Consecrated pursuing a monastic, clerical, or scholarly vocation within the Iron Church.
+
+Represents:
+
+- A restrained steel face with expressive amber optical lenses and visible mechanical construction.
+- Hooded robes, devotional embroidery, scripture, medallions, and a long 153-bead rosary.
+- Clothing as personal, vocational, and religious expression rather than concealment of a mechanical body.
+- Consecrated participation in prayer, scholarship, pilgrimage, and Church life.
+
+Use For:
+
+- Consecrated monks, priests, theologians, librarians, pilgrims, and keepers of scripture.
+- Iron Church devotional clothing, rosaries, books, and sacred architecture.
+- Quiet scenes emphasizing Consecrated spiritual life outside industrial or military contexts.
+
+Do Not Use For:
+
+- A universal clerical uniform.
+- A requirement that all Consecrated carry rosaries or enter religious orders.
+- Evidence that Consecrated consciousness is stored in books, medallions, or mechanical components.
+
+Consistency Notes:
+
+- The 153-bead devotional tradition is represented without making it compulsory.
+- The figure's personhood and soul arise through Consecration, not from clothing or carried relics.
+- The image supports the established presence of Consecrated priests and monks throughout Kaltheimian society.
+
+Related Entries: MIL-008 — Consecrated [Locked]; REL-002 — The Iron Church [Locked]; REL-007 — The Number 153 [Locked]; REL-008 — Worship in the Iron Church [Locked]
+
+Source: User-approved visual reference, 2026-07-19
+
+### IMG-009 - Consecrated Defender in Combat Visual Reference
+
+Canon Status: Locked
+Image Role: Canon Consecrated Combat Visual Reference
+Image File: `/assets/consecrated-defender-combat.png`
+
+Summary: Canon visual reference for a Consecrated defender using a heavy mace against an armed hostile raider.
+
+Represents:
+
+- A silver, articulated Consecrated vessel with a permanent great-helm face and narrow amber eye slit.
+- Devotional garments and hand-worn religious inscriptions carried into battle.
+- The strength and stability of a mechanical body in close combat.
+- A guardian or soldier acting through trained physical force rather than arcane power.
+
+Use For:
+
+- Consecrated guardians, soldiers, gate defenders, and close-quarters combatants.
+- Great-helm facial designs and armored devotional clothing.
+- The physical impact of mechanically constructed bodies in grounded battlefield action.
+
+Do Not Use For:
+
+- A universal Consecrated weapon, uniform, body pattern, or military role.
+- A claim that Goblins are inherently evil or natural enemies of Kaltheim.
+- Evidence of sanctioned violence against Goblin civilians or integrated Goblin citizens.
+
+Consistency Notes:
+
+- The Goblin depicted is a specific hostile raider participating in armed combat.
+- The scene must not override `SPE-009`, which establishes Goblins as varied people capable of tribal, criminal, laboring, professional, and integrated civic lives.
+- The mace and great-helm vessel are individual choices or vocation-shaped features rather than species-wide standards.
+
+Related Entries: MIL-008 — Consecrated [Locked]; MIL-011 — The Armed Forces of the Sacrament [Locked]; SPE-009 — Goblins [Locked]; THE-001 — Michael's Faithful and Michael's Sword [Locked]
+
+Source: User-approved visual reference, 2026-07-19
 
 ## Development Entries
 
