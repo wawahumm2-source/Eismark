@@ -42,42 +42,38 @@ The ECD Archive remains the source-of-truth database. This guide is updated in p
 
 Eismark is a world built on broken memory. Its history begins in divine creation, passes through angelic sacrifice, and arrives in an age of rifles, railways, nations, and unanswered questions.
 
-### HIS-001 — Creation
+### HIS-001 — The First Ones Are Created
 
-The Creator brings Creation into existence, beginning reality and the Age of Creation.
-
-**Lore**
-
-- The Creator creates Creation.
-- Reality begins.
-- The Age of Creation begins.
-
-**Consequences**
-
-- The First Ones can now be created by the Creator and sent into Vardheim to shape it.
-
-**See Also:** COS-001 — Creation; COS-002 — The First Ones; HIS-002 — The First Ones Are Created
-
-### HIS-002 — The First Ones Are Created
-
-The First Ones are the highest order of angels, created directly by the Creator and entrusted with shaping Creation.
+Before bringing ordered Creation into being, the Creator creates the First Ones and entrusts them with the work that will follow.
 
 **Lore**
 
-- The First Ones are angels.
-- The First Ones are also known as Archangels or High Angels.
-- They are the highest order of angels.
-- They are created directly by the Creator.
+- The First Ones are angels, also known as Archangels or High Angels.
+- They are the highest order of angels and are created directly by the Creator.
+- They are entrusted with shaping Creation, guiding mortal civilization, and creating the lesser angels.
 - After Creation exists, the Creator sends the First Ones into Vardheim to shape it.
-- They are entrusted with shaping Creation.
-- The First Ones shape Creation and guide mortal civilization.
-- The First Ones create the lesser angels.
 
 **Consequences**
 
 - The First Ones become the divine founders of early Creation and the highest class within the angelic hierarchy.
 
-**See Also:** COS-002 — The First Ones; REL-001 — The First Ones Pantheon; CAP-002 — Angelic Taxonomy; CAP-003 — Origin of the First Ones
+**See Also:** COS-002 — The First Ones; REL-001 — The First Ones Pantheon; HIS-002 — Creation; CAP-002 — Angelic Taxonomy; CAP-003 — Origin of the First Ones
+
+### HIS-002 — Creation
+
+The Creator brings ordered Creation into existence, beginning reality and the Age of Creation.
+
+**Lore**
+
+- The Creator creates Creation after creating the First Ones.
+- Ordered reality and the Age of Creation begin.
+- The Creator sends the First Ones into Vardheim to shape the new world.
+
+**Consequences**
+
+- The First Ones can begin shaping Creation and creating the lesser angels who will assist them.
+
+**See Also:** COS-001 — Creation; COS-002 — The First Ones; HIS-001 — The First Ones Are Created; HIS-003 — Lesser Angels Are Created; CAP-003 — Origin of the First Ones
 
 ### HIS-003 — Lesser Angels Are Created
 
@@ -264,6 +260,8 @@ The majority of Ancient Kaltheim journeys north in search of the vanished Joivia
 **Lore**
 
 - The Great Pilgrimage begins after the Joivians disappear.
+- Uriel separates from the Communion after the Joivians disappear and before the Great Pilgrimage begins.
+- The Great Forgetting begins before the pilgrimage and deepens across the generations in which Kaltheim and Veloria emerge.
 - The pilgrimage lasts 153 years.
 - The pilgrims found the modern Sacrament of Kaltheim in the northern mountains.
 
@@ -305,6 +303,7 @@ The Great Forgetting did not erase civilization. It erased understanding.
 **Lore**
 
 - Uriel's departure causes the Great Forgetting.
+- Uriel departs after the Joivians disappear and before the Great Pilgrimage begins.
 - The Great Forgetting begins immediately as a metaphysical phenomenon.
 - Over generations, it becomes a civilizational collapse.
 - Historians later refer to the entire era as The Great Forgetting.
@@ -351,6 +350,8 @@ Neither Kaltheim nor Veloria fails to understand its traditions. They understand
 They no longer understand why they inherited them.
 
 Even the First Ones possess incomplete memory, because Uriel's fracture wounded the Communion itself.
+
+`HIS-014` through `HIS-016` describe overlapping developments rather than three strictly consecutive starting dates. The Great Forgetting begins first, continues through the Great Pilgrimage, and shapes Veloria's rise.
 
 **Consequences**
 
@@ -447,6 +448,7 @@ The First Ones are the highest order of angels within Eismark's cosmology.
 - The First Ones are also known as Archangels or High Angels.
 - The First Ones are the highest order of angels.
 - The First Ones were created directly by the Creator.
+- The ECD currently names at least eighteen First Ones; the exact historical total is not locked.
 - The First Ones were entrusted with shaping Creation, guiding early Creation, creating the lesser angels, waging the First War, and founding the Communion.
 - References to "Angels walked Vardheim" may refer broadly to both First Ones and Lesser Angels.
 
@@ -557,6 +559,8 @@ Religion in Eismark is practical, political, and deeply woven into daily life. F
 
 The First Ones are venerated as divine beings associated with domains and species origins.
 
+The Great Six are the First Ones most emphasized by the Iron Church, not the whole pantheon.
+
 **Lore**
 
 - Michael: protection, divine war, duty, sacrifice, leadership.
@@ -574,6 +578,9 @@ The First Ones are venerated as divine beings associated with domains and specie
 - Justicar: justice, law, civilization, oaths, kingship.
 - Moira: fate, destiny, prophecy, fortune, choice.
 - Elyria: love, family, community, joy, home.
+- Elaris: ancestral memory, continuity, elven inheritance.
+- Khorun: endurance, mountains, craft, dwarven inheritance.
+- Grom: strength, courage, mastered instinct, orcish inheritance.
 
 **See Also:** COS-002 — The First Ones; SPE-001 — Humans; SPE-002 — Orcs; SPE-003 — Elves; SPE-004 — Dragonborn; SPE-005 — Giants; SPE-006 — Dwarves; SPE-007 — Gnomes; SPE-008 — Halflings; SPE-009 — Goblins
 
@@ -584,9 +591,16 @@ The Iron Church is the dominant religious institution of Kaltheim and much of hu
 **Lore**
 
 - Kaltheim is ruled through the Iron Church.
+- The Church and military govern in partnership: the Church preserves purpose, while the military preserves the nation.
+- The High Synod directs doctrine, civil law, domestic policy, monasteries, Consecrators, and institutional Church life.
+- The Archon is the spiritual head and highest moral authority, but does not personally command the armies.
 - The Iron Church especially venerates Michael.
+- It teaches the public theology of the Great Six while recognizing a wider pantheon of First Ones.
 - The number 153 is one of the holiest numbers in Kaltheimian tradition.
 - Kaltheim relies on divine magic and views arcane magic with suspicion.
+- Worship centers on the Divine Liturgy, chant, consecrated bread and wine, remembrance, charity, and communal service.
+- Technology is not sacred in itself; disciplined human labor honors Creation by fulfilling humanity's vocation to build.
+- Mercy and service are the highest offerings.
 
 **See Also:** NAT-001 — The Sacrament of Kaltheim; MIL-008 — Consecrated; REL-007 — The Number 153
 
@@ -801,7 +815,9 @@ The peoples of Eismark inherit a world shaped by the First Ones. Their origins r
 
 ### SPE-001 — Humans
 
-Humans are primarily created by Michael.
+Humans are primarily created by Michael and inherit his resolve: the capacity to endure catastrophe, rebuild institutions, and continue the work of civilization. Human cultures differ sharply, but rebuilding after loss is a recurring theme across Eismark.
+
+The teaching that "humanity was created to dream" complements this origin. Michael represents the resolve to continue; John represents the creative future humanity is called to imagine. `Primarily created by Michael` does not mean that no other First One influenced humanity.
 
 ### SPE-002 — Orcs
 
@@ -823,7 +839,7 @@ Dragonborn value honor, family, legacy, personal excellence, and ancestral memor
 
 ### SPE-005 — Giants
 
-Giants are created by Asterion.
+Giants are created by Asterion and inherit his strength, endurance, honor, perseverance, and connection to the high and ancient places of Creation. Giant origin is locked, but modern Giant cultures, nations, and religious divisions still need development. Ancestry does not determine a Giant's morality, allegiance, or temperament.
 
 ### SPE-006 — Dwarves
 
@@ -831,19 +847,23 @@ Dwarves were the original inhabitants of the northern mountains. During the Grea
 
 Dwarves inherit Khorun's endurance.
 
+### SPE-007 — Gnomes
+
+Gnomes are created by Luke and Leonardo. Luke contributes methodology, logic, science, engineering, and ordered thought; Leonardo contributes craftsmanship, industry, artifice, invention, and creation.
+
+This inheritance helps explain Gnomish associations with engineering and invention without making profession or personality compulsory. Detailed Gnomish cultures and regional identities remain undeveloped.
+
+### SPE-008 — Halflings
+
+Halflings are created by Raphael and inherit traditions shaped by mercy, stewardship, healing, agriculture, compassion, and the defense of ordinary life. This supports cultural emphasis on care, cultivation, community, and practical resilience without requiring every Halfling culture or individual to be peaceful, rural, or domestic.
+
+Detailed Halfling nations, regional histories, and responses to the Great Forgetting remain undeveloped.
+
 ### SPE-009 — Goblins
 
 Goblins occupy a varied and often difficult place across Eismark. They may live as tribal peoples, bandits, laborers, criminals, organized crime members, or integrated citizens.
 
 Many Goblins face low formal education, poverty, social stigma, and exclusion from respectable institutions, but they are not inherently evil, comic relief, or disposable enemies. Exceptionally intelligent Goblins may become engineers, lawyers, scholars, artificers, wizards, entrepreneurs, fixers, or political organizers.
-
-### SPE-007 — Gnomes
-
-Gnomes are created by Luke and Leonardo.
-
-### SPE-008 — Halflings
-
-Halflings are created by Raphael.
 
 ## Nations
 
@@ -1143,6 +1163,8 @@ The Iron Mountains are Kaltheim's northern mountain homeland.
 - Karhold lies in or near the Iron Mountains.
 - Kaltheim occupies the northern mountain range.
 - The North Sea lies beyond the mountains.
+- The range contains fortress cities, foundries, rail approaches, monasteries, and defended industrial corridors.
+- Dwarves inhabited these mountains before the Great Pilgrimage and became a founding people of the modern Sacrament.
 
 ### GEO-003 — The Crown Lands
 
@@ -1152,6 +1174,9 @@ The Crown Lands are the highland region of Gn'ure.
 
 - Mountainous interior region.
 - Caer Lain is the major marked city.
+- The wider highlands contain ruined keeps, feuding noble houses, and ancient bloodlines.
+- No single crown unites the Highlands in player-facing canon.
+- Gn'ure is Eismark's principal lycanthropy hotspot, and ancient vampire families are believed to control parts of the region.
 
 ### GEO-004 — Ancient Kaltheim
 
@@ -1188,6 +1213,8 @@ Veloria occupies the central-eastern land south of the Free Marches and west of 
 
 - Velcris is a major city.
 - The region has rail lines, roads, forts, and eastern approaches to the Iron Coast.
+- Athsder, Sireckridge, Bickerridge, Daggerford, and Eastgate are other marked locations.
+- The region is the territorial heart of Commonwealth civic, commercial, and arcane-industrial life.
 
 ### GEO-007 — Voss
 
@@ -1197,6 +1224,9 @@ Voss occupies a red western/southwestern region north of the Ashlands and west o
 
 - Vossheim is a major city.
 - Blackwater lies near the southern border.
+- Grunwald is another marked Voss location.
+- Voss is the political successor of the former Imperial League and is associated with nationalism and armored breakthrough warfare.
+- Its southern approaches face the Ashlands and the war-scarred Ashen Marches.
 
 ### GEO-008 — Rauk
 
@@ -1207,6 +1237,9 @@ Rauk occupies the southeastern purple region along the coast.
 - Raukgrad is a major city.
 - Saint's Rest is a major port/harbor.
 - Foundrytown and Dry Gulch support the industrial identity.
+- Lastlight and Southreach are other marked locations.
+- Rauk is the industrial successor of the former Imperial League.
+- Its strategic identity is built around logistics, attrition, heavy industry, and Automatons.
 
 ### GEO-009 — Lan Cao
 
@@ -1216,6 +1249,8 @@ Lan Cao occupies the central-southern green region.
 
 - Xinjin is a major city.
 - The region contains heavy industrial sites and rail infrastructure.
+- Eisenbruck is noted beneath Xinjin; Ironwood, Jadeport, Southreach, Pinocrove, Braslhaven, and Crown's Reach are nearby marked locations.
+- Lan Cao is the scientific successor of the former Imperial League, with a strategic identity built around magical artillery, artificers, and scientific warfare.
 
 ### GEO-010 — Ostmark
 
@@ -1225,6 +1260,8 @@ Ostmark occupies the southern yellow region on the Southern Sea.
 
 - Osthaven is a major city.
 - Goldharbor and Westport indicate maritime and trade significance.
+- Ostmark was the financial pillar of the former Imperial League.
+- Its Southern Sea ports connect finance, shipping, and continental trade.
 
 ### GEO-011 — The Sylvan Veil
 
@@ -1234,6 +1271,9 @@ The Sylvan Veil occupies the western forest realm.
 
 - Leth Varad is a major city.
 - It borders Kaltheim, Gn'ure, Voss, and the Ashlands.
+- Eldermoot, Duskwisper, and Mistmere are other marked settlements.
+- The forest realm is associated with elven memory, beauty, deep traditions, and deliberate isolation.
+- Its people remember more of the pre-Forgetting world than most mortals, but not enough to possess an unbroken history.
 
 ### GEO-012 — The Ashlands
 
@@ -1262,6 +1302,9 @@ The Iron Coast and Shattered Isles are eastern maritime regions.
 - Davenport is a major Iron Coast city/port.
 - Kingport, Greywake, and Stormwatch are marked settlements.
 - The Shattered Isles lie offshore.
+- The Shattered Isles are the ancestral homeland of the Dragonborn and the remains of their lost kingdoms and city-states.
+- Eastern diaspora communities preserve old martial, spiritual, and family traditions beyond the archipelago.
+- The Isles are among the deadliest environments in the known world; exact creature distribution remains under review.
 
 ## Military and Machines
 
@@ -1293,15 +1336,15 @@ Veloria uses practical street names and artisanal firearm identity.
 
 ### MIL-003 — Voss Doctrine
 
-Voss specializes in nationalism and armored breakthrough warfare.
+Voss military identity is built around national unity, political will, and decisive armored force. Armored breakthroughs are its defining locked doctrinal emphasis. Voss served as the political center of the former Imperial League.
 
 ### MIL-004 — Rauk Doctrine
 
-Rauk specializes in logistics, attrition, industry, and Automatons.
+Rauk treats industrial capacity and supply as weapons in their own right. Its doctrine emphasizes logistics, attrition, mass production, and Automatons. Rauk served as the industrial center of the former Imperial League, but the Treaty of Karhold now bans military Automaton production.
 
 ### MIL-005 — Lan Cao Doctrine
 
-Lan Cao emphasizes magical artillery, artificers, and scientific warfare.
+Lan Cao integrates magical artillery, artificers, and scientific research into military operations. Scientific warfare is its defining locked doctrinal emphasis. Lan Cao served as the scientific center of the former Imperial League.
 
 ### MIL-006 — Joivians
 

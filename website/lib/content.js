@@ -15,7 +15,17 @@ const FRIENDLY_SECTIONS = {
 
 export async function readManifest() {
   const filePath = path.join(process.cwd(), "content", "manifest.json");
-  return JSON.parse(await readFile(filePath, "utf8"));
+  const manifest = JSON.parse(await readFile(filePath, "utf8"));
+  const archiveFile = manifest.documents?.find((document) => document.id === "ecd-archive")?.file;
+
+  if (!archiveFile) return manifest;
+
+  try {
+    const archive = await readFile(path.join(process.cwd(), "content", archiveFile), "utf8");
+    return { ...manifest, entryStatuses: archiveEntryStatuses(archive) };
+  } catch {
+    return manifest;
+  }
 }
 
 export async function readHandbook() {
@@ -28,6 +38,10 @@ export function filterHandbookForPlayers(markdown, manifest) {
   const gmSections = new Set(manifest.gmLockedSections ?? []);
   const gmPatterns = (manifest.gmLockedTitlePatterns ?? []).map((pattern) => pattern.toLowerCase());
   const visibility = manifest.entryVisibility ?? {};
+  const statusById = entryStatuses(markdown);
+  for (const [id, status] of Object.entries(manifest.entryStatuses ?? {})) {
+    statusById.set(id, status);
+  }
   const lines = markdown.split(/\r?\n/);
   const output = [];
   let currentSection = "";
@@ -58,7 +72,9 @@ export function filterHandbookForPlayers(markdown, manifest) {
       const title = displayTitle(rawTitle);
       const id = extractEntryId(rawTitle);
       const slug = slugify(`${friendlySection(currentSection)}-${title}`);
-      const entryVisibility = visibility[id] ?? visibility[slug] ?? "public";
+      const configuredVisibility = visibility[id] ?? visibility[slug];
+      const defaultVisibility = statusById.get(id) === "Under Review" ? "draft" : "public";
+      const entryVisibility = configuredVisibility ?? defaultVisibility;
       keepingEntry =
         entryVisibility === "public" &&
         !gmSections.has(currentSection) &&
@@ -79,6 +95,40 @@ export function filterHandbookForPlayers(markdown, manifest) {
 
   flushSection();
   return output.join("\n").trim() + "\n";
+}
+
+function archiveEntryStatuses(markdown) {
+  const statuses = {};
+  const lines = markdown.split(/\r?\n/);
+  let currentId = "";
+
+  for (const line of lines) {
+    const entryMatch = line.match(/^###\s+([A-Z]+-\d{3})\s+-\s+/);
+    if (entryMatch) {
+      currentId = entryMatch[1];
+      continue;
+    }
+    const statusMatch = line.match(/^Canon Status:\s*(.+)$/i);
+    if (currentId && statusMatch) statuses[currentId] = statusMatch[1].trim();
+  }
+  return statuses;
+}
+
+function entryStatuses(markdown) {
+  const statuses = new Map();
+  const lines = markdown.split(/\r?\n/);
+  let currentId = "";
+
+  for (const line of lines) {
+    const entryMatch = line.match(/^###\s+(.+)/);
+    if (entryMatch) {
+      currentId = extractEntryId(entryMatch[1].trim());
+      continue;
+    }
+    const statusMatch = line.match(/^\*\*Status:\*\*\s*(.+)$/i);
+    if (currentId && statusMatch) statuses.set(currentId, statusMatch[1].trim());
+  }
+  return statuses;
 }
 
 function displayTitle(title) {

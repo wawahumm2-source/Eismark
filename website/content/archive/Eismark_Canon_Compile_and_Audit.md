@@ -1,5 +1,7 @@
 # Eismark Canon Compile and Continuity Audit
 
+Status: Archived Working Audit / Superseded by the ECD Archive and `Eismark_Audit_Register_v0.3.md`
+
 Compiled from the ECD, ARP recovery PDFs, `Recovered chat part 1.txt`, the OCR pass over `chatgpt archive.pdf`, and the shared ChatGPT conversation at `https://chatgpt.com/share/6a4472fd-e158-83e8-8362-f6fc0a9777dd`.
 
 ## Source Priority Used
@@ -16,8 +18,8 @@ Eismark is a dark fantasy/dieselpunk D&D setting built around memory, forgetting
 
 Core cosmology:
 
-- The Creator brings Creation into being.
-- The First Ones are created, approximately fifteen in number.
+- The Creator creates the First Ones.
+- The Creator then brings Creation into being.
 - The First Ones create hundreds of lesser angels.
 - The First Ones and lesser angels shape the world and its natural order.
 - Mortal peoples inherit Creation.
@@ -33,8 +35,8 @@ Core cosmology:
 
 ### Age of Creation
 
-- HIS-001: Creation begins.
-- HIS-002: The First Ones are created.
+- HIS-001: The First Ones are created.
+- HIS-002: Creation begins.
 - HIS-003: Lesser angels are created.
 - HIS-004: The world is shaped.
 - Mortal peoples are created before the First Age fully blooms. See inconsistency I-001.

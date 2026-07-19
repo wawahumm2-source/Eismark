@@ -22,14 +22,15 @@ Canon Status Values:
 - `Eismark_Additional_Interesting_Ideas_Second_Pass_v0.1.md` [Development Backlog; Non-Canon]
 - `Eismark_New_Canonization_Ideas_Triage_v0.1.md` [Development Review; Non-Canon]
 - `Eismark_Lore_And_Reference_Image_Gap_Audit_v0.1.md` [Development Audit; Non-Canon]
+- `Eismark_Wiki_Continuity_and_Completeness_Audit_v0.1.md` [Development Audit; Non-Canon]
 - `Eismark_NPC_Index_From_Second_Pass_v0.1.md` [Development Index; Non-Canon]
 - `Eismark_NPC_Second_Sweep_From_Memory_Archive_v0.1.md` [Development Recovery; Non-Canon]
 - `Eismark_NPC_and_Monster_Lore_Compendium_v0.1.md` [Development Compendium; Non-Canon]
 
 ## History
 
-- HIS-001 — Creation [Locked]
-- HIS-002 — The First Ones Are Created [Locked]
+- HIS-001 — The First Ones Are Created [Locked]
+- HIS-002 — Creation [Locked]
 - HIS-003 — Lesser Angels Are Created [Locked]
 - HIS-004 — The World Is Shaped [Locked]
 - HIS-005 — Mortal Peoples Are Created [Locked]
@@ -177,6 +178,7 @@ Canon Status Values:
 - MON-003 — Regional Monster Threat Levels [Locked]
 - MON-004 — Undead, Vampires, and Lycanthropy [Locked]
 - MON-005 — Dragons [Under Review]
+- MON-006 — Retired ID; material merged into MON-002 — Aberrations
 - MON-007 — Blood and Entity Horror Distinction [Locked]
 - MON-008 — Monstrous Peoples and Orc Raiders [Locked]
 - MON-009 — Iconic Monsters of Eismark [Locked]

@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "audit:lore": "node scripts/audit-lore.mjs --write"
   },
   "dependencies": {
     "next": "15.5.19",

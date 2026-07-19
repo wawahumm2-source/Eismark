@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { cookies } from "next/headers";
 import { isGmRequest } from "../../../../lib/auth";
+import { readManifest } from "../../../../lib/content";
 import { getGithubFile, readGithubSession, saveGithubFile, shouldUseGithubWrites } from "../../../../lib/github-editor";
 
 const MODES = new Set(["public", "draft", "hidden"]);
@@ -38,8 +39,10 @@ export async function POST(request) {
     ? JSON.parse(githubManifest.content)
     : JSON.parse(await readFile(manifestPath, "utf8"));
   manifest.entryVisibility = manifest.entryVisibility ?? {};
+  const resolvedManifest = await readManifest();
+  const defaultVisibility = resolvedManifest.entryStatuses?.[key] === "Under Review" ? "draft" : "public";
 
-  if (visibility === "public") {
+  if (visibility === defaultVisibility) {
     delete manifest.entryVisibility[key];
   } else {
     manifest.entryVisibility[key] = visibility;

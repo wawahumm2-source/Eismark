@@ -187,7 +187,9 @@ function visibleEntries() {
 
 function entryVisibility(id, slug) {
   const map = state.manifest?.entryVisibility ?? {};
-  const status = map[id] ?? map[slug] ?? "public";
+  const configuredVisibility = map[id] ?? map[slug];
+  const defaultVisibility = state.manifest?.entryStatuses?.[id] === "Under Review" ? "draft" : "public";
+  const status = configuredVisibility ?? defaultVisibility;
   return EDITOR_MODES.has(status) ? status : "public";
 }
 
@@ -592,7 +594,7 @@ function renderHome() {
     })
     .join("");
 
-  const featured = findEntryByTitle("Creation") ?? visibleEntries().find((entry) => entry.section === "History") ?? visibleEntries()[0];
+  const featured = visibleEntries().find((entry) => entry.section === "History") ?? visibleEntries()[0];
   const secondary = findEntryByTitle("The Sacrament of Kaltheim") ?? visibleEntries()[1];
 
   els.homePage.innerHTML = `
@@ -837,6 +839,25 @@ function showEntry(entry) {
 function renderEditorPanel(entry) {
   const github = state.editorSession;
   const githubConfigured = Boolean(github?.githubConfigured);
+  const visibilityControl = entry.gmOnly
+    ? `
+        <label class="visibility-control">
+          <span>Player visibility</span>
+          <select id="entryVisibility" disabled title="This entry is protected by the handbook's GM-only policy.">
+            <option selected>GM-only policy</option>
+          </select>
+        </label>
+      `
+    : `
+        <label class="visibility-control">
+          <span>Player visibility</span>
+          <select id="entryVisibility">
+            <option value="public" ${entry.visibility === "public" ? "selected" : ""}>Public</option>
+            <option value="draft" ${entry.visibility === "draft" ? "selected" : ""}>Draft / unfinished</option>
+            <option value="hidden" ${entry.visibility === "hidden" ? "selected" : ""}>Hidden</option>
+          </select>
+        </label>
+      `;
   let githubStatus = "Local filesystem save mode.";
   if (github?.github) {
     githubStatus = `GitHub connected as ${github.githubUser}.`;
@@ -863,14 +884,7 @@ function renderEditorPanel(entry) {
           <h3>GM/Editor Controls</h3>
           <p>${escapeHtml(githubStatus)}</p>
         </div>
-        <label class="visibility-control">
-          <span>Player visibility</span>
-          <select id="entryVisibility">
-            <option value="public" ${entry.visibility === "public" ? "selected" : ""}>Public</option>
-            <option value="draft" ${entry.visibility === "draft" ? "selected" : ""}>Draft / unfinished</option>
-            <option value="hidden" ${entry.visibility === "hidden" ? "selected" : ""}>Hidden</option>
-          </select>
-        </label>
+        ${visibilityControl}
       </div>
       <label class="editor-field">
         <span>Entry markdown</span>
@@ -889,7 +903,7 @@ function renderEditorPanel(entry) {
       <div class="editor-actions">
         <button class="button" id="saveEntryButton" type="button">Save Entry</button>
         <button class="button secondary" id="uploadImageButton" type="button">Upload Image Into Entry</button>
-        <button class="button secondary" id="saveVisibilityButton" type="button">Save Visibility</button>
+        <button class="button secondary" id="saveVisibilityButton" type="button" ${entry.gmOnly ? 'disabled title="GM-only entries are controlled by handbook policy."' : ""}>Save Visibility</button>
         ${connectButton}
       </div>
       <p id="editorStatus" class="editor-status" role="status"></p>

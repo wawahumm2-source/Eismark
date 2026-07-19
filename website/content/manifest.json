@@ -73,6 +73,13 @@
       "description": "Mechanical audit of lore depth and reference image gaps."
     },
     {
+      "id": "wiki-continuity-completeness-audit",
+      "title": "Wiki Continuity and Completeness Audit",
+      "file": "archive/Eismark_Wiki_Continuity_and_Completeness_Audit_v0.1.md",
+      "audience": "gm",
+      "description": "Current semantic continuity findings, resolved drift, and lore decisions that remain open."
+    },
+    {
       "id": "npc-index-second-pass",
       "title": "NPC Index From Second Pass",
       "file": "archive/Eismark_NPC_Index_From_Second_Pass_v0.1.md",

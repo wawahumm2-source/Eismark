@@ -92,50 +92,49 @@ Companion Document: `Eismark_Readable_Guide_v0.1.md` is the reader-facing compan
 
 ## History Entries
 
-### HIS-001 - Creation
+### HIS-001 - The First Ones Are Created
 
 Canon Status: Locked
 
-Summary: The Creator brings Creation into existence, beginning reality and the Age of Creation.
-
-Canon Facts:
-
-- The Creator creates Creation.
-- Reality begins.
-- The Age of Creation begins.
-
-Consequences:
-
-- The First Ones can now be created by the Creator and sent into Vardheim to shape it.
-
-Related Entries: COS-001 — Creation [Locked]; COS-002 — The First Ones [Locked]; HIS-002 — The First Ones Are Created [Locked]
-
-Source: SRC-002, SRC-003, SRC-004, SRC-005
-
-### HIS-002 - The First Ones Are Created
-
-Canon Status: Locked
-
-Summary: The First Ones are the highest order of angels, created directly by the Creator and entrusted with shaping Creation.
+Summary: Before bringing ordered Creation into being, the Creator creates the First Ones and entrusts them with the work that will follow.
 
 Canon Facts:
 
 - The First Ones are angels.
 - The First Ones are also known as Archangels or High Angels.
 - They are the highest order of angels.
-- They are created directly by the Creator.
+- They are created directly by the Creator before Creation is brought into being.
+- They are entrusted with shaping Creation, guiding mortal civilization, and creating the lesser angels.
 - After Creation exists, the Creator sends the First Ones into Vardheim to shape it.
-- They are entrusted with shaping Creation.
-- The First Ones shape Creation and guide mortal civilization.
-- The First Ones create the lesser angels.
 
 Consequences:
 
 - The First Ones become the divine founders of early Creation and the highest class within the angelic hierarchy.
 
-Related Entries: COS-002 — The First Ones [Locked]; REL-001 — The First Ones Pantheon [Locked]; CAP-002 — Angelic Taxonomy [Locked]; CAP-003 — Origin of the First Ones [Locked]
+Related Entries: COS-002 — The First Ones [Locked]; REL-001 — The First Ones Pantheon [Locked]; HIS-002 — Creation [Locked]; CAP-002 — Angelic Taxonomy [Locked]; CAP-003 — Origin of the First Ones [Locked]
 
 Source: SRC-002, SRC-003, SRC-006, SRC-010, SRC-011
+
+### HIS-002 - Creation
+
+Canon Status: Locked
+
+Summary: The Creator brings ordered Creation into existence, beginning reality and the Age of Creation.
+
+Canon Facts:
+
+- The Creator creates Creation after creating the First Ones.
+- Ordered reality begins.
+- The Age of Creation begins.
+- The Creator sends the First Ones into Vardheim to shape the new world.
+
+Consequences:
+
+- The First Ones can begin shaping Creation and creating the lesser angels who will assist them.
+
+Related Entries: COS-001 — Creation [Locked]; COS-002 — The First Ones [Locked]; HIS-001 — The First Ones Are Created [Locked]; HIS-003 — Lesser Angels Are Created [Locked]; CAP-003 — Origin of the First Ones [Locked]
+
+Source: SRC-002, SRC-003, SRC-004, SRC-005
 
 ### HIS-003 - Lesser Angels Are Created
 
@@ -387,6 +386,8 @@ Summary: The majority of Ancient Kaltheim journeys north in search of the vanish
 Canon Facts:
 
 - The Great Pilgrimage begins after the Joivians disappear.
+- Uriel separates from the Communion after the Joivians disappear and before the Great Pilgrimage begins.
+- The Great Forgetting therefore begins before the pilgrimage, then worsens across the generations in which Kaltheim and Veloria emerge.
 - The pilgrimage lasts 153 years.
 - The pilgrims found the modern Sacrament of Kaltheim in the northern mountains.
 
@@ -434,6 +435,7 @@ Summary: The world loses much of its collective memory following Uriel's fractur
 Canon Facts:
 
 - Uriel's departure causes the Great Forgetting.
+- Uriel departs after the Joivians disappear and before the Great Pilgrimage begins.
 - The Great Forgetting begins immediately as a metaphysical phenomenon.
 - Over generations, it becomes a civilizational collapse.
 - Historians later refer to the entire era as The Great Forgetting.
@@ -456,6 +458,7 @@ Canon Facts:
 - Kaltheim measures time through religious history, while Veloria measures time through civil government.
 - Neither civilization understands why it inherited these traditions, even when it understands how to use them.
 - Even the First Ones possess incomplete memory because Uriel's fracture wounded the Communion.
+- `HIS-014` through `HIS-016` describe overlapping developments rather than three strictly consecutive starting dates: the Great Forgetting begins first, continues through the Great Pilgrimage, and shapes Veloria's rise.
 
 Consequences:
 
@@ -660,6 +663,7 @@ Canon Facts:
 - The First Ones are also known as Archangels or High Angels.
 - The First Ones are the highest order of angels.
 - The First Ones were created directly by the Creator.
+- The ECD currently names at least eighteen First Ones; the exact historical total is not locked.
 - The First Ones were entrusted with shaping Creation, guiding early Creation, creating the lesser angels, waging the First War, and founding the Communion.
 - References to "Angels walked Vardheim" may refer broadly to both First Ones and Lesser Angels.
 
@@ -792,6 +796,7 @@ Summary: The First Ones are venerated as divine beings associated with domains a
 
 Canon Facts:
 
+- The Great Six are the First Ones most emphasized by the Iron Church; they are not the whole pantheon.
 - Michael: protection, divine war, duty, sacrifice, leadership.
 - Gabriel: understanding, knowledge, philosophy, mathematics, wisdom.
 - Luke: methodology, science, engineering, logic, ordered thought.
@@ -807,10 +812,13 @@ Canon Facts:
 - Justicar: justice, law, civilization, oaths, kingship.
 - Moira: fate, destiny, prophecy, fortune, choice.
 - Elyria: love, family, community, joy, home.
+- Elaris: ancestral memory, continuity, elven inheritance.
+- Khorun: endurance, mountains, craft, dwarven inheritance.
+- Grom: strength, courage, mastered instinct, orcish inheritance.
 
 Related Entries: COS-002 — The First Ones [Locked]; SPE-001 — Humans [Locked]; SPE-002 — Orcs [Locked]; SPE-003 — Elves [Locked]; SPE-004 — Dragonborn [Locked]; SPE-005 — Giants [Locked]; SPE-006 — Dwarves [Locked]; SPE-007 — Gnomes [Locked]; SPE-008 — Halflings [Locked]; SPE-009 — Goblins [Locked]
 
-Source: SRC-006
+Source: SRC-006, SRC-059
 
 ### REL-002 - The Iron Church
 
@@ -821,13 +829,20 @@ Summary: The Iron Church is the dominant religious institution of Kaltheim and m
 Canon Facts:
 
 - Kaltheim is ruled through the Iron Church.
+- The Church and the military govern the Sacrament in partnership: the Church preserves purpose, while the military preserves the nation.
+- The High Synod directs doctrine, civil law, domestic policy, monasteries, the Consecrators, and the institutional life of the Church.
+- The Archon is the Church's spiritual head and highest moral authority, but does not personally command the Sacrament's armies.
 - The Iron Church especially venerates Michael.
+- It teaches the public theology of the Great Six while recognizing a wider pantheon of First Ones.
 - The number 153 is one of the holiest numbers in Kaltheimian tradition.
 - Kaltheim relies on divine magic and views arcane magic with suspicion.
+- Iron Church worship centers on the Divine Liturgy, chant, consecrated bread and wine, remembrance, charity, and communal service.
+- The Church teaches that technology is not sacred in itself; disciplined human labor honors Creation by fulfilling humanity's vocation to build.
+- Mercy and service are the highest offerings.
 
-Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; MIL-008 — Consecrated [Locked]; REL-007 — The Number 153 [Locked]
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; GOV-001 — Government of the Sacrament of Kaltheim [Locked]; REL-007 — The Number 153 [Locked]; REL-008 — Worship in the Iron Church [Locked]; REL-009 — Public Theology of the Great Six [Locked]; TEC-001 — Kaltheimian Technology [Locked]; MIL-008 — Consecrated [Locked]
 
-Source: SRC-012, SRC-013, SRC-005, SRC-041
+Source: SRC-012, SRC-013, SRC-005, SRC-041, SRC-047, SRC-052, SRC-053
 
 ### REL-003 - Consecrators and the Awakening
 
@@ -1201,9 +1216,23 @@ Source: SRC-024
 
 Canon Status: Locked
 
-Summary: Humans are primarily created by Michael.
+Summary: Humans are primarily created by Michael and inherit his resolve: the capacity to endure catastrophe, rebuild institutions, and continue the work of civilization.
 
-Source: SRC-006
+Canon Facts:
+
+- Human religious traditions identify Michael as humanity's primary maker and patron.
+- Humans inherit Michael's resolve.
+- Humanity's recurring response to loss and forgetting is to rebuild communities, institutions, and civilization.
+- The teaching that "humanity was created to dream" complements this origin: Michael represents the resolve to continue, while John represents the creative future humanity is called to imagine.
+- `Primarily created by Michael` does not mean that no other First One influenced humanity.
+
+Consequences:
+
+- Human cultures differ sharply, but rebuilding after catastrophe is a recurring human theme across Eismark.
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; REL-009 — Public Theology of the Great Six [Locked]; REL-013 — John, Public Theology [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]
+
+Source: SRC-006, SRC-053, SRC-059
 
 ### SPE-002 - Orcs
 
@@ -1296,7 +1325,15 @@ Source: SRC-058, SRC-059
 
 Canon Status: Locked
 
-Summary: Giants are created by Asterion.
+Summary: Giants are created by Asterion and inherit his strength, endurance, and connection to the high and ancient places of Creation.
+
+Canon Facts:
+
+- Asterion is the First One associated with strength, endurance, mountains, honor, and perseverance.
+- Giant origin is locked, but the cultures, nations, and religious divisions of modern Giants remain undeveloped.
+- A Giant's ancestry does not determine morality, allegiance, or temperament.
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; COS-002 — The First Ones [Locked]
 
 Source: SRC-006
 
@@ -1330,6 +1367,40 @@ Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; HIS-014 — The
 
 Source: SRC-059
 
+### SPE-007 - Gnomes
+
+Canon Status: Locked
+
+Summary: Gnomes are created by Luke and Leonardo, joining disciplined method with invention, craft, and restless ingenuity.
+
+Canon Facts:
+
+- Luke contributes methodology, logic, engineering, science, and ordered thought to Gnomish inheritance.
+- Leonardo contributes craftsmanship, industry, artifice, invention, and creation.
+- Gnomish origin helps explain their strong association with engineering and invention without making profession or personality biologically compulsory.
+- Detailed Gnomish cultures and regional identities remain undeveloped.
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; REL-012 — Luke, Public Theology [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]
+
+Source: SRC-006
+
+### SPE-008 - Halflings
+
+Canon Status: Locked
+
+Summary: Halflings are created by Raphael and inherit traditions shaped by mercy, stewardship, healing, agriculture, compassion, and the defense of ordinary life.
+
+Canon Facts:
+
+- Raphael is the First One associated with healing, mercy, stewardship, agriculture, and compassion.
+- Halfling divine inheritance supports cultural emphasis on care, cultivation, community, and practical resilience.
+- This inheritance does not require every Halfling culture or individual to be peaceful, rural, or domestic.
+- Detailed Halfling nations, regional histories, and responses to the Great Forgetting remain undeveloped.
+
+Related Entries: REL-001 — The First Ones Pantheon [Locked]; REL-014 — Raphael, Public Theology [Locked]
+
+Source: SRC-006
+
 ### SPE-009 - Goblins
 
 Canon Status: Locked
@@ -1350,25 +1421,9 @@ Consequences:
 - Goblin underworld roles can exist without defining all Goblins as criminals.
 - Goblin characters are useful for stories about class, survival, ingenuity, social mobility, and the margins of industrial civilization.
 
-Related Entries: MON-008 — Monstrous Peoples and Orc Raiders [Locked]; SOC-003 — Organized Crime [Future]; NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]; SPE-006 — Dwarves [Locked]
+Related Entries: MON-008 — Monstrous Peoples and Orc Raiders [Locked]; SOC-003 — Organized Crime [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]; NAT-007 — The Free Marches [Locked]; SPE-006 — Dwarves [Locked]
 
 Source: SRC-059
-
-### SPE-007 - Gnomes
-
-Canon Status: Locked
-
-Summary: Gnomes are created by Luke and Leonardo.
-
-Source: SRC-006
-
-### SPE-008 - Halflings
-
-Canon Status: Locked
-
-Summary: Halflings are created by Raphael.
-
-Source: SRC-006
 
 ## Nation Entries
 
@@ -1963,8 +2018,12 @@ Canon Facts:
 - Karhold lies in or near the Iron Mountains.
 - Kaltheim occupies the northern mountain range.
 - The North Sea lies beyond the mountains.
+- The range contains the Sacrament's fortress cities, foundries, rail approaches, monasteries, and defended industrial corridors.
+- The Dwarves inhabited the northern mountains before the Great Pilgrimage and became a founding people of the modern Sacrament.
 
-Source: SRC-018
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; SPE-006 — Dwarves [Locked]; HIS-014 — The Great Pilgrimage [Locked]; TEC-001 — Kaltheimian Technology [Locked]
+
+Source: SRC-018, SRC-059
 
 ### GEO-003 - The Crown Lands
 
@@ -1976,8 +2035,13 @@ Canon Facts:
 
 - Mountainous interior region.
 - Caer Lain is the major marked city.
+- The wider highlands contain ruined keeps, feuding noble houses, and ancient bloodlines.
+- No single crown unites the Highlands in player-facing canon.
+- Gn'ure is Eismark's principal lycanthropy hotspot, and ancient vampire families are believed to control parts of the region.
 
-Source: SRC-018
+Related Entries: NAT-008 — The Highlands of Gn'ure [Locked]; MON-004 — Undead, Vampires, and Lycanthropy [Locked]
+
+Source: SRC-012, SRC-013, SRC-018, SRC-058
 
 ### GEO-004 - Ancient Kaltheim
 
@@ -2022,8 +2086,12 @@ Canon Facts:
 
 - Velcris is a major city.
 - The region has rail lines, roads, forts, and eastern approaches to the Iron Coast.
+- Athsder, Sireckridge, Bickerridge, Daggerford, and Eastgate are other marked locations.
+- The region is the territorial heart of the Commonwealth and the principal center of Velorian civic, commercial, and arcane-industrial life.
 
-Source: SRC-018
+Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; GOV-002 — Government of the Commonwealth of Veloria [Locked]; TEC-002 — Velorian Technology [Locked]
+
+Source: SRC-018, SRC-048
 
 ### GEO-007 - Voss
 
@@ -2035,8 +2103,13 @@ Canon Facts:
 
 - Vossheim is a major city.
 - Blackwater lies near the southern border.
+- Grunwald is another marked Voss location.
+- Voss is the political successor state of the former Imperial League and is associated with nationalism and armored breakthrough warfare.
+- Its southern approaches face the Ashlands and the war-scarred Ashen Marches.
 
-Source: SRC-018
+Related Entries: NAT-003 — Kingdom of Voss [Locked]; MIL-003 — Voss Doctrine [Locked]; HIS-020 — The Great Continental War [Locked]; GEO-013 — The Ashen Marches [Locked]
+
+Source: SRC-005, SRC-015, SRC-018
 
 ### GEO-008 - Rauk
 
@@ -2049,8 +2122,13 @@ Canon Facts:
 - Raukgrad is a major city.
 - Saint's Rest is a major port/harbor.
 - Foundrytown and Dry Gulch support the industrial identity.
+- Lastlight and Southreach are other marked locations.
+- Rauk is the industrial successor state of the former Imperial League.
+- Its strategic identity is built around logistics, attrition, heavy industry, and Automatons.
 
-Source: SRC-018
+Related Entries: NAT-004 — People's State of Rauk [Locked]; MIL-004 — Rauk Doctrine [Locked]; MIL-007 — Automatons [Locked]; HIS-020 — The Great Continental War [Locked]
+
+Source: SRC-005, SRC-015, SRC-018
 
 ### GEO-009 - Lan Cao
 
@@ -2062,8 +2140,13 @@ Canon Facts:
 
 - Xinjin is a major city.
 - The region contains heavy industrial sites and rail infrastructure.
+- Eisenbruck is noted beneath Xinjin; Ironwood, Jadeport, Southreach, Pinocrove, Braslhaven, and Crown's Reach are nearby marked locations.
+- Lan Cao is the scientific successor state of the former Imperial League.
+- Its strategic identity emphasizes magical artillery, artificers, and scientific warfare.
 
-Source: SRC-018
+Related Entries: NAT-005 — Republic of Lan Cao [Locked]; MIL-005 — Lan Cao Doctrine [Locked]; HIS-020 — The Great Continental War [Locked]
+
+Source: SRC-005, SRC-015, SRC-018
 
 ### GEO-010 - Ostmark
 
@@ -2075,8 +2158,12 @@ Canon Facts:
 
 - Osthaven is a major city.
 - Goldharbor and Westport indicate maritime and trade significance.
+- Ostmark was the financial pillar of the former Imperial League.
+- Its Southern Sea ports connect finance, shipping, and continental trade.
 
-Source: SRC-018
+Related Entries: NAT-006 — Ostmark Confederation [Locked]; HIS-020 — The Great Continental War [Locked]
+
+Source: SRC-005, SRC-018
 
 ### GEO-011 - The Sylvan Veil
 
@@ -2088,8 +2175,13 @@ Canon Facts:
 
 - Leth Varad is a major city.
 - It borders Kaltheim, Gn'ure, Voss, and the Ashlands.
+- Eldermoot, Duskwisper, and Mistmere are other marked settlements.
+- The forest realm is associated with elven memory, beauty, deep traditions, and deliberate isolation.
+- Its people remember more of the pre-Forgetting world than most mortals, but not enough to possess an unbroken history.
 
-Source: SRC-018
+Related Entries: NAT-009 — The Sylvan Veil [Locked]; SPE-003 — Elves [Locked]; HIS-016 — The Great Forgetting [Locked]
+
+Source: SRC-012, SRC-013, SRC-018, SRC-059
 
 ### GEO-012 - The Ashlands
 
@@ -2142,8 +2234,13 @@ Canon Facts:
 - Davenport is a major Iron Coast city/port.
 - Kingport, Greywake, and Stormwatch are marked settlements.
 - The Shattered Isles lie offshore.
+- The Shattered Isles are the ancestral homeland of the Dragonborn and the remains of their lost kingdoms and city-states.
+- Eastern diaspora communities preserve old martial, spiritual, and family traditions beyond the archipelago.
+- The Isles are among the deadliest environments in the known world; exact creature distribution remains under review.
 
-Source: SRC-018
+Related Entries: SPE-004 — Dragonborn [Locked]; ORG-006 — Order of the Veiled Hand [Locked]; ORG-012 — Shattered Isles Peoples and Eastern Diaspora [Locked]; MON-015 — Shattered Isles Dinosaurs [Under Review]
+
+Source: SRC-018, SRC-055, SRC-058, SRC-059
 
 ## Organization Entries
 
@@ -2415,7 +2512,15 @@ Canon Status: Locked
 
 Summary: Voss specializes in nationalism and armored breakthrough warfare.
 
-Source: SRC-015
+Canon Facts:
+
+- Voss military identity is built around national unity, political will, and decisive armored force.
+- Armored breakthroughs are the defining doctrinal emphasis currently locked for Voss.
+- Voss served as the political center of the former Imperial League.
+
+Related Entries: NAT-003 — Kingdom of Voss [Locked]; GEO-007 — Voss [Locked]; HIS-020 — The Great Continental War [Locked]
+
+Source: SRC-005, SRC-015
 
 ### MIL-004 - Rauk Doctrine
 
@@ -2423,7 +2528,16 @@ Canon Status: Locked
 
 Summary: Rauk specializes in logistics, attrition, industry, and Automatons.
 
-Source: SRC-015
+Canon Facts:
+
+- Rauk treats industrial capacity and supply as weapons in their own right.
+- Its doctrine emphasizes logistics, attrition, mass production, and the use of Automatons.
+- Rauk served as the industrial center of the former Imperial League.
+- The Treaty of Karhold now bans military Automaton production.
+
+Related Entries: NAT-004 — People's State of Rauk [Locked]; GEO-008 — Rauk [Locked]; MIL-007 — Automatons [Locked]; HIS-021 — The Treaty of Karhold [Locked]
+
+Source: SRC-005, SRC-015
 
 ### MIL-005 - Lan Cao Doctrine
 
@@ -2431,7 +2545,15 @@ Canon Status: Locked
 
 Summary: Lan Cao emphasizes magical artillery, artificers, and scientific warfare.
 
-Source: SRC-015
+Canon Facts:
+
+- Lan Cao integrates magical artillery, artificers, and scientific research into military operations.
+- Scientific warfare is the defining doctrinal emphasis currently locked for Lan Cao.
+- Lan Cao served as the scientific center of the former Imperial League.
+
+Related Entries: NAT-005 — Republic of Lan Cao [Locked]; GEO-009 — Lan Cao [Locked]; HIS-020 — The Great Continental War [Locked]
+
+Source: SRC-005, SRC-015
 
 ### MIL-006 - Joivians
 
@@ -2891,7 +3013,7 @@ Consequences:
 - The boss fight is not against a machine; it is against proof that even holy things can break.
 - Campaign hook: "Purification is not a ritual. It is a gamble with Heaven."
 
-Related Entries: MIL-006 — Joivians [Locked]; NPC-002 — The Abandoned One [Locked]; CAM-003 — The Abandoned One [Locked]; CAM-004 — Project Resurgence [Under Review]; COS-005 — The Blood [Locked]
+Related Entries: MIL-006 — Joivians [Locked]; NPC-002 — The Abandoned One [Locked]; CAM-003 — The Abandoned One [Under Review]; CAM-004 — Project Resurgence [Under Review]; COS-005 — The Blood [Locked]
 
 Source: SRC-066
 
@@ -3061,7 +3183,7 @@ Ideological Balance:
 - Veloria is not simply reckless; it objects to one nation claiming authority over what humanity may learn.
 - Both positions are understandable, making the dispute an ideological conflict rather than a simple rivalry.
 
-Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MIL-002 — Velorian Armory [Locked]; LAW-001 — The Public Safety and Temperance Act [Locked]; REL-002 — The Iron Church [Locked]; HIS-014 — The Great Pilgrimage [Locked]; SOC-003 — Organized Crime [Future]
+Related Entries: NAT-001 — The Sacrament of Kaltheim [Locked]; NAT-002 — The Commonwealth of Veloria [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MIL-002 — Velorian Armory [Locked]; LAW-001 — The Public Safety and Temperance Act [Locked]; REL-002 — The Iron Church [Locked]; HIS-014 — The Great Pilgrimage [Locked]; SOC-003 — Organized Crime [Locked]
 
 Source: SRC-042
 
@@ -3345,7 +3467,7 @@ International Perspective:
 - Among Kaltheim's leadership, it is commonly argued that a nation unable to enforce its own laws cannot be trusted with advanced military technologies.
 - This perception further reinforces Kaltheim's longstanding refusal to export its most advanced weapons, engineering, and sacred technologies to Veloria.
 
-Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MIL-002 — Velorian Armory [Locked]; SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]; SOC-003 — Organized Crime [Future]
+Related Entries: NAT-002 — The Commonwealth of Veloria [Locked]; NAT-001 — The Sacrament of Kaltheim [Locked]; TEC-001 — Kaltheimian Technology [Locked]; TEC-002 — Velorian Technology [Locked]; MIL-001 — Kaltheim Armory [Locked]; MIL-002 — Velorian Armory [Locked]; SOC-002 — Kaltheim-Veloria Technology Dispute [Locked]; SOC-003 — Organized Crime [Locked]
 
 Source: SRC-040
 ### LAW-002 - Kaltheimian Justice System

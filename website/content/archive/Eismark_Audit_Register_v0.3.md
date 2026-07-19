@@ -8,9 +8,9 @@ Summary: This register is part of the ECD source-of-truth hierarchy. It supersed
 
 ## Current CAP Status
 
-Resolved: 19
+Resolved: 17
 
-Pending:
+Pending: 3
 
 - CAP-010 - Ancient Kaltheim Geography
 - CAP-019 - Free Marches / Final Map
@@ -57,6 +57,12 @@ Chronology:
 1. Creator creates the First Ones.
 2. Creator creates Creation.
 3. Creator sends the First Ones into Vardheim to shape it.
+
+History Alignment:
+
+- `HIS-001 - The First Ones Are Created` records the first event.
+- `HIS-002 - Creation` records the second event.
+- Earlier archive ordering that placed Creation before the First Ones was inconsistent with this resolved chronology and has been corrected.
 
 ### CAP-004 - Opening of the Veins
 
